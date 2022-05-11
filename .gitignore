@@ -1,0 +1,8 @@
+.env
+email_test.txt
+index.py
+config.py
+clean_dump.txt
+crazy.txt
+/venv
+/__pycache__
