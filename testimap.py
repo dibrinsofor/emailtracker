@@ -1,11 +1,13 @@
 from imaplib import IMAP4_SSL
 import os
+from os.path import join, dirname
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 import email
 import re
 
-load_dotenv()
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
 # make check to ignore mail without mulitpart/ content type
 # instead of regex see email.message.EmailMessage.ismultipart() or do get_content_type() plus regex
 # kaplan's emails are sent via bounce? can't accurately get sender's server. probably through salesforce or some alt
@@ -15,7 +17,8 @@ def login_mail_client(email_address):
     SMTP_SERVER = 'imap.gmail.com'
     SMTP_PORT = 993
 
-    password = os.getenv("PASSWORD")
+    # password = os.getenv("PASSWORD")
+    password = os.environ.get("PASSWORD")
 
     try:
         mail = IMAP4_SSL(SMTP_SERVER, SMTP_PORT)
@@ -89,7 +92,7 @@ def process_mail(mail):
 
 
 if __name__ == "__main__":
-    mail = login_mail_client(os.getenv('ADDRESS'))
+    mail = login_mail_client(os.environ.get("ADDRESS"))
     get_mail(mail)
     os._exit(1)
 
