@@ -13,7 +13,6 @@ load_dotenv(dotenv_path)
 h = html2text.HTML2Text()
 h.ignore_links = False
 
-
 def login_mail_client(email_address):
     SMTP_SERVER = 'imap.gmail.com'
     SMTP_PORT = 993
@@ -50,14 +49,18 @@ def header_decode(header):
         hdr += text
     return hdr
 
+
 def process_mail(mail):
-    with open('email_dump4.txt', 'w') as f:
+    with open('email_dump.txt', 'w') as f:
         status, response = mail.search(None, "(ALL)")
         if status == "OK" and response != "":
-            for mail_id in response[0].split()[0:10]:
+            for mail_id in response[0].split()[-10:]:
                 f.write("\n\n===========Mail[{}]===========\n".format(mail_id))
                 status, response = mail.fetch(mail_id, '(RFC822)')
-                message = email.message_from_bytes(response[0][1], policy=email.policy.default)
+                message = email.message_from_bytes(response[0][1], policy=email.policy.default)   
+
+                # fp = open("sample.eml", "r")
+                # message = email.message_from_file(fp, policy=email.policy.default)
 
                 f.write("Subject:     {}\n".format(header_decode(message.get('Subject'))))
 
@@ -69,9 +72,9 @@ def process_mail(mail):
                         newline = address.group() #todo write func to sanitize strings. remove unnecessary chars and spaces
                         f.write("Sender's Email Address: {}\n".format(newline))
 
-                links = ""
                 entire_body = ""
                 image_url = ""
+                all_tracking_links = ""
 
                 if message.is_multipart():
                     for part in message.walk():
@@ -79,6 +82,11 @@ def process_mail(mail):
                         content_charset = part.get_content_charset()
                         content_transfer_encoding = part.get("Content-Transfer-Encoding")
                         body_lines = part.as_string().split("\n")
+                        # Tracking_pixels_test(body)
+                        tracking_links = Find_tracking_pixels(body_lines)
+                        if tracking_links:
+                            all_tracking_links += tracking_links
+                        #     f.write("Tracking Links:\n{}".format(tracking_links))
 
                         for line in body_lines:
                             sender_mailserver = re.search("(Received: from)", line)
@@ -91,29 +99,38 @@ def process_mail(mail):
 
                         if part.get_content_maintype() == "text":
                             body = part.get_content()
+                            # print(body)
+                            # if body is not None:
+                            # Tracking_pixels_test(body)
 
-                            if part.get_content_subtype() == "html":
-                                try: 
-                                    body = h.handle(body)
-                                    if body is not None:
-                                        entire_body += body
-                                except:
-                                    print("html2text failed to work")
+                        if part.get_content_subtype() == "html":
+                            try: 
+                                ed_body = h.handle(body)
+                                if ed_body is not None:
+                                    entire_body += ed_body
+                            except:
+                                print("html2text failed to work")
 
                 else:
                     content_type = message.get_content_type()
                     content_charset = message.get_content_charset()
                     content_transfer_encoding = message.get("Content-Transfer-Encoding")
                     body_lines = message.as_string().split("\n")
+                    # Tracking_pixels_test(message)
+                    tracking_links = Find_tracking_pixels(body_lines)
+                    if tracking_links:
+                        all_tracking_links += tracking_links
+                    #     f.write("Tracking Links:\n{}".format(tracking_links))
 
                     if message.get_content_maintype() == "text":
                         body = message.get_content()
+                        # Tracking_pixels_test(body)
 
                     if message.get_content_subtype() == "html":
                         try: 
-                            body = h.handle(body)
-                            if body is not None:
-                                entire_body += body
+                            ed_body = h.handle(body)
+                            if ed_body is not None:
+                                entire_body += ed_body
                         except:
                             print("html2text failed to work")
 
@@ -126,20 +143,57 @@ def process_mail(mail):
                         potential_ext = (".png", ".jpeg", ".jpg", ".gif")
                         if matchResult.group(1).endswith(potential_ext):
                             image_url += str(matchResult.group(1)) + "\n"
-                            # print("gatteeem")
                         elif "tel:" in matchResult.group(1) or "mailto:" in matchResult.group(1):
                             pass
                         else:
                             matchResult = matchResult.group(1)
                             f.write("{}\n".format(matchResult))
-                #         print(f"2 {image_url}")
-                #     print(f"1 {image_url}")
-                # print(f"3 {image_url}")
 
                 f.write("Images found:\n{}".format(image_url))
-                    # if matchResult:
-                    #     links += matchResult
-                # print(links)
+                if all_tracking_links:
+                    f.write("Tracking Links found: \n{}".format(all_tracking_links))
+                else:
+                    f.write("NO TRACKING LINKS FOUND")
+
+
+                
+# def Tracking_pixels_test(textt):
+#     with open ('gratata.txt', 'a') as g:
+#         if textt is not None:
+#             g.write("{}\n======\n".format(textt))
+#         else:
+#             print("Error: No html content passed. fixxxxx")
+
+def Find_tracking_pixels(html: str) -> str:
+    tracking_links = ""
+    cases = ['width="1" height="1"', 'width="0" height="0"', 'width: 1px;height: 1px']
+
+
+    for line in html:
+        pattern = re.compile(r"\<img (.*?)\>")
+        found_tags = pattern.search(line)
+        if found_tags:
+            for case in cases:
+                if case in str(found_tags.group(0)):
+                    tracking_links += str(found_tags.group(0)) + "\n"
+                else:
+                    pass
+    return tracking_links
+
+
+
+    #     "wid" in str(found_tags.group(0)):
+    # return tracking_links
+        
+
+                # potential_ext = ("width='1' height='1' alt=''>", "width='1' height='1'>", "width='1' height='1' >")
+                # if found_tags.group(0).endswith(potential_ext):
+                #     tracking_links += str(found_tags.group(0)) + "\n"
+                #     return tracking_links, True
+                # else:
+                #     return None
+
+
 
 
 if __name__ == "__main__":
