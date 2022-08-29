@@ -1,6 +1,8 @@
 ## emailtracker
 
-<center><img src="assets/logo%20with%20type.png" alt="logo for emailtracker" style="width:250px; background:#ffff; padding:5px;"></img></center>
+<p align="center">
+  <img width="460" src="assets/logo%20for%20md.png">
+</p>
 
 emailtracker is an open source, client-side email tracking service. It offers support for both multi-part and plain text MIMEs sent over the IMAP protocol. It allows you to determine:
 - What companies are tracking you
