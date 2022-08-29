@@ -42,7 +42,11 @@ Tracking Links found:
 <img src="http://click.mail.kaptest.com/open.aspx?ffcb10-fe9313737c64007974-fdfd15707263067f77167472-fe901372766605757d-ff931375-fe2b127170610779761d70-ff061674756407&d=70178&bmt=0" width="1" height="1" alt="">
 ```
 ### Contributing
-From suggestions, code refactors to tests, we accept small contributions.
+
+From suggestions, code refactors to tests, we accept small contributions. Things to note:
+- Style guide: [PEP8](https://peps.python.org/pep-0008/)
+- Use clear, informative commit messages
+
 
 ### License
 This project is available under the MIT License. [Here](LICENSE)
