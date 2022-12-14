@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+<div class="landing-page my-24 grid grid-cols-2 gap-9 mb-0 text-center">
+    <div class="lp-text max-w-lg text-align-center">
+        <h1 class="text-3xl">Emails scanned</h1>
+        <h1 class="text-4xl">{{ email_scanned }}</h1>
+    </div>
+    <div class="lp-text max-w-lg text-align-center">
+        <h1 class="text-3xl">Tracking links found</h1>
+        <h1 class="text-4xl">{{ links_found }}</h1>
+    </div>    
+</div>
+<div class="text-center mt-16">
+    <p><span class="text-lg font-semibold">Toggle view: </span><a href="#" onclick="getVisualization()" class="font-medium text-blue-600 dark:text-blue-500 hover:underline active:text-black">no encryption</a> / <a href="#" onclick="getSecureVisualization()" class="font-medium text-blue-600 dark:text-blue-500 hover:underline active:text-black">encryption</a> / <a href="#" onclick="getTotalVisualization();" class="font-medium text-blue-600 dark:text-blue-500 hover:underline active:text-black">email tracking trend</a></p>
+    <div id="chartTop">
+        <div class="chartTitle">
+            <p class="text-lg ">Top companies sending your data over unencrypted protocols</p>
+            <p class="text-lg ">(Graph showing number of emails with unsecure tracking links per year)</p>
+        </div>
+        <center><div id='chart' class='chart' style="display: block;"></div></center>
+        <center><div id='chart1' class='chart' style="display: none;"></div></center>
+        <center><div id='chart2' class='chart' style="display: none;"></div></center>
+    </div>
+    <script type='text/javascript'>
+        var graphs = {{unsecureJSON | safe}};
+        Plotly.plot('chart',graphs,{});
+    </script>
+    <script type='text/javascript'>
+        var graphs = {{secureJSON | safe}};
+        Plotly.plot('chart1',graphs,{});
+    </script>
+    <script type='text/javascript'>
+        var graphs = {{totalJSON | safe}};
+        Plotly.plot('chart2',graphs,{});
+    </script>
+    <script>
+        chartDisplay = document.querySelector("#chart");
+        chartDisplay1 = document.querySelector("#chart1");
+        chartDisplay2 = document.querySelector("#chart2");
+        chartTitle = document.querySelector(".chartTitle");
+        chart = document.querySelector(".chart");
+        getVisualization = () => {
+            chartTitle.innerHTML = `<p class="text-lg ">Top companies sending your data over unencrypted protocols</p>
+            <p class="text-lg ">(Graph showing number of emails with unsecure tracking links per year)</p>`
+            chartDisplay.style.display = "block";
+            chartDisplay1.style.display = "none";
+            chartDisplay2.style.display = "none";
+        }
+        getSecureVisualization = () => {
+            chartTitle.innerHTML = `<p class="text-lg ">Top companies sending your data over encrypted protocols</p>
+            <p class="text-lg ">(Graph showing number of emails with secure tracking links per year)</p>`
+            chartDisplay.style.display = "none";
+            chartDisplay1.style.display = "block";
+            chartDisplay2.style.display = "none";
+        }
+        getTotalVisualization = () => {
+            chartTitle.innerHTML = `<p class="text-lg ">Rise of email tracking over time</p>
+            <p class="text-lg ">(Graph showing trend of email tracking since the early 2000s)</p>`
+            chartDisplay.style.display = "none";
+            chartDisplay1.style.display = "none";
+            chartDisplay2.style.display = "block";
+        }
+        /*function getVisualization() {
+            let graph = document.getElementById("chartTop");
+            graph.innerHTML = `<p class="text-lg ">Top companies sending your data over unencrypted protocols</p>
+            <p class="text-lg ">(Graph showing number of emails with unsecure tracking links per year)</p>
+            <center><div id='chart' class='chart'></div></center>`;
+        }
+        function getSecureVisualization() {
+            let graph = document.getElementById("chartTop");
+            graph.innerHTML = `<p class="text-lg ">Top companies sending your data over encrypted protocols</p>
+            <p class="text-lg ">(Graph showing number of emails with secure tracking links per year)</p>
+            <center><div id='chart1' class='chart'></div></center>`;
+        }
+        function getTotalVisualization() {
+            let graph = document.getElementById("chartTop");
+            graph.innerHTML = `<p class="text-lg ">Rise of email tracking over time</p>
+            <p class="text-lg ">(Graph showing trend of email tracking since the early 2000s)</p>
+            <center><div id='chart2' class='chart'></div></center>`;
+        }*/
+    </script>
+    
+</div>
+<div class="text-lg text-center mt-16">
+    <p>you can download all of your data here: <a href="{{ url_for('downloadFile', filename='email_dump.txt') }}" class="underline decoration-dotted text-blue-600">results.txt</a></p>
+</div>
+{% endblock %}
+

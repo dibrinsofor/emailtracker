@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="landing-page my-24 grid grid-cols-2 gap-6 mb-0">
+    <div class="lp-text max-w-lg">
+        <h1 class="text-6xl">What companies<br>are tracking you?</h1>
+        <p class="text-xl my-5">What type of information are they even collecting? What’s do they do with it? Can you help me stop them? Additional lorem ipsum lorem ipsum lorem.<br><span>works with yahoo and gmail</span></p>
+        <form method="POST">
+            <div class="mt-4">
+                <input class="appearance-none block w-full bg-gray-200 max-w-md text-gray-700 border rounded-none py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="email" name="email" type="text" placeholder="email address">
+            </div>
+            <div>
+                <input class="appearance-none block w-full bg-gray-200 max-w-md text-gray-700 border rounded-none py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="password" name="password" type="text" placeholder="password">
+            </div>
+            <div>
+                <button type="submit" class="text-white bg-black hover:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-none text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">LET'S GET STARTED</button>
+            </div>
+        </form>
+    </div>
+    <div>
+    <!--<img src="{{ url_for('static', filename='img/bg-image.png') }}" class="bg-image bg-right w-full" alt="Image of black woman looking at computer screens">-->
+    <img src="{{ url_for('static', filename='img/bg-image.png') }}" class="ml-auto max-w-lg h-auto">
+    </div>    
+</div>
+<div class="mt-10">
+    <span class="text-lg text-gray-300">FEATURED ON</span>
+</div>
+{% endblock %}

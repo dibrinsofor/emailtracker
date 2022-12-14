@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@400;700;900&display=swap');
+
+nav  {
+  font-family: 'Inter', sans-serif;
+}
+
+.landing-page {
+  font-family: 'Roboto', sans-serif;
+}
+
+.landing-page h1 {
+  font-weight: 700;
+}
+
+.contact {
+  font-weight: 700;
+}
+
+#chart {
+  align-self: center;
+}
+#chart1 {
+  align-self: center;
+}
+#chart2 {
+  align-self: center;
+}

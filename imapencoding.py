@@ -3,7 +3,7 @@ from os.path import join, dirname, exists
 import re
 import sqlite3
 from dotenv import load_dotenv
-from imaplib import IMAP4_SSL
+from imaplib import IMAP4_SSL, IMAP4
 import html2text
 from datetime import datetime
 from csv import writer
@@ -130,14 +130,17 @@ def get_mail(mail):
     cursor.execute(count_table)
     last_email_checked = cursor.fetchone()[0]
 
-    status, response = mail.select("INBOX", False)
-    if status == 'OK':
-        print("SUCCESS\n")
-        total = process_mail(mail, last_email_checked)
-        mail.close()
-        return total
-    else:
-        print("ERROR: Unable to open mailbox ", status)
+    try:
+        status, response = mail.select("INBOX", False)
+        if status == 'OK':
+            print("SUCCESS\n")
+            total = process_mail(mail, last_email_checked)
+            mail.close()
+            return total
+        else:
+            print("ERROR: Unable to open mailbox ", status)
+    except IMAP4.error:
+        print ("LOGIN FAILED")
 
     mail.logout()
 

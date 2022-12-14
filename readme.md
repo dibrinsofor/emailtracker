@@ -16,9 +16,9 @@ emailtracker allows users detect whether or not mail in their inbox is being tra
   - `venv\scripts\activate` 
 - install the project dependencies in `requirements.txt`
   - `pip install -r requirements.txt`
-- setup sqlite db
+<!-- - setup sqlite db
   - run `flask shell` in your terminal. *it imports the app context for `db.engine commands`*
-  - run `db.create_all()`
+  - run `db.create_all()` -->
 
 ### using
 - to run on a self-signed https server:

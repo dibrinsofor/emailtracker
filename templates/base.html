@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    {% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='img/favicon.png') }}">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+
+    <title>{% block title %}{% endblock %}</title>
+    {% endblock %}
+  </head>
+  <body class="container mx-auto px-32 py-5">
+    
+  <nav class="bg-white border-gray-200 rounded font-semibold dark:bg-gray-900 pb-0">
+    <div class="flex flex-wrap justify-between items-center mx-auto">
+    <a href="{{ url_for('index') }}" class="flex items-center">
+        <img src="{{ url_for('static', filename='img/logo.png') }}" class="mr-3 h-6" alt="Emailtracker Logo">
+    </a>
+    <div class="flex md:order-2">
+        <button type="button" class="text-white bg-black hover:bg-blue-800 font-medium rounded-none text-xs px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-black-600 dark:hover:bg-black-700 dark:focus:ring-black-800">JOIN MAILING LIST</button>
+        <!-- <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </button> -->
+    </div>
+    <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+      <ul class="flex flex-col p-4 mt-4 bg-gray-50 text-sm rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="{{ url_for('index') }}" class="block py-2 pr-4 pl-3 text-black bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">HOME</a>
+        </li>
+        <li>
+          <a href="{{ url_for('about') }}" class="block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">ABOUT</a>
+        </li>
+        <li>
+          <a href="{{ url_for('team') }}" class="block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">TEAM</a>
+        </li>
+        <li>
+          <a href="{{ url_for('pubs') }}" class="block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">PUBLICATIONS</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+    <div id="content pb-0">{% block content %}{% endblock %}</div>
+    <div id="footer">
+      {% block footer %}
+      {% endblock %}
+    </div>
+  </body>
+</html>

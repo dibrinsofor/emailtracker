@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="landing-page my-16 grid grid-cols-2 gap-9 mb-0">
+    <div class="team-text max-w-lg">
+        <h1 class="text-6xl">What is emailtracker?</h1>
+        <p class="text-xl my-5">Built by academic researchers, emailtracker is an open-source 
+            desktop app that lets you visualize what emails are being 
+            tracked by companies and identify potential security and 
+            privacy violations.<br><br>
+            
+            Learn more: research paper, presentation video, 
+            how we collect data, research findings, source code, 
+            slide deck.<br><br>
+            
+            Media coverage: NPR, fast company, washington post, 
+            verge, wired, the atlantic, cbc news, 9to5mac, techcrunch, 
+            gizmodo, WHCR Voice of Harlem.</p>
+    </div>
+    <div>
+        <div class="w-full h-full bg-gray-200"></div>
+    </div>    
+</div>
+<div class="my-16 grid grid-cols-3 gap-9 mb-0">
+    <div>
+        <div class="h-60 bg-gray-200"></div>
+    </div>
+    <div>
+        <div class="h-60 bg-gray-200"></div>
+    </div>
+    <div>
+        <div class="h-60 bg-gray-200"></div>
+    </div>
+</div>
+<div class="my-16">
+    <h3 class="contact text-2xl mb-8">Frequently Asked Questions (FAQs)</h3>
+    <details class="question py-4 p-14 text-xl border-b border-grey-lighter">
+        <summary class="flex items-center font-bold text-slate-500">Does emailtracker store any of my information
+            <button class="ml-auto">
+                <svg class="fill-current opacity-75 w-4 h-4 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+            </button>
+        </summary>
+        <div class="mt-4 leading-normal text-md">
+            <p>No.</p>
+        </div>
+    </details>
+    <details class="question py-4 p-14 text-xl border-b border-grey-lighter">
+        <summary class="flex items-center font-bold text-slate-500">How do I generate a one-time password to use emailtracker?
+            <button class="ml-auto">
+                <svg class="fill-current opacity-75 w-4 h-4 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+            </button>
+        </summary>
+        <div class="mt-4 leading-normal text-md">
+            <p>No.</p>
+        </div>
+    </details>
+    <details class="question py-4 p-14 text-xl border-b border-grey-lighter">
+        <summary class="flex items-center font-bold text-slate-500">Can I stop companies from tracking me?
+            <button class="ml-auto">
+                <svg class="fill-current opacity-75 w-4 h-4 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+            </button>
+        </summary>
+        <div class="mt-4 leading-normal text-md">
+            <p>No.</p>
+        </div>
+    </details>
+    <details class="question py-4 p-14 text-xl border-b border-grey-lighter">
+        <summary class="flex items-center font-bold text-slate-500">How can I contribute to the work you guys are doing?
+            <button class="ml-auto">
+                <svg class="fill-current opacity-75 w-4 h-4 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+            </button>
+        </summary>
+        <div class="mt-4 leading-normal text-md">
+            <p>No.</p>
+        </div>
+    </details>
+</div>
+{% endblock %}
