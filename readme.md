@@ -4,31 +4,33 @@
   <img width="460" src="assets/logo%20for%20md.png">
 </p>
 
-emailtracker is an open source, client-side email tracking service. It offers support for both multi-part and plain text MIMEs sent over the IMAP protocol. It allows you to determine:
-- What companies are tracking you
-- How they do it? through blank pixels, bogus links 
-- How many bytes are sent and received over time
+emailtracker allows users detect whether or not mail in their inbox is being tracked. It offers support for emails (multi-part and plain text MIMEs) sent over the IMAP protocol. It allows you to determine:
+- What companies are tracking you.
+- How they do it? through blank pixels, clickable links, etc.
+- Whether or not your data is sent over secure protocols. 
+- Infers what information they may be collecting.
 
+### installation
+- (recommended) activate a virtual env
+  - `python -m virtualenv venv`
+  - `venv\scripts\activate` 
+- install the project dependencies in `requirements.txt`
+  - `pip install -r requirements.txt`
+- setup sqlite db
+  - run `flask shell` in your terminal. *it imports the app context for `db.engine commands`*
+  - run `db.create_all()`
 
-### Get Started
+### using
+- to run on a self-signed https server:
+  - `flask --debug run` 
 
-#### Installing
-
-- clone and install dependencies in `requirements.txt` using `pip install -r requirements.txt`.
-- create a `.env` file and copy paste the sample text from the `.env_sample` file. fill accordingly*.
-
-    **use your email password or generate a third-party app password*
+After running successfully, open `email_dump.txt` to see generated email data.
 
 #### Third-Party app passwords
 To generate third-party app passwords, use these links: [Gmail](https://www.lifewire.com/get-a-password-to-access-gmail-by-pop-imap-2-1171882) and [Yahoo](https://www.esofttools.com/blog/how-to-generate-third-party-app-passwords-in-yahoo-account/).
 
-#### Running
-To run:
--  navigate to the file's location and run the script from terminal using `python testimap.py`.
 
-After running successfully, open `email_dump.txt` to see generated email data.
-
-#### Sample Output
+<!-- #### Sample Output
 
 ```txt
 ===========Mail[b'1']===========
@@ -48,7 +50,7 @@ Tracking Links found:
 From suggestions, code refactors to tests, we accept small contributions. Things to note:
 - Style guide: [PEP8](https://peps.python.org/pep-0008/)
 - Use clear, informative commit messages
-
+ -->
 
 ### License
 This project is available under the MIT License. [Here](LICENSE)
