@@ -64,27 +64,18 @@
             chartDisplay1.style.display = "none";
             chartDisplay2.style.display = "block";
         }
-        /*function getVisualization() {
-            let graph = document.getElementById("chartTop");
-            graph.innerHTML = `<p class="text-lg ">Top companies sending your data over unencrypted protocols</p>
-            <p class="text-lg ">(Graph showing number of emails with unsecure tracking links per year)</p>
-            <center><div id='chart' class='chart'></div></center>`;
-        }
-        function getSecureVisualization() {
-            let graph = document.getElementById("chartTop");
-            graph.innerHTML = `<p class="text-lg ">Top companies sending your data over encrypted protocols</p>
-            <p class="text-lg ">(Graph showing number of emails with secure tracking links per year)</p>
-            <center><div id='chart1' class='chart'></div></center>`;
-        }
-        function getTotalVisualization() {
-            let graph = document.getElementById("chartTop");
-            graph.innerHTML = `<p class="text-lg ">Rise of email tracking over time</p>
-            <p class="text-lg ">(Graph showing trend of email tracking since the early 2000s)</p>
-            <center><div id='chart2' class='chart'></div></center>`;
-        }*/
     </script>
-    
 </div>
+<center>
+<div class="mt-16 my-24 grid grid-cols-3 gap-5 mb-0 w-8/12 items-center">
+    <div class="text-2xl font-bold text-left">
+        <p>Looks like Nike {{ company }} spied on you the most in 2020{{ company_year }}. They routed most of their mail through bouncex{{ company_tracking }} (the mail service company that tries extra hard to track you).<p>
+    </div>
+    <div class="text-lg text-gray-500 text-justify col-span-2">
+        <p>Companies want to sell you more stuff -- services, products, . To do this, many of them turn to email (ad) tracking to learn your online behaviour to send you more targeted ads. This tracking can range from confirming recipt of emails to collecting more sensitive info (and sometimes sending over unsecure protocols). While it is certainly difficult to say what data these companies may be collecting, we do our best to estimate what data they may be collecting from you.</p>
+    </div>
+</div>
+</center>
 <div class="text-lg text-center mt-16">
     <p>you can download all of your data here: <a href="{{ url_for('downloadFile', filename='email_dump.txt') }}" class="underline decoration-dotted text-blue-600">results.txt</a></p>
 </div>
