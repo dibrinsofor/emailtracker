@@ -1,0 +1,3480 @@
+creafi.com:Creafi
+pheedo.com:Pheedo
+qoof.com:Viewbix
+viewbix.com:Viewbix
+stroeer.de:adscale
+adscale.de:adscale
+enecto.com:Enecto
+jwplayer.com:LongTail Video
+longtailvideo.com:LongTail Video
+ltassrv.com:LongTail Video
+richrelevance.com:RichRelevance
+twyn-group.com:Twyn Group
+twyn.com:Twyn Group
+yotpo.com:Yotpo
+dynamicoxygen.com:DynamicOxygen
+exitjunction.com:DynamicOxygen
+brandcrumb.com:Brandcrumb
+carts.guru:CartsGuru
+belstat.de:Belstat
+belstat.fr:Belstat
+belstat.nl:Belstat
+belstat.be:Belstat
+belstat.com:Belstat
+lkqd.com:LKQD
+lkqd.net:LKQD
+hitsprocessor.com:Net Applications
+netapplications.com:Net Applications
+linezing.com:LineZing
+itch.io:Itch
+mirando.de:Mirando
+onclusive.com:Onclusive
+airpr.com:Onclusive
+revenuegrid.com:RevenueGrid
+smartcloudconnect.io:RevenueGrid
+smartadserver.com:SmartAdServer
+sascdn.com:SmartAdServer
+echosearch.com:Think Realtime
+thinkrealtime.com:Think Realtime
+esm1.net:Think Realtime
+conversive.nl:Conversive
+leadforensics.com:LeadForensics
+zestad.com:ZestAd
+lahar.com.br:Lahar
+quitzon.net:ClickFrog
+reichelcormier.bid:ClickFrog
+wisokykulas.bid:ClickFrog
+clickfrog.ru:ClickFrog
+bashirian.biz:ClickFrog
+buckridge.link:ClickFrog
+franecki.net:ClickFrog
+aboutecho.com:Echo
+haloscan.com:Echo
+js-kit.com:Echo
+adacado.com:HealthPricer
+healthpricer.com:HealthPricer
+lakana.com:Lakana
+ibsys.com:Lakana
+lynchpin.com:Lynchpin
+lypn.com:Lynchpin
+adreactor.com:AdReactor
+baronsoffers.com:BaronsNetworks
+legolas-media.com:Legolas Media
+permutive.com:Permutive
+protected.media:Protected Media
+ad-score.com:Protected Media
+vimeo.com:Vimeo
+vimeocdn.com:Vimeo
+wordfly.com:WordFly
+zendable.com:Zendable
+acemlnc.com:ActiveCampaign
+acemlnd.com:ActiveCampaign
+emlnk1.com:ActiveCampaign
+activecampaign.com:ActiveCampaign
+activehosted.com:ActiveCampaign
+acemlna.com:ActiveCampaign
+acemlnb.com:ActiveCampaign
+brightedge.com:BrightEdge
+b0e8.com:BrightEdge
+edrone.me:edrone
+hotmart.com:HotMart
+revcontent.com:RevContent
+hittail.com:The Numa Group
+thenumagroup.com:The Numa Group
+admedia.com:AdMedia
+adpepper.com:ad pepper media
+adpepper.us:ad pepper media
+kikin.com:kikin
+shorttailmedia.com:AdGent Digital
+adgentdigital.com:AdGent Digital
+everydayhealth.com:Everyday Health
+waterfrontmedia.com:Everyday Health
+moceanmobile.com:Mocean Mobile
+gtnetwork.com.au:Radiate Media
+solesolution.com:Radiate Media
+matchbin.com:Radiate Media
+radiatemedia.com:Radiate Media
+vistaprint.com:VistaprintSchweizGmbH
+vpdcp.com:VistaprintSchweizGmbH
+vptms.com:VistaprintSchweizGmbH
+vistaprint.ch:VistaprintSchweizGmbH
+adserverpub.com:AdServerPub
+clearlink.com:ClearLink
+integralads.com:Integral Ad Science
+adsafemedia.com:Integral Ad Science
+adsafeprotected.com:Integral Ad Science
+iasds01.com:Integral Ad Science
+snoobi.fi:Snoobi
+snoobi.com:Snoobi
+socialnative.com:SocialNative
+photorank.me:SocialNative
+superfish.com:Superfish
+vemba.com:Vemba
+vwo.com:Wingify
+wingify.com:Wingify
+visualwebsiteoptimizer.com:Wingify
+clickotmedia.com:Adorika
+yieldbuild.com:YieldBuild
+groceryshopping.net:Grocery Shopping Network
+infogroup.com:Infogroup
+longboardmedia.com:Longboard Media
+mercadolibre.com.ni:Mercadopago
+mercadolibre.com.uy:Mercadopago
+mercadolibre.com.ve:Mercadopago
+mercadolibre.cl:Mercadopago
+mercadolibre.com.do:Mercadopago
+mercadolibre.com.ec:Mercadopago
+mercadolibre.com.mx:Mercadopago
+mercadolibre.co.cr:Mercadopago
+mercadolibre.com.pe:Mercadopago
+mercadolibre.com.sv:Mercadopago
+mercadolibre.com.ar:Mercadopago
+mercadolibre.com.pa:Mercadopago
+mercadolibre.com.py:Mercadopago
+mercadopago.com:Mercadopago
+mercadolibre.com.hn:Mercadopago
+mercadolivre.com.br:Mercadopago
+mercadolibre.com:Mercadopago
+mercadolibre.com.bo:Mercadopago
+mercadolibre.com.co:Mercadopago
+mercadolibre.com.gt:Mercadopago
+nethunt.com:NetHunt
+nhlnka.com:NetHunt
+quintelligence.com:Quintelligence
+reddit.com:reddit
+consumable.com:Consumable
+adbull.com:Lexos Media
+lexosmedia.com:Lexos Media
+cpalead.com:MONETIZEdigital
+rmmonline.com:RMM
+00px.net:AdxSpace
+adx.space:AdxSpace
+adohana.com:Ohana Media
+ohana-media.com:Ohana Media
+ohanaqb.com:Ohana Media
+parsely.com:Parse.ly
+postmarkapp.com:Postmark
+pstmrk.it:Postmark
+mtasv.net:Postmark
+reztrack.com:Sabre
+sabre.com:Sabre
+sabrehospitality.com:Sabre
+tellapt.com:TellApart
+tellapart.com:TellApart
+amigos.com:Various
+getiton.com:Various
+medley.com:Various
+nostringsattached.com:Various
+various.com:Various
+keymetric.net:KeyMetric
+fout.jp:FreakOut
+shareasale.com:ShareASale
+baynote.com:Baynote
+baynote.net:Baynote
+smowtion.com:Smowtion
+trafficrevenue.net:TrafficRevenue
+histats.com:Histats
+appssavvy.com:appssavvy
+betweendigital.com:BetweenDigital
+hi-media.com:Hi-media
+himediagroup.com:Hi-media
+comclick.com:Hi-media
+clickmanage.com:iProspect
+iprospect.com:iProspect
+pch.com:Publishers Clearing House
+smarterclick.com:SmarterClick
+smct.io:SmarterClick
+springserve.com:SpringServe
+adnetwork.vn:Ambient Digital
+ambientdigital.com.vn:Ambient Digital
+thismoment.com:Thismoment
+thesearchagency.com:The Search Agency
+thesearchagency.net:The Search Agency
+geniegroupltd.co.uk:GENIE GROUP
+www.geniegroupltd.co.uk:GENIE GROUP
+jivox.com:Jivox
+sendcloud.net:SendCloud
+adbutler.com:Sparklit
+sparklit.com:Sparklit
+servedbyadbutler.com:Sparklit
+synacor.com:Synacor
+nakanohito.jp:User Local
+firedrumemailmarketing.com:FireDrum
+emailinc.net:FireDrum
+adnologies.com:adnologies
+heias.com:adnologies
+adzcentral.com:ADZ
+etrigue.com:eTrigue
+paulstamatiou.com:Skribit
+skribit.com:Skribit
+snowplowanalytics.com:SnowplowAnalytics
+snplow.net:SnowplowAnalytics
+mkt10781.com:Acoustic
+mkt4158.com:Acoustic
+mkt6917.com:Acoustic
+vtrenz.net:Acoustic
+mkt3536.com:Acoustic
+mkt3838.com:Acoustic
+mkt4477.com:Acoustic
+mkt7234.com:Acoustic
+mkt8369.com:Acoustic
+pages05.net:Acoustic
+mkt5514.com:Acoustic
+mkt6264.com:Acoustic
+mkt10008.com:Acoustic
+mkt1248.com:Acoustic
+mkt32.net:Acoustic
+mkt3469.com:Acoustic
+mkt4261.com:Acoustic
+mkt5216.com:Acoustic
+mkt8062.com:Acoustic
+mkt829.com:Acoustic
+mkt9203.com:Acoustic
+mkt9775.com:Acoustic
+mkt7596.com:Acoustic
+mkt7883.com:Acoustic
+mkt1365.com:Acoustic
+mkt5224.com:Acoustic
+mkt5297.com:Acoustic
+mkt6031.com:Acoustic
+mkt6903.com:Acoustic
+mkt7580.com:Acoustic
+mkt10153.com:Acoustic
+mkt2178.com:Acoustic
+mkt3798.com:Acoustic
+mkt4644.com:Acoustic
+mkt6288.com:Acoustic
+mkt7971.com:Acoustic
+mkt922.com:Acoustic
+mkt4463.com:Acoustic
+mkt5379.com:Acoustic
+mkt5654.com:Acoustic
+mkt7783.com:Acoustic
+mkt7972.com:Acoustic
+mkt8008.com:Acoustic
+mkt1937.com:Acoustic
+mkt6688.com:Acoustic
+mkt7946.com:Acoustic
+mkt8267.com:Acoustic
+mkt8628.com:Acoustic
+mkt10049.com:Acoustic
+mkt2724.com:Acoustic
+mkt5906.com:Acoustic
+mkt6260.com:Acoustic
+mkt8756.com:Acoustic
+mkt9923.com:Acoustic
+acoustic.com:Acoustic
+mkt8063.com:Acoustic
+mkt8163.com:Acoustic
+mkt912.com:Acoustic
+mkt941.com:Acoustic
+silverpop.com:Acoustic
+mkt10067.com:Acoustic
+mkt10114.com:Acoustic
+mkt2478.com:Acoustic
+mkt7842.com:Acoustic
+mkt81.net:Acoustic
+mkt10039.com:Acoustic
+mkt61.net:Acoustic
+mkt6316.com:Acoustic
+mkt6735.com:Acoustic
+mkt7752.com:Acoustic
+mkt8586.com:Acoustic
+mkt8007.com:Acoustic
+mkt8043.com:Acoustic
+mkt41.net:Acoustic
+mkt4424.com:Acoustic
+mkt51.net:Acoustic
+mkt5657.com:Acoustic
+mkt6478.com:Acoustic
+mkt685.com:Acoustic
+mkt8064.com:Acoustic
+mkt8345.com:Acoustic
+mkt8763.com:Acoustic
+mkt8988.com:Acoustic
+mkt5566.com:Acoustic
+mkt71.net:Acoustic
+mkt7974.com:Acoustic
+mkt10663.com:Acoustic
+mkt6882.com:Acoustic
+mkt9026.com:Acoustic
+mkt9430.com:Acoustic
+mkt2685.com:Acoustic
+mkt3797.com:Acoustic
+mkt4091.com:Acoustic
+mkt5419.com:Acoustic
+mkt8133.com:Acoustic
+mkt9054.com:Acoustic
+mkt9862.com:Acoustic
+mkt9942.com:Acoustic
+mkt1946.com:Acoustic
+mkt5089.com:Acoustic
+mkt6793.com:Acoustic
+mkt6967.com:Acoustic
+mkt7832.com:Acoustic
+mkt8096.com:Acoustic
+iperceptions.com:iPerceptions
+thinglink.com:ThingLink
+tiqiq.com:TiqIQ
+zypmedia.com:ZypMedia
+extend.tv:ZypMedia
+etarget.net:Etarget
+etargetnet.com:Etarget
+constantcontact.com:ConstantContact
+rs6.net:ConstantContact
+ecsanalytics.com:ECSAnalytics
+theecsinc.com:ECSAnalytics
+markit.com:Markit
+wsod.com:Markit
+attracta.com:Attracta
+polldaddy.com:Automattic
+pubmine.com:Automattic
+automattic.com:Automattic
+gravatar.com:Automattic
+intensedebate.com:Automattic
+agencytradingdesk.net:ContextuAds
+contextuads.com:ContextuAds
+aerserv.com:InMobi
+inmobi.com:InMobi
+sproutinc.com:InMobi
+ixactcontact.com:IxactContact
+kitd.com:KIT digital
+keewurd.com:KIT digital
+peerset.com:KIT digital
+yesads.com:Yes Ads
+authoremail.com:AuthorEmail
+branch.io:Branch
+btbuckets.com:BTBuckets
+emaillabs.io:EmailLabs
+emaillabs.co:EmailLabs
+gocampaignlive.com:PopRule
+poprule.com:PopRule
+smartlook.com:Smartlook
+socialtwist.com:SocialTwist
+sojern.com:Sojern
+binlayer.com:BinLayer
+travoramedia.com:Travora Media
+traveladnetwork.com:Travora Media
+traveladvertising.com:Travora Media
+aerifymedia.com:AERIFY MEDIA
+anonymous-media.com:AERIFY MEDIA
+altergeo.ru:AlterGeo
+buzzparadise.com:BuzzParadise
+crosspixel.net:Cross Pixel
+crosspixelmedia.com:Cross Pixel
+crsspxl.com:Cross Pixel
+vibrantmedia.com:Vibrant Media
+intellitxt.com:Vibrant Media
+picadmedia.com:Vibrant Media
+vuble.tv:Vuble
+mediabong.com:Vuble
+zumobi.com:Zumobi
+addgloo.com:addGloo
+keep.com:AdKeeper
+adkeeper.com:AdKeeper
+akncdn.com:AdKeeper
+freecontent.bid:JSE
+freecontent.date:JSE
+freecontent.stream:JSE
+hashing.win:JSE
+hostingcloud.racing:JSE
+hostingcloud.science:JSE
+jsecoin.com:JSE
+keap.com:Keap
+infusionsoft.com:Keap
+owneriq.com:OwnerIQ
+owneriq.net:OwnerIQ
+propelleremail.co.uk:PropellerEmail
+8d8.biz:8d8.biz
+www.caraytech.com.ar:Caraytech
+caraytech.com.ar:Caraytech
+e-planning.net:Caraytech
+convert.com:Convert Insights
+reedge.com:Convert Insights
+crowdscience.com:Crowd Science
+nativeads.com:NativeAds
+adgibbon.com:AdGibbon
+cirrusinsight.com:CirrusInsight
+fyber.com:Fyber
+rambler.ru:Rambler
+spacechimpmedia.com:Space Chimp Media
+vindicogroup.com:VINDICO
+vindicosuite.com:VINDICO
+adlucent.com:Adlucent
+allstarmediagroup.com:AllStarMediaGroup
+appenda.com:Appenda
+bouncex.net:Bouncex
+bouncex.com:Bouncex
+wunderkind.co:Bouncex
+bounceexchange.com:Bouncex
+gunggo.com:Gunggo
+youknowbest.com:youknowbest
+activedemand.com:ActiveDemand
+acsmedia.us:ActiveDemand
+adocean-global.com:AdOcean
+adocean.pl:AdOcean
+adop.cc:ADOP
+c1exchange.com:c1exchange
+lytiks.com:Lytiks
+reklamport.com:Reklamport
+rovion.com:Rovion
+statisfy.net:Statisfy
+adfunkyserver.com:Adfunky
+adfunky.com:Adfunky
+tremorvideo.com:Tremor Video
+scanscout.com:Tremor Video
+tmnetads.com:Tremor Video
+tremorhub.com:Tremor Video
+tremormedia.com:Tremor Video
+demandbase.com:Demandbase
+company-target.com:Demandbase
+freedom.com:Freedom Communications
+graphenemedia.in:GrapheneMedia
+graphenedigitalanalytics.in:GrapheneMedia
+meteorsolutions.com:Meteor
+sensic.net:nurago
+nurago.com:nurago
+nurago.de:nurago
+tongdun.cn:tongdun.cn
+fraudmetrix.cn:tongdun.cn
+tongdun.net:tongdun.cn
+zip.co:Zip
+zipmoney.com.au:Zip
+adroll.com:AdRoll
+bentonow.com:Bento
+103092804.com:Kitara Media
+kitaramedia.com:Kitara Media
+dt00.net:MarketGid
+dt07.net:MarketGid
+marketgid.com:MarketGid
+reklamstore.com:Reklam Store
+spotx.tv:SpotX
+adlibrium.com:Adlibrium
+branica.com:Branica
+centraliprom.com:iPROM
+iprom.net:iPROM
+iprom.si:iPROM
+mediaiprom.com:iPROM
+quinstreet.com:QuinStreet
+thecounter.com:QuinStreet
+qnsr.com:QuinStreet
+qsstats.com:QuinStreet
+adf.ly:AdF.ly
+causes.com:Causes
+financialcontent.com:FinancialContent
+linkconnector.com:LinkConnector
+mandrillapp.com:MailChimp
+campaign-archive1.com:MailChimp
+mailchi.mp:MailChimp
+agentofficemail.com:MailChimp
+answerbook.com:MailChimp
+mailchimp.com:MailChimp
+tinyletter.com:MailChimp
+list-manage.com:MailChimp
+list-manage1.com:MailChimp
+mcsv.net:MailChimp
+papayamobile.com:Papaya
+runads.com:RunAds
+rundsp.com:RunAds
+anormal-media.de:anormal-media.de
+primawebtools.de:anormal-media.de
+anormal-tracker.de:anormal-media.de
+datapipe.com:GoGrid
+formalyzer.com:GoGrid
+gogrid.com:GoGrid
+komli.net:GoGrid
+narrative.io:Narrative
+optimizely.com:Optimizely
+tradedoubler.com:Tradedoubler
+weborama.com:Weborama
+weborama.fr:Weborama
+adpersia.com:Adpersia
+advisormedia.cz:Advisor Media
+clicksor.com:Clicksor
+clicksor.net:Clicksor
+adless.io:Gridcash
+gridcash.net:Gridcash
+mercent.com:Mercent
+onm.de:Open New Media
+punchtab.com:PunchTab
+webmine.cz:Webmine
+authedwebmine.cz:Webmine
+adshuffle.com:AdShuffle
+moikrug.ru:Yandex
+yadi.sk:Yandex
+yandex.st:Yandex
+yandex.ua:Yandex
+api-maps.yandex.ru:Yandex
+webvisor.org:Yandex
+kinopoisk.ru:Yandex
+yandex.by:Yandex
+yandex.com:Yandex
+yandex.com.tr:Yandex
+yandex.ru:Yandex
+web-visor.com:Yandex
+cbsinteractive.com:CBS Interactive
+com.com:CBS Interactive
+datamind.ru:DataMind.ru
+iac.com:IAC
+iacadvertising.com:IAC
+liveramp.com:LiveRamp
+tvpixel.com:LiveRamp
+dstillery.com:m6d
+m6d.com:m6d
+media6degrees.com:m6d
+nerohut.com:NeroHut
+nhsrv.cf:NeroHut
+aimatch.com:SAS
+sas.com:SAS
+affinity.com:Affinity
+yieldbot.com:YieldBot
+yldbt.com:YieldBot
+stripchat.com:Stripchat
+stripst.com:Stripchat
+smileymedia.com:Smiley Media
+ze-fir.com:Zefir
+adchemy.com:Adchemy
+directtrack.com:Directtrack
+extensionfactory.com:Extension Factory
+mystighty.info:Mystighty
+sweeterge.info:Mystighty
+ziffdavistech.com:NetShelter
+netshelter.com:NetShelter
+netshelter.net:NetShelter
+vserv.com:Vserv
+vserv.mobi:Vserv
+choozle.com:Choozle
+ipromote.com:iPromote
+lfstmedia.com:LifeStreet
+lifestreetmedia.com:LifeStreet
+nowspots.com:NowSpots
+iwin.com:Oberon Media
+blaze.com:Oberon Media
+oberon-media.com:Oberon Media
+sensis.com.au:Telstra
+sensisdata.com.au:Telstra
+telstra.com.au:Telstra
+sensisdigitalmedia.com.au:Telstra
+widespace.com:Widespace
+clickinc.com:ClickInc
+atrinsic.com:Atrinsic
+bitmedia.io:BitMedia
+ibpxl.com:Internet Brands
+internetbrands.com:Internet Brands
+keyade.com:Keyade
+2mdnsys.com:Unknown2mdnsys
+uptrends.com:Uptrends
+yieldads.com:YieldAds
+advertise.com:Advertise.com
+ezymarketer.net:ezymarketer
+graphinium.com:Graphnium
+crm4d.com:Graphnium
+intentmedia.com:Intent Media
+intentmedia.net:Intent Media
+somoaudience.com:SomoAudience
+vgwort.de:VG WORT
+adabra.com:Adabra
+adfusion.com:Adfusion
+dianomi.com:dianomi
+kitcode.net:Kitcode
+limelight.com:Limelight Networks
+clickability.com:Limelight Networks
+llnwd.net:Limelight Networks
+utarget.pro:UTarget
+utarget.ru:UTarget
+abaxinteractive.com:Abax Interactive
+adthink.com:Adthink
+audienceinsights.net:Adthink
+ignitad.com:IgnitAd
+revtrax.com:Revtracks
+ru4.com:Rocket Fuel
+xplusone.com:Rocket Fuel
+rfihub.com:Rocket Fuel
+rfihub.net:Rocket Fuel
+rocketfuel.com:Rocket Fuel
+wordstream.com:WordStream
+adriver.ru:AdRiver
+bandzoogle.com:Bandzoogle
+bitcoinplus.com:Bitcoin Plus
+dynamicyield.com:DynamicYield
+expo-max.com:expo-MAX
+gostats.com:GoStats
+rutarget.ru:RuTarget
+zedo.com:ZEDO
+zincx.com:ZEDO
+avantlink.com:AvantLink
+avantmetrics.com:AvantLink
+avmws.com:AvantLink
+engago.com:Engago Technology
+appmetrx.com:Engago Technology
+paypal.com:Paypal
+simility.com:Paypal
+clickfuel.com:ClickFuel
+myconversionlab.com:ClickFuel
+conversiondashboard.com:ClickFuel
+extremetracking.com:eXTReMe digital
+extreme-dm.com:eXTReMe digital
+minescripts.info:Minescripts
+sslverify.info:Minescripts
+getpolymorph.com:Polymorph
+adsnative.com:Polymorph
+po.st:Po.st
+affiliatetracking.com:ATN
+getsitecontrol.com:GetSiteControl
+i-behavior.com:iBehavior
+ib-ibi.com:iBehavior
+infolinks.com:Infolinks
+megaindex.ru:MegaIndex
+mobfox.com:MobFox
+scribefire.com:ScribeFire
+adlegend.com:TruEffect
+trueffect.com:TruEffect
+adgainersolutions.com:AdGainerSolutions
+amplitude.com:Amplitude
+clickable.net:Syncapse
+syncapse.com:Syncapse
+mobclix.com:Velti
+velti.com:Velti
+vizisense.com:ViziSense
+vizisense.net:ViziSense
+1-2-1marketing.com:121Marketing
+clickwinks.com:Clickwinks
+proximic.net:comScore
+adxpose.com:comScore
+certifica.com:comScore
+mdotlabs.com:comScore
+proxilinks.com:comScore
+proximic.com:comScore
+comscore.com:comScore
+scorecardresearch.com:comScore
+sitestat.com:comScore
+voicefive.com:comScore
+gfk.com:GfK Group
+daphnecm.com:GfK Group
+gfkdaphne.com:GfK Group
+payhit.com:PayHit
+adverline.com:Adverline
+adnext.fr:Adverline
+instinctive.io:Instinctive
+instinctiveads.com:Instinctive
+nugg.ad:nugg.ad
+nuggad.net:nugg.ad
+24smi.net:Smi
+blogrollr.com:BlogRollr
+online-metrix.net:OnlineMetrix
+quadrantone.com:quadrantOne
+reklamz.com:Reklamz
+bridgetrack.com:Sapient
+sapient.com:Sapient
+scribol.com:Scribol
+tradiewebguys.com.au:TradieWebGuys
+chango.ca:Chango
+chango.com:Chango
+futureplc.com:FuturePlc
+servebom.com:FuturePlc
+fengkongcloud.com:iShumei
+ishumei.com:iShumei
+otracking.com:OrangeSoda
+orangesoda.com:OrangeSoda
+suite66.com:Suite 66
+flocktory.com:Flocktory
+retargeter.com:ReTargeter
+researchnow.com:Research Now
+valuedopinions.co.uk:Research Now
+wysistat.net:Wysistat
+wysistat.com:Wysistat
+brainient.com:Brainient
+epicadvertising.com:Epic Media Group
+epicmarketplace.com:Epic Media Group
+theepicmediagroup.com:Epic Media Group
+epicmobileads.com:Epic Media Group
+trafficmp.com:Epic Media Group
+plista.com:plista
+ringier.cz:Ringier
+adtruth.com:AdTruth
+getclicky.com:Roxr
+staticstuff.net:Roxr
+clicky.com:Roxr
+roxr.net:Roxr
+stackla.com:Stackla
+yieldify.com:Yieldify
+intermundomedia.com:Intermundo Media
+semasio.com:Semasio
+semasio.net:Semasio
+usebutton.com:Button
+intelligencefocus.com:IntelligenceFocus
+leadchampion.com:IntelligenceFocus
+domodomain.com:IntelligenceFocus
+intergi.com:Intergi
+ucfunnel.com:ucfunnel
+aralego.com:ucfunnel
+adrevolution.com:AdRevolution
+clickguard.com:ClickGuard
+litmus.com:Litmus
+emltrk.com:Litmus
+paypopup.com:Paypopup.com
+lzjl.com:Paypopup.com
+yabuka.com:Yabuka
+adperfect.com:AdPerfect
+cyberplex.com:Cyberplex
+developermedia.com:Developer Media
+lqcdn.com:Developer Media
+wpncdn.com:ExoClick
+exoclick.com:ExoClick
+exdynsrv.com:ExoClick
+exosrv.com:ExoClick
+realsrv.com:ExoClick
+list.ru:Mail.Ru
+mail.ru:Mail.Ru
+ad6media.fr:ad6media
+nextperf.com:NextPerformance
+nextperformance.com:NextPerformance
+nxtck.com:NextPerformance
+scenestealer.co.uk:SceneStealer
+reflow.tv:SceneStealer
+clixpy.com:Clixpy
+choicestream.com:ChoiceStream
+do-not-tracker.org:EFF
+eff.org:EFF
+eviltracker.net:EFF
+trackersimulator.org:EFF
+levexis.com:Levexis
+mundomedia.com:MUNDO Media
+silver-path.com:MUNDO Media
+richaudience.com:RichAudience
+contentwidgets.net:Wahoha
+wahoha.com:Wahoha
+adstours.com:AdsTours
+clickintext.net:AdsTours
+genius.com:Genius.com
+rsvpgenius.com:Genius.com
+optim.al:Optimal
+orbengine.com:Optimal
+xa.net:Optimal
+bn.co:Optimal
+cpmadvisors.com:Optimal
+cpmatic.com:Optimal
+nprove.com:Optimal
+vi.ai:VideoIntelligence
+userapi.com:VKontakte
+vkontakte.ru:VKontakte
+vk.com:VKontakte
+adsrevenue.net:Adsrevenue.net
+scupio.com:Bridgewell
+bridgewell.com:Bridgewell
+etracker.com:etracker
+etracker.de:etracker
+sedotracker.com:etracker
+sedotracker.de:etracker
+actisens.com:Actisens
+gestionpub.com:Actisens
+veoxa.com:Veoxa
+webtrendslive.com:Webtrends
+webtrends.com:Webtrends
+reinvigorate.net:Webtrends
+brandsideplatform.com:Forbes
+forbes.com:Forbes
+applifier.com:Applifier
+belboon.com:belboon
+adbutler.de:belboon
+socialinterface.com:SocialInterface
+ratevoice.com:SocialInterface
+survata.com:Survata
+adkernel.com:AdKernel
+augur.io:Augur
+bizo.com:Bizo
+bizographics.com:Bizo
+bluecava.com:BlueCava
+certona.com:Certona
+res-x.com:Certona
+conduit-banners.com:Conduit
+conduit.com:Conduit
+conduit-services.com:Conduit
+wibiya.com:Conduit
+connatix.com:Connatix.com
+evolvemediametrics.com:Evolve
+evolvemediacorp.com:Evolve
+gorillanation.com:Evolve
+2leep.com:2leep.com
+sociomantic.com:sociomantic labs
+kargo.com:Kargo
+ismatlab.com:ismatlab.com
+nativo.com:Nativo
+postrelease.com:Nativo
+ntv.io:Nativo
+popads.net:PopAds
+popadscdn.net:PopAds
+medialead.de:TheReachGroup
+trg.de:TheReachGroup
+iponweb.com:IponWeb
+fg8dgt.com:IponWeb
+iponweb.net:IponWeb
+clicktale.com:ClickTale
+clicktale.net:ClickTale
+pantherssl.com:ClickTale
+cnzz.com:CNZZ
+datadome.co:Datadome
+evergage.com:Evergage
+mybuys.com:Evergage
+veruta.com:Evergage
+gb-world.net:GB-World
+adcolony.com:Jirbo
+jirbo.com:Jirbo
+adclickmedia.com:Multiple Stream Media
+multiplestreammktg.com:Multiple Stream Media
+autopilotapp.com:AutoPilot
+apms5.com:AutoPilot
+autopilotmail.io:AutoPilot
+bizmey.com:Tapgage
+tapgage.com:Tapgage
+traffiq.com:Traffiq
+umbel.com:Umbel
+symphonytalent.com:SymphonyTalent
+hodes.com:SymphonyTalent
+ebay.co.jp:eBay
+ebay.com:eBay
+ebay.de:eBay
+ebay.fr:eBay
+motor-talk.de:eBay
+automobile.it:eBay
+dba.dk:eBay
+ebay.at:eBay
+vivanuncios.com.mx:eBay
+ebay.in:eBay
+gumtree.pl:eBay
+kijijiautos.ca:eBay
+marktplaats.nl:eBay
+ebaystatic.com:eBay
+ebay-kleinanzeigen.de:eBay
+ebay.ca:eBay
+ebay.com.tw:eBay
+ebay.be:eBay
+ebay.it:eBay
+ebay.nl:eBay
+bilbasen.dk:eBay
+bilinfo.dk:eBay
+ebay.ba:eBay
+ebaymotorspro.co.uk:eBay
+motortalk.net:eBay
+ebayimg.com:eBay
+ebay.cn:eBay
+ebay.com.sg:eBay
+ebay.es:eBay
+ebay.co.uk:eBay
+ebay.com.au:eBay
+ebay.com.my:eBay
+ebay.ie:eBay
+gumtree.co.za:eBay
+2dehands.be:eBay
+ebay.ch:eBay
+ebay.co.kr:eBay
+kijiji.it:eBay
+gumtree.com:eBay
+gumtree.ie:eBay
+gumtree.sg:eBay
+ebay.com.hk:eBay
+mobile.de:eBay
+kijiji.ca:eBay
+motorbasar.de:eBay
+ebay.pl:eBay
+gumtree.com.au:eBay
+motortests.de:eBay
+2ememain.be:eBay
+automobile.fr:eBay
+ebay.com.ph:eBay
+adwitserver.com:Etineria
+etineria.com:Etineria
+mailspice.com:MailSpice
+out-there-media.com:Out There Media
+prosperent.com:Prosperent
+adventure-novels.com:TodRock
+adyoulike.com:AdYouLike
+omnitagjs.com:AdYouLike
+pulpix.com:AdYouLike
+blogher.com:BlogHer
+blogherads.com:BlogHer
+dedicatedmedia.com:Dedicated Media
+dedicatednetworks.com:Dedicated Media
+fundraiseup.com:FundraiseUp
+fndrsp.net:FundraiseUp
+hands.com.br:Hands Mobile
+9c9media.ca:MarkMonitor
+markmonitor.com:MarkMonitor
+pagefair.com:PageFair
+pagefair.net:PageFair
+ucoz.ae:uCoz
+ucoz.com:uCoz
+ucoz.fr:uCoz
+ucoz.net:uCoz
+ucoz.ru:uCoz
+ucoz.br:uCoz
+ucoz.du:uCoz
+adbot.tw:Adbot
+mashero.com:mashero
+responsys.com:Responsys
+yellowtracker.com:YellowTracker
+dgit.com:DG
+sizmek.com:DG
+eyeblaster.com:DG
+eyewonder.com:DG
+mdadx.com:DG
+serving-sys.com:DG
+unicast.com:DG
+advombat.ru:aidata
+aidata.me:aidata
+aidata.io:aidata
+boo-box.com:Boo-Box
+adingo.jp:Fluct
+fluct.jp:Fluct
+monitus.net:Monitus
+act-on.com:Act-On
+actonsoftware.com:Act-On
+hurriyet.com.tr:ekolay
+e-kolay.net:ekolay
+ekolay.net:ekolay
+directadvert.ru:DirectAdvert
+lassocrm.com:LassoCRM
+localyokelmedia.com:Local Yokel Media
+sophus3.com:sophus3
+sophus3.co.uk:sophus3
+advertstream.com:Advert Stream
+checkm8.com:CheckM8
+decktrade.com:Millennial Media
+millennialmedia.com:Millennial Media
+mydas.mobi:Millennial Media
+omnicomgroup.com:Omnicom Group
+p-td.com:Omnicom Group
+accuenmedia.com:Omnicom Group
+oxamedia.com:OxaMedia
+adconnexa.com:OxaMedia
+adsbwm.com:OxaMedia
+peer39.com:Peer39
+peer39.net:Peer39
+primo.design:Visarity
+visarity.com:Visarity
+insightgrit.com:Zeta Email Solutions
+zetaemailsolutions.com:Zeta Email Solutions
+blogcounter.de:BlogCounter.com
+unruly.co:Unruly
+unrulymedia.com:Unruly
+ivdopia.com:Vdopia
+vdopia.com:Vdopia
+yoc.com:YOC
+amobee.com:Amobee
+smartclip.com:Amobee
+adconion.com:Amobee
+amgdgt.com:Amobee
+euroclick.com:Amobee
+turn.com:Amobee
+drawbridge.com:Drawbridge
+adsymptotic.com:Drawbridge
+drawbrid.ge:Drawbridge
+mediatrust.com:MediaTrust
+microad.jp:MicroAd
+www.microad.jp:MicroAd
+mouseflow.com:Mouseflow
+spot200.com:Spot200
+bidtellect.com:Bidtellect
+bttrack.com:Bidtellect
+contactimpact.de:ContactImpact
+adrolays.com:ContactImpact
+adrolays.de:ContactImpact
+df-srv.de:ContactImpact
+convergetrack.com:ConvergeDirect
+convergedirect.com:ConvergeDirect
+monetate.com:Monetate
+monetate.net:Monetate
+nylas.com:Nylas
+nyl.as:Nylas
+popunder.ru:Popunder.ru
+razorpay.com:RazorPay
+thirdwatch.ai:RazorPay
+up-value.de:up-value
+acuity.com:Acuity
+acuityads.com:Acuity
+acuityplatform.com:Acuity
+vinc.fr:Vinc
+adtelligence.de:ADTELLIGENCE
+elfie.com:GetGlue
+smrtlnks.com:GetGlue
+getglue.com:GetGlue
+goldbachgroup.com:Goldbach
+goldbach.com:Goldbach
+psonstrentie.info:Psonstrentie
+trendemon.com:Trendemon
+adsquare.com:Adsquare
+adloox.com:Adloox
+adlooxtracking.com:Adloox
+appcast.io:AppCast
+clickaider.com:ClickAider
+merkleinc.com:Merkle
+rkdms.com:Merkle
+rimmkaufman.com:Merkle
+mojiva.com:Mojiva
+behavioralengine.com:OnAudience
+onaudience.com:OnAudience
+quantum-advertising.com:QuantumAdvertising
+accelo.com:Accelo
+statcounter.com:StatCounter
+admarketplace.com:Admarketplace
+admarketplace.net:Admarketplace
+ampxchange.com:Admarketplace
+cashbeet.com:CashBeet
+serv1swork.com:CashBeet
+engineseeker.com:Evisions Marketing
+evisionsmarketing.com:Evisions Marketing
+excitad.com:excitad
+getintent.com:GetIntent
+adhigh.net:GetIntent
+mycounter.com.ua:MyCounter
+sparechange.io:SpareChange
+4info.com:4INFO
+adhaven.com:4INFO
+woopra.com:Woopra
+woopra-ns.com:Woopra
+faithadnet.com:faithadnet
+onestat.com:OneStat
+adstune.com:Adstune
+clickdensity.com:Clickdensity
+fairfax.com.au:Fairfax Media
+fxj.com.au:Fairfax Media
+www.fxj.com.au:Fairfax Media
+react2media.com:React2Media
+cpro30.com:Campaigner
+skem1.com:Campaigner
+campaigner.com:Campaigner
+cp20.com:Campaigner
+cpro20.com:Campaigner
+fizzbuzzmedia.com:Fizz-Buzz Media
+fizzbuzzmedia.net:Fizz-Buzz Media
+luckyorange.com:LuckyOrange
+luckyorange.net:LuckyOrange
+mochila.com:Mochila
+reduxmedia.com:Redux Media
+saleshandy.com:SalesHandy
+superhuman.com:Superhuman
+digitize.ie:Digitize
+adverticum.net:Adverticum
+adsmart.com:Adverticum
+adverticum.com:Adverticum
+atinternet.com:AT Internet
+xiti.com:AT Internet
+at-o.net:AT Internet
+hit-parade.com:AT Internet
+double-check.com:Frog Sex
+frogsex.com:Frog Sex
+hilltopads.com:HilltopAds
+hilltopads.net:HilltopAds
+shoporielder.pro:HilltopAds
+networkedblogs.com:Ninua
+ninua.com:Ninua
+perfdrive.com:Radware
+radware.com:Radware
+rtk.io:rtk
+63labs.com:63 Squares
+63squares.com:63 Squares
+i-stats.com:63 Squares
+salesloft.com:Salesloft
+salesloftlinks.com:Salesloft
+deepintent.com:Deep Intent
+vistrac.com:vistrac
+amazingcounters.com:Amazing Counters
+partypoker.com:PartyPoker
+iivt.com:PartyPoker
+tchibo.de:Tchibo
+contactmonkey.com:ContentMonkey
+dailyme.com:DailyMe
+newstogram.com:DailyMe
+geoads.com:GeoAds
+sendpulse.com:SendPulse
+sendpul.se:SendPulse
+clickacumba.com:Acumbamail
+acumbamail.com:Acumbamail
+acmbtrc.com:Acumbamail
+acmtrk.com:Acumbamail
+showlanding.com:Acumbamail
+trckacbm.com:Acumbamail
+acblnk.com:Acumbamail
+emlmkt.com:Acumbamail
+mailmktool.com:Acumbamail
+eleavers.com:Eleavers
+xtremepush.com:XtremePush
+chitika.com:Chitika
+chitika.net:Chitika
+loopme.com:LoopMe
+maxpointinteractive.com:MaxPoint
+maxusglobal.com:MaxPoint
+mxptint.net:MaxPoint
+nexage.com:Nexage
+nextag.com:Nextag
+radial.com:Radial
+gsicommerce.com:Radial
+gsimedia.net:Radial
+adzmath.com:White Ops
+whiteops.com:White Ops
+adxyield.com:White Ops
+cxense.com:cXense
+emediate.biz:cXense
+emediate.com:cXense
+emediate.dk:cXense
+emediate.eu:cXense
+adskeeper.com:AdsKeeper
+adskeeper.co.uk:AdsKeeper
+engagingnetworks.net:EngagingNetworks
+engagingnetworks.app:EngagingNetworks
+flashtalking.com:Flashtalking
+encoremetrics.com:Flashtalking
+sitecompass.com:Flashtalking
+httpool.com:Httpool
+politads.com:Politads
+retailrocket.net:RetailRocket
+adhood.com:adhood
+predictad.com:PredictAd
+summitmedia.co.uk:Summit
+www.summit.co.uk:Summit
+adsty.com:Adsty
+adx1.com:Adsty
+adimg.net:AdLantis
+adlantis.jp:AdLantis
+www.adlantis.jp:AdLantis
+beanstockmedia.com:Beanstock Media
+dataxu.com:DataXu
+mexad.com:DataXu
+w55c.net:DataXu
+dataxu.net:DataXu
+jink.de:Jink
+jinkads.com:Jink
+adextent.com:AdExtent
+cart.ro:Cart.ro
+statistics.ro:Cart.ro
+crimtan.com:Crimtan
+inuvo.com:Inuvo
+adsvelocity.com:Velocity Media
+viglink.com:VigLink
+adotmob.com:Adotmob
+bitrix24.com:Bitrix24
+cbproads.com:CBproADS
+dialogmgr.com:Magnify360
+magnify360.com:Magnify360
+minexmr.stream:MineXMR
+rtbhouse.com:RTBHouse
+creativecdn.com:RTBHouse
+segment.io:Segment.io
+vertster.com:Vertster
+adgear.com:AdGear
+bloom-hq.com:AdGear
+adgrx.com:AdGear
+runadtag.com:AdGear
+ziffdavis.com:ZiffDavis
+icptrack.com:ZiffDavis
+smaato.com:VerveGroup
+verve.com:VerveGroup
+smaato.net:VerveGroup
+disqus.com:Disqus
+disqusads.com:Disqus
+meebocdn.net:Meebo
+meebo.com:Meebo
+mypagerank.net:MyPagerank.Net
+service4refresh.info:Service4refresh
+verizon.com:Verizon
+luminate.com:Verizon
+zoho.com:Zoho
+maillist-manage.com:Zoho
+maillist-manage.com.au:Zoho
+maillist-manage.eu:Zoho
+maillist-manage.in:Zoho
+datonics.com:Datonics
+pro-market.net:Datonics
+brilig.com:Brilig
+intimatemerger.com:IntimateMerger
+im-apps.net:IntimateMerger
+audiencemanager.de:NanoInteractive
+nanointeractive.com:NanoInteractive
+webgozar.com:WebGozar.com
+webgozar.ir:WebGozar.com
+adv-adserver.com:Adversal.com
+adversal.com:Adversal.com
+revenuemax.de:RevenueMax
+shinystat.com:ShinyStat
+snapchat.com:Snap
+snap.com:Snap
+storygize.net:Storygize
+storygize.com:Storygize
+i.ua:I.UA
+leafgroup.com:Demand Media
+demandmedia.com:Demand Media
+indieclick.com:Demand Media
+convertglobal.com:Rekko
+rekko.com:Rekko
+ttarget.ru:TTarget
+cedato.com:Cedato
+eyeviewdigital.com:Eyeviewdigital
+eyeviewads.com:Eyeviewdigital
+futureads.com:Future Ads
+resultlinks.com:Future Ads
+oewa.at:ÖWA
+oewabox.at:ÖWA
+sabavision.com:Sabavision
+adition.com:ADITION
+admicro.vn:Admicro
+vcmedia.vn:Admicro
+pvd.to:Paved
+accelerator-media.com:WPP
+mindshare.nl:WPP
+targ.ad:WPP
+compete.com:WPP
+kantarmedia.com:WPP
+themig.com:WPP
+xaxis.com:WPP
+acceleratorusa.com:WPP
+realmedia.com:WPP
+pm14.com:WPP
+decdna.net:WPP
+groupm.com:WPP
+mindshareworld.com:WPP
+wpp.com:WPP
+247realmedia.com:WPP
+mookie1.com:WPP
+mecglobal.com:WPP
+decideinteractive.com:WPP
+gmads.net:WPP
+adfox.ru:AdFox
+bunchball.com:Bunchball
+coin-hive.com:CoinHive
+wsservices.org:CoinHive
+authedmine.com:CoinHive
+coinhive.com:CoinHive
+ad-miner.com:CoinHive
+bmst.pw:CoinHive
+cnhv.co:CoinHive
+600z.com:iEntry
+ientry.com:iEntry
+mdotm.com:MdotM
+digits.com:Twitter
+fabric.io:Twitter
+tweetdeck.com:Twitter
+twitter.com:Twitter
+twitter.jp:Twitter
+ads-twitter.com:Twitter
+twimg.com:Twitter
+web-stat.com:Web Tracking Services
+webtrackingservices.com:Web Tracking Services
+zemanta.com:Zemanta
+acxiom.com:Acxiom
+mm7.net:Acxiom
+acxiomapac.com:Acxiom
+pippio.com:Acxiom
+hotlog.ru:InfoStars
+infostars.ru:InfoStars
+observerapp.com:Observer
+sortable.com:Sortable
+deployads.com:Sortable
+supersonicads.com:SupersonicAds
+adotsolution.com:Syrup Ad
+rapleaf.com:TowerData
+rlcdn.com:TowerData
+towerdata.com:TowerData
+extensions.ru:EXTENSIONS.RU
+casalemedia.com:IndexExchange
+indexexchange.com:IndexExchange
+medianet.com:IndexExchange
+indexww.com:IndexExchange
+mediavoice.com:Polar Mobile
+polarmobile.com:Polar Mobile
+experian.com:Experian
+audienceiq.com:Experian
+lotlinx.com:LotLinx
+netmining.com:Netmining
+netmng.com:Netmining
+smartyads.com:SmartyAds
+truste.com:TRUSTe
+veremedia.com:Veremedia
+3dstats.com:AddFreeStats
+addfreestats.com:AddFreeStats
+collarity.com:Collarity
+freeonlineusers.com:Free Online Users
+pinpoll.com:PinPoll
+qualaroo.com:Qualaroo
+kissinsights.com:Qualaroo
+seevolution.com:SeeVolution
+svlu.net:SeeVolution
+yieldlab.de:Yieldlab
+yieldlab.net:Yieldlab
+appsflyer.com:AppsFlyer
+conviva.com:Conviva
+fullstory.com:Fullstory
+polymail.io:Polymail
+shopzilla.com:Shopzilla
+amung.us:whos.amung.us
+4dsply.com:Adsupply
+adsupply.com:Adsupply
+breaktime.com.tw:BreakTime
+conversionruler.com:ConversionRuler
+mixmax.com:MixMax
+netseer.com:NetSeer
+nonstoppartner.net:ResolutionMedia
+videoegg.com:SAY
+saymedia.com:SAY
+typepad.com:SAY
+trafficfactory.com:TrafficFactory
+trafficfactory.biz:TrafficFactory
+admission.net:ADP Dealer Services
+adpdealerservices.com:ADP Dealer Services
+cobalt.com:ADP Dealer Services
+cdkglobal.com:ADP Dealer Services
+delivr.com:Delivr
+percentmobile.com:Delivr
+jasperlabs.com:JasperLabs
+ooyala.com:Ooyala
+oo4.com:Ooyala
+slunecnice.cz:Slunecnice
+trumba.com:Trumba
+aivalabs.com:AivaLabs
+thebrighttag.com:BrightTag
+brighttag.com:BrightTag
+btstatic.com:BrightTag
+earnify.com:Earnify
+tradelab.fr:JellyFish
+outbrain.com:Outbrain
+sphere.com:Outbrain
+visualrevenue.com:Outbrain
+storeland.ru:Storeland
+tinder.com:Tinder
+carbonads.com:Tinder
+advertisespace.com:AdvertiseSpace
+epsilon.com:Epsilon
+idg.com:IDG
+idgtechnetwork.com:IDG
+phpmyvisites.us:phpMyVisites
+rakuten.tv:Rakuten
+linkshare.com:Rakuten
+infoseek.tenki.jp:Rakuten
+kenko.com:Rakuten
+rakuten-life.net:Rakuten
+showtime.jp:Rakuten
+ebates.com:Rakuten
+fusioncom.co.jp:Rakuten
+kobo.com:Rakuten
+rakuten.net:Rakuten
+linksynergy.com:Rakuten
+rakutenmarketing.com:Rakuten
+rakuten-bank.co.jp:Rakuten
+rakuten.com:Rakuten
+rakuten.com.tw:Rakuten
+rakutenadvertising.com:Rakuten
+viki.com:Rakuten
+marketspeed.jp:Rakuten
+rakuten.com.au:Rakuten
+rakuten-sec.co.jp:Rakuten
+rakuten.co.jp:Rakuten
+viber.co.jp:Rakuten
+rakuten-card.co.jp:Rakuten
+rakuten-insurance.co.jp:Rakuten
+rakutentrade.my:Rakuten
+infoseek.ne.jp:Rakuten
+rakuten-life.co.jp:Rakuten
+infoseek.co.jp:Rakuten
+rakuten.com.hk:Rakuten
+rakuten.de:Rakuten
+rakuteneagles.jp:Rakuten
+soompi.com:Rakuten
+viber.com:Rakuten
+ispeed.jp:Rakuten
+nikki.ne.jp:Rakuten
+blvdstatus.com:Retirement Living
+retirement-living.com:Retirement Living
+spectate.com:Spectate
+congoo.com:Congoo
+persistiq.com:PersistIQ
+connectif.ai:ConnectIf
+connectif.cloud:ConnectIf
+aloodo.com:Aloodo
+pixel.sg:Pixel.sg
+global.blackberry.com:RIM
+laptopverge.com:RIM
+rim.com:RIM
+scoreloop.com:RIM
+adjuggler.net:AdJuggler
+adjuggler.com:AdJuggler
+visistat.com:VisiStat
+id.kickfire.com:VisiStat
+sa-as.com:VisiStat
+d.kickfire.com:VisiStat
+warumbistdusoarm.space:Warumbistdusoarm
+stable.cz:WebGlobe
+webglobe.com:WebGlobe
+rubiconproject.com:RubiconProject
+adsbyisocket.com:RubiconProject
+isocket.com:RubiconProject
+harrenmedia.com:Harrenmedia
+harrenmedianetwork.com:Harrenmedia
+martiniadnetwork.com:Martini Media
+martinimedianetwork.com:Martini Media
+matomymedia.com:Matomy
+mediawhiz.com:Matomy
+optimatic.com:Matomy
+xtendmedia.com:Matomy
+matomy.com:Matomy
+adnetinteractive.com:Matomy
+adsmarket.com:Matomy
+matomymarket.com:Matomy
+mobials.com:Mobials
+free-pagerank.com:Free-PageRank.com
+gnezdo.online:Gnezdo
+gnezdo.ru:Gnezdo
+projectwonderful.com:Project Wonderful
+wideorbit.com:WideOrbit
+dep-x.com:WideOrbit
+ixs1.net:eWayDirect
+ewaydirect.com:eWayDirect
+dada.eu:Dada
+dada.pro:Dada
+simply.com:Dada
+negishim.org:Negishim
+precisionclick.com:PrecisionClick
+cbox.ws:Cbox
+boostbox.com.br:BoostBox
+channeladvisor.com:ChannelAdvisor
+searchmarketing.com:ChannelAdvisor
+emerse.com:Emerse
+supership.jp:Supership
+socdm.com:Supership
+zaful.com:ZafulAffiliate
+aemedia.com:Aegis Group
+bluestreak.com:Aegis Group
+dentsuaegisnetwork.com:Aegis Group
+gliq.com:GlobalIntelliSystems
+mailblue.nl:MailBlue
+mailblue.eu:MailBlue
+mediabrix.com:MediaBrix
+mediaforge.com:mediaFORGE
+dsnextgen.com:Oversee.net
+oversee.net:Oversee.net
+doubleverify.com:DoubleVerify
+adonion.com:AdOnion
+bemail.it:beMail
+bombora.com:Bombora
+ml314.com:Bombora
+coremotives.com:CoreMotives
+layer-ads.net:Layer Ads
+mailbutler.io:MailButler
+resolutionmedia.com:Resolution Media
+acquisio.com:Acquisio
+clickequations.net:Acquisio
+teads.tv:Teads.tv
+datasift.com:DataSift
+tweetmeme.com:DataSift
+game-advertising-online.com:Game Advertising Online
+hurra.com:Hurra.com
+valuead.com:Value Ad
+clustrmaps.com:ClustrMaps
+admotion.com:Admotion
+nspmotion.com:Admotion
+audience2media.com:Audience2Media
+dc-storm.com:DC Storm
+stormiq.com:DC Storm
+gmelius.com:Gmelius
+mailcamp.nl:MailCamp
+a2dfp.net:Ad Decisive
+addecisive.com:Ad Decisive
+clickyab.com:Clickayab
+opentracker.net:Opentracker
+sourcepoint.com:Sourcepoint
+summerhamster.com:Sourcepoint
+wiredminds.com:WiredMinds
+wiredminds.de:WiredMinds
+adtiger.de:AdTiger
+adxpansion.com:AdXpansion
+bittads.com:BittAds
+digitaltarget.ru:Digital Target
+taboola.com:Taboola
+perfectmarket.com:Taboola
+dsmmadvantage.com:WebMetro
+revanadigital.com:WebMetro
+webmetro.com:WebMetro
+activatiemarketing.nl:ActivatieMarketing
+basiscommunicatie.nl:ActivatieMarketing
+pop6.com:FriendFinder Networks
+adultfriendfinder.com:FriendFinder Networks
+ffn.com:FriendFinder Networks
+refersion.com:Refersion
+webtrekk.net:Webtrekk
+webtrekk.com:Webtrekk
+wtp101.com:Adnetik
+adnetik.com:Adnetik
+channelintelligence.com:Channel Intelligence
+didit.com:Didit
+did-it.com:Didit
+nuffnang.com:Nuffnang
+nuffnang.com.my:Nuffnang
+www.nuffnang.com.my:Nuffnang
+steelhouse.com:SteelHouse
+steelhousemedia.com:SteelHouse
+adswizz.com:Adswizz
+adyard.de:adyard
+clicktripz.com:ClickTripz
+cmads.com.tw:Cognitive Match
+cmadsasia.com:Cognitive Match
+cmadseu.com:Cognitive Match
+cmmeglobal.com:Cognitive Match
+cognitivematch.com:Cognitive Match
+innity.com:Innity
+pubmatic.com:PubMatic
+revinet.com:PubMatic
+trafficscore.com:TrafficScore
+adpredictive.com:AdPredictive
+getnotify.com:GetNotify
+email81.com:GetNotify
+inspectlet.com:Inspectlet
+madisonlogic.com:Madison Logic
+dinclinx.com:Madison Logic
+openstat.com:Openstat
+openstat.ru:Openstat
+spylog.com:Openstat
+visiblemeasures.com:Visible Measures
+viewablemedia.net:Visible Measures
+visualdna-stats.com:VisualDNA
+visualdna.com:VisualDNA
+vdna-assets.com:VisualDNA
+bmmetrix.com:Bluemetrix
+bluemetrix.com:Bluemetrix
+appflood.com:AppFlood
+awin.com:Awin
+digitalwindow.com:Awin
+dwin1.com:Awin
+perfiliate.com:Awin
+backbeatmedia.com:BackBeat Media
+digitalremedy.com:DigitalRemedy
+adready.com:DigitalRemedy
+adreadytractions.com:DigitalRemedy
+geniee.co.jp:GENIEE
+gssprt.jp:GENIEE
+leadbolt.com:LeadBolt
+perimeterx.com:PerimeterX
+adometry.com:Adometry
+dmtry.com:Adometry
+unbounce.com:Unbounce
+adeurope.com:AD Europe
+auditedmedia.com:AuditedMedia
+aamapi.com:AuditedMedia
+aamsitecertifier.com:AuditedMedia
+campaigngrid.com:CampaignGrid
+chartboost.com:Chartboost
+smartsendy.com:SmartSendy
+verticalacuity.com:Vertical Acuity
+webads.co.uk:WebAds
+www.webads.co.uk:WebAds
+adaptly.com:Adaptly
+mobileadtrading.com:MobileAdTrading
+home.neustar:Neustar
+neustar.biz:Neustar
+aggregateknowledge.com:Neustar
+agkn.com:Neustar
+adadvisor.net:Neustar
+sailplay.ru:Sailplay
+feedperfect.com:Web.com
+web.com:Web.com
+xpressmail.hu:XpressMail
+zendesk.com:Zendesk
+airpush.com:Airpush
+convertro.com:Convertro
+mixpo.com:Mixpo
+mypressplus.com:MyPressPlus
+ppjol.net:MyPressPlus
+selectablemedia.com:Selectable Media
+nabbr.com:Selectable Media
+shareaholic.com:Shareaholic
+uniqlick.com:UniQlick
+wanmo.com:UniQlick
+51network.com:UniQlick
+affine.tv:Affine
+affinesystems.com:Affine
+madhouse.cn:Madhouse
+substack.com:Substack
+aforesponse.com:AfoResponse
+ztsrv.com:LeadsHub
+liveinternet.ru:LiveInternet
+yadro.ru:LiveInternet
+localytics.com:Localytics
+pressflex.com:Pressflex
+blogads.com:Pressflex
+bidfluence.com:Bidfluence
+eskimi.com:Eskimi
+admost.com:Kokteyl
+kokteyl.com:Kokteyl
+mailtrack.io:MailTrack
+mltrk.io:MailTrack
+creative-serving.com:Platform161
+platform161.com:Platform161
+clickdistrict.com:Platform161
+relestar.com:Relevad
+relevad.com:Relevad
+sendfox.com:SendFox
+districtm.net:DistrictM
+districtm.io:DistrictM
+bidswitch.com:BidSwitch
+bidswitch.net:BidSwitch
+mfadsrvr.com:BidSwitch
+gravity.com:Gravity
+grvcdn.com:Gravity
+itisatracker.com:ItIsATracker
+microsoftstart.com:Microsoft
+msft.net:Microsoft
+assets-yammer.com:Microsoft
+msedge.net:Microsoft
+azure.net:Microsoft
+microsoftonline.com:Microsoft
+worldwidetelescope.org:Microsoft
+microsoftedgeinsiders.com:Microsoft
+visualstudio.com:Microsoft
+yammer.com:Microsoft
+azureedge.net:Microsoft
+onmicrosoft.com:Microsoft
+healthvault.com:Microsoft
+onedrive.com:Microsoft
+microsoftstream.com:Microsoft
+sway-extensions.com:Microsoft
+microsoftonline-p.net:Microsoft
+msftidentity.com:Microsoft
+cloudapp.net:Microsoft
+msecnd.net:Microsoft
+roiservice.com:Microsoft
+github.com:Microsoft
+microsoftedgeinsider.com:Microsoft
+getgamesmart.com:Microsoft
+microsoftonline-p.com:Microsoft
+nuance.com:Microsoft
+skype.com:Microsoft
+staffhub.ms:Microsoft
+sway-cdn.com:Microsoft
+bing.com:Microsoft
+cloudappsecurity.com:Microsoft
+sharepoint.com:Microsoft
+trafficmanager.net:Microsoft
+licdn.com:Microsoft
+azure.com:Microsoft
+azurerms.com:Microsoft
+windowsazure.com:Microsoft
+yammerusercontent.com:Microsoft
+onenote.com:Microsoft
+sway.com:Microsoft
+outlook.com:Microsoft
+outlookmobile.com:Microsoft
+s-msn.com:Microsoft
+sfx.ms:Microsoft
+windows.net:Microsoft
+touchcommerce.com:Microsoft
+microsoftstart.cn:Microsoft
+o365weve.com:Microsoft
+office.com:Microsoft
+officelive.com:Microsoft
+msads.net:Microsoft
+sfbassets.com:Microsoft
+aka.ms:Microsoft
+iegallery.com:Microsoft
+microsoftazuread-sso.com:Microsoft
+wunderlist.com:Microsoft
+aquantive.com:Microsoft
+msndirect.com:Microsoft
+office.net:Microsoft
+onenote.net:Microsoft
+gaug.es:Microsoft
+gfx.ms:Microsoft
+hockeyapp.net:Microsoft
+microsoft.com:Microsoft
+oaspapps.com:Microsoft
+sharepoint-df.com:Microsoft
+windowsphone.com:Microsoft
+xbox.com:Microsoft
+acompli.net:Microsoft
+clarity.ms:Microsoft
+aspnetcdn.com:Microsoft
+aadrm.com:Microsoft
+msauthimages.net:Microsoft
+live.com:Microsoft
+virtualearth.net:Microsoft
+adbureau.net:Microsoft
+msocdn.com:Microsoft
+onestore.ms:Microsoft
+skypeassets.com:Microsoft
+msidentity.com:Microsoft
+phonefactor.net:Microsoft
+microsoftalumni.com:Microsoft
+msappproxy.net:Microsoft
+office365.com:Microsoft
+skypeforbusiness.com:Microsoft
+inq.com:Microsoft
+gamesforwindows.com:Microsoft
+ieaddons.com:Microsoft
+microsoftstore.com:Microsoft
+msn.com:Microsoft
+adecn.com:Microsoft
+netconversions.com:Microsoft
+linkedin.com:Microsoft
+microsoftalumni.org:Microsoft
+feesocrald.com:MinerAlt
+pampopholf.com:MinerAlt
+yololike.space:MinerAlt
+vidzi.nu:MinerAlt
+aster18cdn.nl:MinerAlt
+besstahete.info:MinerAlt
+mineralt.io:MinerAlt
+gramombird.com:MinerAlt
+istlandoll.com:MinerAlt
+tercabilis.info:MinerAlt
+1q2w3.website:MinerAlt
+analytics.blue:MinerAlt
+belicimo.pw:MinerAlt
+dinorslick.icu:MinerAlt
+mepirtedic.com:MinerAlt
+tulip18.com:MinerAlt
+vidzi.tv:MinerAlt
+optimumresponse.com:OptimumResponse
+pushnami.com:Pushnami
+bazaarvoice.com:Bazaarvoice
+stargames.net:StarGames
+stargamesaffiliate.com:StarGames
+singlefeed.com:Vendio
+vendio.com:Vendio
+verticalresponse.com:VerticalResponse
+vresp.com:VerticalResponse
+webtraffic.no:Webtraffic
+webtraffic.se:Webtraffic
+sessioncam.com:SessionCam
+4dem.it:4dem
+infonline.de:INFOnline
+ioam.de:INFOnline
+ivwbox.de:INFOnline
+mywebgrocer.com:MyWebGrocer
+net-results.com:Net-Results
+nr7.us:Net-Results
+cdnma.com:Net-Results
+opecloud.com:1plusx
+1plusx.com:1plusx
+optimost.com:HP
+hp.com:HP
+opentext.com:HP
+insightexpress.com:InsightExpress
+insightexpressai.com:InsightExpress
+kissmetrics.com:KISSmetrics
+persianstat.com:PersianStat.com
+lightning.com:Salesforce
+force.com:Salesforce
+kruxdigital.com:Salesforce
+krxd.net:Salesforce
+salesforce.com:Salesforce
+pardot.com:Salesforce
+salesforce-hub.com:Salesforce
+salesforceiq.com:Salesforce
+salesforceliveagent.com:Salesforce
+visualforce.com:Salesforce
+trailblazer.me:Salesforce
+forcesslreports.com:Salesforce
+forceusercontent.com:Salesforce
+krux.com:Salesforce
+salesforce-communities.com:Salesforce
+documentforce.com:Salesforce
+exacttarget.com:Salesforce
+exct.net:Salesforce
+factortg.com:SymphonyAM
+hitslink.com:HitsLink
+browser-update.org:Browser-Update.org
+didtheyreadit.com:DidTheyReadIt
+investingchannel.com:InvestingChannel
+mediacom.com:MediaCom
+medicxmedia.com:Medicx Media Solutions
+addynamo.com:Ad Dynamo
+addynamo.net:Ad Dynamo
+boomeranggmail.com:BoomerangGmail.com
+mailstat.us:BoomerangGmail.com
+followup.cc:FollowUP
+outreach.io:Outreach
+outrch.com:Outreach
+accelia.net:Accelia
+durasite.net:Accelia
+tap.me:Tap.me
+retailautomata.com:Retail Automata
+eulerian.com:Eulerian Technologies
+eulerian.net:Eulerian Technologies
+imrworldwide.net:Nielsen
+nielsen.com:Nielsen
+myvisualiq.net:Nielsen
+glanceguide.com:Nielsen
+imrworldwide.com:Nielsen
+admobile.com:Admobile
+godatafeed.com:GoDataFeed
+noktamedya.com:Nokta
+virgul.com:Nokta
+bannerconnect.net:Bannerconnect
+horyzon-media.com:Horyzon Media
+clickfuse.com:ToneMedia
+tonemedia.com:ToneMedia
+ynxs.io:YieldNexus
+brightroll.com:BrightRoll
+btrll.com:BrightRoll
+adrima.vn:Adtima
+zadn.vn:Adtima
+centro.net:BasisTechnologies
+sitescout.com:BasisTechnologies
+basis.net:BasisTechnologies
+clearsaleing.com:ClearSaleing
+csdata1.com:ClearSaleing
+csdata2.com:ClearSaleing
+csdata3.com:ClearSaleing
+gleam.io:Gleam
+fraudjs.io:Gleam
+trafficfacts.com:Go Daddy
+godaddy.com:Go Daddy
+paid-to-promote.net:Paid-To-Promote.net
+pocketcents.com:PocketCents
+adcirrus.com:AdCirrus
+gmossp-sp.jp:GMO
+reemo-ad.jp:GMO
+gmo-ap.jp:GMO
+ie8eamus.com:ie8eamus
+mcafeesecure.com:McAfee
+scanalert.com:McAfee
+mcafee.com:McAfee
+mathtag.com:MediaMath
+mediamath.com:MediaMath
+adroitinteractive.com:MediaMath
+designbloxlive.com:MediaMath
+radiusmarketing.com:Radius Marketing
+rollick.io:Rollick
+gorollick.com:Rollick
+sendgrid.com:Twilio
+twilio.com:Twilio
+sendgrid.net:Twilio
+dynadmic.com:DynAdmic
+dyntrk.com:DynAdmic
+crypto-webminer.com:CryptoWebMiner
+bitcoin-pay.eu:CryptoWebMiner
+ethpocket.de:CryptoWebMiner
+ethtrader.de:CryptoWebMiner
+statsit.com:STATSIT
+cedexis.com:Cedexis
+cedexis.net:Cedexis
+curalate.com:Curalate
+pictela.com:Pictela
+pictela.net:Pictela
+close.io:Close
+close.com:Close
+digitalriver.com:Digital River
+keywordmax.com:Digital River
+netflame.cc:Digital River
+goldspotmedia.com:GoldSpot Media
+mparticle.com:mParticle
+dl-rms.com:Safecount
+dlqm.net:Safecount
+questionmarket.com:Safecount
+safecount.net:Safecount
+sharethis.com:ShareThis
+adleave.com:AdLeave
+globaltakeoff.com:Global Takeoff
+globaltakeoff.net:Global Takeoff
+guj.de:Gruner + Jahr
+ligatus.com:Gruner + Jahr
+nanigans.com:Nanigans
+stratigent.com:Stratigent
+verticalhealth.com:VerticalHealth
+verticalhealth.net:VerticalHealth
+brandscreen.com:Brandscreen
+rtbidder.net:Brandscreen
+gigya.com:Gigya
+gigcount.com:Gigya
+opolen.com.br:Polen
+webminepool.com:WebminePool
+avidglobalmedia.eu:AvidMedia
+adspdbl.com:AvidMedia
+avidglobalmedia.com:AvidMedia
+metadsp.co.uk:AvidMedia
+avsads.com:Avsads
+grapeshot.co.uk:Grapeshot
+optmd.com:OptMD
+performancing.com:Performancing
+prismapp.io:PrismApp
+rqtrk.eu:RoqAd
+roq.ad:RoqAd
+stumbleupon.com:StumbleUpon
+stumble-upon.com:StumbleUpon
+adsperity.com:Adsperity
+coinpot.co:CoinPot
+media.net:media.net
+provers.pro:Provers
+simpli.fi:Simpli.fi
+atedra.com:Atedra
+alflying.date:a.js
+flightzy.bid:a.js
+zymerget.bid:a.js
+zymerget.faith:a.js
+alflying.win:a.js
+anybest.site:a.js
+flightsy.bid:a.js
+flightsy.win:a.js
+flightzy.date:a.js
+flightzy.win:a.js
+inrix.com:Inrix
+ad4game.com:Ad4Game
+compasslabs.com:Compass Labs
+dwstat.cn:dwstat.com
+islay.tech:IslayTech
+openx.com:OpenX
+openx.net:OpenX
+liftdna.com:OpenX
+openx.org:OpenX
+openxenterprise.com:OpenX
+servedbyopenx.com:OpenX
+xiaoyuanzhao.com:Shixiseng
+shixiseng.com:Shixiseng
+zoominfo.com:ZoomInfo
+akamai.com:Akamai
+abmr.net:Akamai
+edgesuite.net:Akamai
+go-mpulse.net:Akamai
+imiclk.com:Akamai
+eyeota.net:Eyeota
+games2win.com:Games2win
+inviziads.com:Games2win
+marktest.com:Marktest
+marktest.pt:Marktest
+metanetwork.com:Meta Network
+brand.net:Brand.net
+jaroop.com:Jaroop
+mailtracker.pl:MailTracker
+mailcamp.net.pl:MailTracker
+senderit.pl:MailTracker
+xylionmail.pl:MailTracker
+tmogul.com:TubeMogul
+tubemogul.com:TubeMogul
+fiksu.com:Fiksu
+feedjit.com:Feedjit
+traforet.com:RMBN
+rmbn.net:RMBN
+rmbn.ru:RMBN
+specificclick.net:Specific Media
+sitemeter.com:Specific Media
+specificmedia.com:Specific Media
+adviva.co.uk:Specific Media
+adviva.net:Specific Media
+thummit.com:Thummit
+10web.io:10Web
+collserve.com:Dataium
+ihs.com:Dataium
+dataium.com:Dataium
+footprintlive.com:Footprint
+hsms06.com:HubSpot
+hubspotemail.net:HubSpot
+hubspot.com:HubSpot
+hs-analytics.net:HubSpot
+mopub.com:MoPub
+ownpage.fr:OwnPage
+pontiflex.com:Pontiflex
+quantcast.com:Quantcast
+quantserve.com:Quantcast
+clickdimensions.com:ClickDimensions
+emxdigital.com:EMX
+brealtime.com:EMX
+clearstream.tv:EMX
+emxdgt.com:EMX
+clicmanager.fr:ClicManager
+gimbal.com:Infillion
+infillion.com:Infillion
+chemistry.com:Match.com
+match.com:Match.com
+meetic-partners.com:Match.com
+media-servers.net:MediaShakers
+mediashakers.com:MediaShakers
+quismatch.com:QUISMA
+xaded.com:QUISMA
+xmladed.com:QUISMA
+quisma.com:QUISMA
+iaded.com:QUISMA
+streak.com:Streak
+cdnwidget.com:CDNWidget
+globe7.com:Globe7
+kenshoo.com:Kenshoo
+xg4ken.com:Kenshoo
+mindset-media.com:Mindset Media
+mmismm.com:Mindset Media
+monster.com:Monster
+sovrn.com:Sovrn
+sponsorads.de:SponsorAds
+tailsweep.com:Tailsweep
+fetchback.com:FetchBack
+batanganetwork.com:Batanga Network
+batanga.com:Batanga Network
+corp.vix.com:Batanga Network
+vix.com:Batanga Network
+brightcove.com:Brightcove
+spongegroup.com:Sponge
+topsy.com:Topsy
+activengage.com:ActivEngage
+theblogfrog.com:BlogFrog
+buysight.com:Buysight
+permuto.com:Buysight
+pulsemgr.com:Buysight
+industrybrains.com:Marchex
+marchex.com:Marchex
+opera.com:Opera
+mobiletheory.com:Opera
+pulsepoint.com:PulsePoint
+sageanalyst.net:SageMetrics
+sagemetrics.com:SageMetrics
+strikestack.com:StrikeStack
+bidvertiser.com:BidVertiser
+indiatimes.com:TheTimesGroup
+timesofindia.com:TheTimesGroup
+clmbtech.com:TheTimesGroup
+afy11.net:Cox Digital Solutions
+adify.com:Cox Digital Solutions
+coxdigitalsolutions.com:Cox Digital Solutions
+novomotus.com:Cox Digital Solutions
+digg.com:Digg
+loomia.com:Loomia
+clicktracks.com:Lyris
+lyris.com:Lyris
+aurea.com:Lyris
+peerfly.com:PeerFly
+sailthru.com:SailThru
+webedia-group.com:WebediaGroup
+goutee.top:WebediaGroup
+agilemeasure.com:AgileMeasure
+wowanalytics.co.uk:WOW Analytics
+fastclick.net:ConversantMedia
+greystripe.com:ConversantMedia
+valueclick.com:ConversantMedia
+dotomi.com:ConversantMedia
+dtmpub.com:ConversantMedia
+emjcd.com:ConversantMedia
+fastclick.com:ConversantMedia
+valueclick.net:ConversantMedia
+valueclickmedia.com:ConversantMedia
+conversantmedia.com:ConversantMedia
+adserver.com:ConversantMedia
+lduhtrp.net:ConversantMedia
+mediaplex.com:ConversantMedia
+maxbounty.com:MaxBounty
+mb01.com:MaxBounty
+vocus.io:Vocus
+33across.com:33Across
+tynt.com:33Across
+brandaffinity.net:Brand Affinity Technologies
+theridechannel.com:Complex Media
+collider.com:Complex Media
+complex.com:Complex Media
+complexmedianetwork.com:Complex Media
+firstwefeast.com:Complex Media
+pigeonsandplanes.com:Complex Media
+solecollector.com:Complex Media
+enginenetwork.com:Engine Network
+monoloop.com:Monoloop
+adblade.com:Adiant
+adiant.com:Adiant
+socialchorus.com:SocialChorus
+halogenmediagroup.com:SocialChorus
+halogennetwork.com:SocialChorus
+sputnik.ru:Sputnik.ru
+unanimis.co.uk:Unanimis
+www.unanimis.co.uk:Unanimis
+cnn.com:AT&T
+adlantic.nl:AT&T
+appnexus.com:AT&T
+att.com:AT&T
+hbo.com:AT&T
+hbogo.com:AT&T
+hbomax.com:AT&T
+hbonow.com:AT&T
+warnermediagroup.com:AT&T
+yp.com:AT&T
+adnxs.com:AT&T
+adrdgt.com:AT&T
+att.net:AT&T
+dccomics.com:AT&T
+tbs.com:AT&T
+xandr.com:AT&T
+tnt.com:AT&T
+carrotquest.io:CarrotQuest
+cuebiq.com:Cuebiq
+fuelx.com:FuelX
+fuel451.com:FuelX
+hitsniffer.com:Hit Sniffer
+optify.net:Optify
+v12group.com:V12 Data
+v12data.com:V12 Data
+webmining.co:Webmining
+adforgeinc.com:Adforge
+zaparena.com:zapunited
+zapunited.com:zapunited
+wishabi.com:Wishabi
+wishabi.net:Wishabi
+flipp.com:Wishabi
+datvantage.com:Datvantage
+infernotions.com:Infernotions
+moolah-media.com:Moolah Media
+moolahmedia.com:Moolah Media
+snapengage.com:SnapEngage
+veeseo.com:Veeseo
+voice2page.com:Voice2Page
+communicatorcorp.com:Communicator Corp
+dsnrmg.com:DSNR Group
+traffiliate.com:DSNR Group
+z5x.net:DSNR Group
+z5x.com:DSNR Group
+dsnrgroup.com:DSNR Group
+id5.io:ID5
+id5-sync.com:ID5
+email-messaging.com:infobip
+infobip.com:infobip
+ppcprotect.com:PPCProtect
+propellerads.com:Propeller Ads
+adiquity.com:AdIQuity
+stat-track.com:StackTrack
+awio.com:Awio
+w3counter.com:Awio
+w3roi.com:Awio
+yieldmo.com:Yieldmo
+sendmachine.com:SmartMachine
+smlists.com:SmartMachine
+vendemore.com:Bisnode
+bisnode.com:Bisnode
+cadreon.com:Cadreon
+distilnetworks.com:DistilNetworks
+distiltag.com:DistilNetworks
+targetix.net:Targetix
+tracemyip.org:TraceMyIP.org
+wayfair.com:Wayfair
+bigdoor.com:BigDoor
+onetruefan.com:BigDoor
+777seo.com:ewebse
+ewebse.com:ewebse
+hotelchamp.com:HotelChamp
+intermarkets.net:Intermarkets
+nextstat.com:NextSTAT
+doublepositive.com:DoublePositive
+bid-tag.com:DoublePositive
+front.com:Front
+frontapp.com:Front
+crypto-loot.com:CryptoLoot
+cryptaloot.pro:CryptoLoot
+cryptolootminer.com:CryptoLoot
+flashx.pw:CryptoLoot
+gitgrub.pro:CryptoLoot
+reauthenticator.com:CryptoLoot
+statdynamic.com:CryptoLoot
+webmine.pro:CryptoLoot
+doublepimp.com:DoublePimp
+360yield.com:Improve Digital
+improvedigital.com:Improve Digital
+monetizemore.com:Monetize More
+admaximizer.com:AdMaximizer Network
+afdads.com:AfterDownload
+afterdownload.com:AfterDownload
+gumgum.com:GumGum
+digitru.st:IAB
+iabtechlab.com:IAB
+jobthread.com:JobThread
+nedstatbasic.net:motigo
+motigo.com:motigo
+optinmonster.com:OptinMonster
+optnmstr.com:OptinMonster
+advanced-store.com:AdvancedStore
+ad4m.at:AdvancedStore
+ad4mat.de:AdvancedStore
+lockerdome.com:LockerDome
+pixlee.com:Pixlee
+prometheusintelligencetechnology.com:PrometheusIntelligenceTechnology
+onlinewebstats.com:Web Stats
+ybx.io:YieldBids
+adsugar.com:AdSugar
+adsugar.ch:AdSugar
+audiencescience.com:AudienceScience
+revsci.net:AudienceScience
+targetingmarketplace.com:AudienceScience
+wunderloop.net:AudienceScience
+callsource.com:CallSource
+leadtrackingdata.com:CallSource
+adelixir.com:NetElixir
+netelixir.com:NetElixir
+onad.eu:onAd
+pronunciator.com:Pronunciator
+visitorville.com:Pronunciator
+reply.io:Reply
+adaptiveads.com:AdaptiveAds
+clearsightinteractive.com:ClearSight Interactive
+csi-tracking.com:ClearSight Interactive
+contaxe.com:CONTAXE
+criteo.com:Criteo
+criteo.net:Criteo
+hlserve.com:Criteo
+hooklogic.com:Criteo
+storetail.io:Criteo
+genesismedia.com:Genesis Media
+genesismediaus.com:Genesis Media
+heyzap.com:Heyzap
+keywee.co:Keywee
+skimresources.com:Skimlinks
+skimlinks.com:Skimlinks
+adspirit.com:AdSpirit
+adspirit.de:AdSpirit
+adspirit.net:AdSpirit
+sesamestats.com:TNS
+statistik-gallup.net:TNS
+tns-counter.ru:TNS
+tns-cs.net:TNS
+tnsglobal.com:TNS
+fwmrm.net:FreeWheel
+stickyadstv.com:FreeWheel
+bidr.io:FreeWheel
+freewheel.tv:FreeWheel
+kontera.com:Kontera
+bannerbank.ru:Manifest
+manifest.ru:Manifest
+permodo.com:Permodo
+piximedia.com:Piximedia
+trafficjunky.net:TrafficJunky
+trafficjunky.com:TrafficJunky
+carambola.com:Carambola
+carambo.la:Carambola
+responder.co.il:RavMesserLtd
+sharethrough.com:Sharethrough
+datmean.com:DatMean
+aroa.io:DatMean
+adomik.com:Adomik
+adscience.nl:Adscience
+adscoremarketing.com:AdScore
+adsco.re:AdScore
+audienceadnetwork.com:Audience Ad Network
+copper.com:Copper
+ensighten.com:Ensighten
+korrelate.com:Korrelate
+adsummos.com:Korrelate
+adsummos.net:Korrelate
+ad-maven.com:AdMaven
+agreensdistra.info:AdMaven
+boudja.com:AdMaven
+rensovetors.info:AdMaven
+wrethicap.info:AdMaven
+maxmind.com:MaxMind
+mmapiws.com:MaxMind
+amadesa.com:Amadesa
+cetrk.com:Crazy Egg
+crazyegg.com:Crazy Egg
+lockerz.com:Lockerz
+spongecell.com:Spongecell
+stackadapt.com:StackAdapt
+buzzlogic.com:Twelvefold
+twelvefold.com:Twelvefold
+uplandsoftware.com:Upland
+leadlander.com:Upland
+sf14g.com:Upland
+trackalyzer.com:Upland
+adcash.com:AdCash
+ufpcdn.com:AdCash
+xertivemedia.com:Xertive Media
+admanager-xertive.com:Xertive Media
+chartbeat.net:Chartbeat
+chartbeat.com:Chartbeat
+customer.io:CustomerIO
+customeriomail.com:CustomerIO
+flite.com:Flite
+widgetserver.com:Flite
+gosquared.com:GoSquared
+radiumone.com:RadiumOne
+gwallet.com:RadiumOne
+hipcricket.com:Augme
+augme.com:Augme
+contextweb.com:CONTEXTWEB
+cpxadroit.com:CPX Interactive
+adreadypixels.com:CPX Interactive
+cpxinteractive.com:CPX Interactive
+eyeconomy.co.uk:Eyeconomy
+eyeconomy.com:Eyeconomy
+sublimemedia.net:Eyeconomy
+www.eyeconomy.co.uk:Eyeconomy
+merchantadvantage.com:MerchantAdvantage
+newsinc.com:NDN
+oneupweb.com:Oneupweb
+sodoit.com:Oneupweb
+sparkstudios.com:Spark Studios
+am.ua:AUTOCENTRE.UA
+autocentre.ua:AUTOCENTRE.UA
+udmserve.net:Underdog Media
+underdogmedia.com:Underdog Media
+swiftmining.win:SwiftMining
+kissmyads.com:KissMyAds
+sap.com:SAP
+ondemand.com:SAP
+seewhy.com:SAP
+kanoodle.com:Seevast
+pulse360.com:Seevast
+seevast.com:Seevast
+syndigonetworks.com:Seevast
+teadma.com:Teadma
+eproof.com:eProof.com
+adengage.com:AdEngage
+adfonic.com:Adfonic
+inflectionpointmedia.com:Inflection Point Media
+komli.com:Komli
+adelphic.com:Adelphic
+ipredictive.com:Adelphic
+liveperson.com:LivePerson
+liveperson.net:LivePerson
+nuconomy.com:LivePerson
+mts.ru:MTS
+semantiqo.com:Semantiqo
+struq.com:Struq
+bigmir.net:bigmirnet
+adworx.at:Adworx
+adworx.be:Adworx
+adworx.nl:Adworx
+intercom.com:Intercom
+intercom.io:Intercom
+magnetic.com:Magnetic
+domdex.com:Magnetic
+qjex.net:Magnetic
+domdex.net:Magnetic
+netbina.com:NetBina
+shafttraffic.com:ShaftTraffic
+libertystmedia.com:ShaftTraffic
+tapit.com:TapIt!
+aggregateintelligence.com:365Media
+365media.com:365Media
+mailerjet.com:MailerJet
+interpolls.com:Interpolls
+admixer.co.kr:Admixer
+primis.tech:Primis
+sekindo.com:Primis
+salesintelligence.pl:Salesintelligence
+plugin.management:Salesintelligence
+socital.com:Socital
+activemeter.com:ActiveConversion
+activeconversion.com:ActiveConversion
+ero-advertising.com:EroAdvertising
+newrelic.com:New Relic
+nr-data.net:New Relic
+tensquare.com:TENSQUARE
+tradetracker.net:TradeTracker
+tradetracker.com:TradeTracker
+trustx.org:TrustX
+applovin.com:Applovin
+adcloud.net:Deutsche Post DHL
+dp-dhl.com:Deutsche Post DHL
+dpdhl.com:Deutsche Post DHL
+adcloud.com:Deutsche Post DHL
+glam.com:Glam Media
+glammedia.com:Glam Media
+imedia.cz:iMedia
+itsoneiota.com:One iota
+oneiota.co.uk:One iota
+adjust.com:Adjust
+bigclick.me:BigClick
+bgclck.me:BigClick
+xcvgdf.party:BigClick
+avalanchers.com:Avalanchers
+dac.co.jp:DigitalAdConsortium
+impact-ad.jp:DigitalAdConsortium
+linkz.net:Linkz
+pebblepost.com:PebblePost
+pbbl.co:PebblePost
+send24.pl:Redlink
+redlink.pl:Redlink
+advertserve.com:Renegade Internet
+renegadeinternet.com:Renegade Internet
+tapad.com:Tapad
+admeta.com:Admeta
+atemda.com:Admeta
+venatusmedia.com:Venatus Media
+blogcatalog.com:BlogCatalog
+awltovhc.com:Commission Junction
+ftjcfx.com:Commission Junction
+tqlkg.com:Commission Junction
+cj.com:Commission Junction
+apmebf.com:Commission Junction
+qksz.net:Commission Junction
+yceml.net:Commission Junction
+kcdwa.com:Commission Junction
+qksz.com:Commission Junction
+infectiousmedia.com:Infectious Media
+impressiondesk.com:Infectious Media
+bidsystem.com:Adknowledge
+lookery.com:Adknowledge
+adknowledge.com:Adknowledge
+adparlor.com:Adknowledge
+justuno.com:justuno
+calliduscloud.com:LeadFormix
+leadforce1.com:LeadFormix
+leadformix.com:LeadFormix
+newtention.de:newtention
+newtention.net:newtention
+newtentionassets.net:newtention
+paymentsmb.com:PaymentsMB
+triplelift.com:TripleLift
+3lift.com:TripleLift
+yume.com:YuMe
+yumenetworks.com:YuMe
+inadco.com:Inadco
+anadcoads.com:Inadco
+inadcoads.com:Inadco
+affinity.co:Affinity.co
+beachfront.com:BeachFront
+fbcdn.net:Facebook
+meta.com:Facebook
+atdmt.com:Facebook
+friendfeed.com:Facebook
+instagram.com:Facebook
+internalfb.com:Facebook
+oculus.com:Facebook
+apps.fbsbx.com:Facebook
+facebook.com:Facebook
+facebook.de:Facebook
+facebook.net:Facebook
+workplace.com:Facebook
+fbsbx.com:Facebook
+atlassolutions.com:Facebook
+facebook.fr:Facebook
+fb.com:Facebook
+oversightboard.com:Facebook
+whatsapp.com:Facebook
+e.gg:Facebook
+fb.me:Facebook
+messenger.com:Facebook
+gismads.jp:GISMAds
+mail365.ru:Mail365
+m3651.net:Mail365
+m3652.net:Mail365
+origo.hu:Origo
+shorte.st:Shortest
+adnium.com:Adnium
+montwam.top:Adnium
+begun.ru:Begun
+tweetboard.com:Tweetboard
+adglare.com:Adglare
+adglare.net:Adglare
+burstly.com:Burstly
+collective.com:Collective
+collective-media.net:Collective
+oggifinogi.com:Collective
+tumri.com:Collective
+tumri.net:Collective
+yt1187.net:Collective
+flattr.com:Flattr
+inskinmedia.com:InSkin Media
+ad-stir.com:AdStir
+leanplum.com:LeanPlum
+mobilestorm.com:Mobile Storm
+netaffiliation.com:NetAffiliation
+apnewsregistry.com:NewsRight
+newsright.com:NewsRight
+spotxchange.com:SpotXchange
+spotxcdn.com:SpotXchange
+marinsm.com:The Heron Partnership
+heronpartners.com.au:The Heron Partnership
+marinsoftware.com:The Heron Partnership
+autoklose.com:Autoklose
+smtp2go.com:SMTP2Go
+smtp2go.net:SMTP2Go
+adman.gr:Adman
+marimedia.net:Marimedia
+marketo.com:Marketo
+marketo.net:Marketo
+admoda.com:MobVision
+mobvision.com:MobVision
+piwik.org:Piwik
+cams.com:Streamray
+streamray.com:Streamray
+trackingsoft.com:TrackingSoft
+roia.biz:TrackingSoft
+adatus.com:Adatus
+foxonestop.com:Fox One Stop Media
+mobsmith.com:Fox One Stop Media
+myads.com:Fox One Stop Media
+othersonline.com:Fox One Stop Media
+fimserve.com:Fox One Stop Media
+foxnetworks.com:Fox One Stop Media
+huntmads.com:HUNT Mobile Ads
+reporo.com:Reporo
+buzzcity.com:Reporo
+smi2.ru:SMI2
+websitealive5.com:WebsiteAlive
+websitealive6.com:WebsiteAlive
+websitealive9.com:WebsiteAlive
+websitealive.com:WebsiteAlive
+websitealive0.com:WebsiteAlive
+websitealive1.com:WebsiteAlive
+websitealive2.com:WebsiteAlive
+websitealive3.com:WebsiteAlive
+websitealive4.com:WebsiteAlive
+websitealive7.com:WebsiteAlive
+websitealive8.com:WebsiteAlive
+cmail4.com:CampaignMonitor
+cmail9.com:CampaignMonitor
+createsend8.com:CampaignMonitor
+cmail18.com:CampaignMonitor
+createsend20.com:CampaignMonitor
+cmail13.com:CampaignMonitor
+createsend12.com:CampaignMonitor
+createsend18.com:CampaignMonitor
+createsend2.com:CampaignMonitor
+createsend27.com:CampaignMonitor
+createsend4.com:CampaignMonitor
+csd.io:CampaignMonitor
+cmail25.com:CampaignMonitor
+confirmsubscription.com:CampaignMonitor
+cmail17.com:CampaignMonitor
+cmail2.com:CampaignMonitor
+cmail20.com:CampaignMonitor
+createsend23.com:CampaignMonitor
+createsend6.com:CampaignMonitor
+cmail1.com:CampaignMonitor
+cmail15.com:CampaignMonitor
+createsend10.com:CampaignMonitor
+createsend15.com:CampaignMonitor
+createsend19.com:CampaignMonitor
+createsend22.com:CampaignMonitor
+createsend5.com:CampaignMonitor
+cmail10.com:CampaignMonitor
+cmail23.com:CampaignMonitor
+createsend21.com:CampaignMonitor
+cmail22.com:CampaignMonitor
+cmail26.com:CampaignMonitor
+cmail3.com:CampaignMonitor
+cmail30.com:CampaignMonitor
+cmail8.com:CampaignMonitor
+createsend1.com:CampaignMonitor
+createsend14.com:CampaignMonitor
+createsend25.com:CampaignMonitor
+cmail24.com:CampaignMonitor
+cmail29.com:CampaignMonitor
+createsend26.com:CampaignMonitor
+createsend24.com:CampaignMonitor
+createsend30.com:CampaignMonitor
+cmail7.com:CampaignMonitor
+createsend17.com:CampaignMonitor
+campaignmonitor.com:CampaignMonitor
+createsend11.com:CampaignMonitor
+createsend7.com:CampaignMonitor
+createsend9.com:CampaignMonitor
+forwardtomyfriend.com:CampaignMonitor
+cmail11.com:CampaignMonitor
+cmail19.com:CampaignMonitor
+createsend13.com:CampaignMonitor
+cmail27.com:CampaignMonitor
+cmail28.com:CampaignMonitor
+createsend16.com:CampaignMonitor
+createsend29.com:CampaignMonitor
+createsend3.com:CampaignMonitor
+cmail14.com:CampaignMonitor
+cmail21.com:CampaignMonitor
+cmail16.com:CampaignMonitor
+createsend28.com:CampaignMonitor
+cmail5.com:CampaignMonitor
+cmail6.com:CampaignMonitor
+cmail12.com:CampaignMonitor
+gemius.com:Gemius
+gemius.pl:Gemius
+bidtheatre.com:BidTheatre
+mongoosemetrics.com:Mongoose Metrics
+proclivitymedia.com:Proclivity
+proclivitysystems.com:Proclivity
+pswec.com:Proclivity
+swoop.com:Swoop
+tyroo.com:Tyroo
+webtraxs.com:Web Traxs
+zanox.com:zanox
+buy.at:zanox
+zanox-affiliate.de:zanox
+adbroker.de:Adbroker.de
+albacross.com:Albacross
+cloudflare.com:Cloudflare
+hcaptcha.com:Cloudflare
+effectivemeasure.net:Effective Measure
+effectivemeasure.com:Effective Measure
+exelate.com:eXelate
+exelator.com:eXelate
+limabean.agency:Limabean
+bra2hmail.com:Limabean
+lowermybills.com:Lower My Bills
+navdmp.com:Navegg
+navegg.com:Navegg
+adperium.com:Adperium
+avocet.io:Avocet
+gannett.com:Gannett
+pointroll.com:Gannett
+rightaction.com:RightAction
+tealium.com:Tealium
+tealiumiq.com:Tealium
+adzerk.com:Adzerk
+adzerk.net:Adzerk
+fanplayr.com:Fanplayr
+friends2follow.com:Friends2Follow
+kaltura.com:Kaltura
+medialets.com:Medialets
+sevenads.net:SevenAds
+triggit.com:Triggit
+user.com:User
+ds-iq.com:DS-IQ
+visitstreamer.com:Visit Streamer
+powerlinks.com:Powerlinks
+vizu.com:Vizu
+dmpxs.com:dmpxs
+fathomseo.com:Fathom
+fathomdelivers.com:Fathom
+betssonpalantir.com:BetssonPalantir
+engagebay.com:EngageBay
+coremetrics.com:IBM
+unica.com:IBM
+xtify.com:IBM
+ibm.com:IBM
+multicloud-ibm.com:IBM
+weather.com:IBM
+cmcore.com:IBM
+traffic-media.co.uk:TrafficMedia
+burstbeacon.com:Burst Media
+burstdirectads.com:Burst Media
+burstmedia.com:Burst Media
+burstnet.com:Burst Media
+giantrealm.com:Burst Media
+juicyads.com:JuicyAds
+lptracker.io:lptracker
+xplosion.de:xplosion interactive
+adversalservers.com:ISI Technologies
+digbro.com:ISI Technologies
+clixtell.com:Clixtell
+admailtiser.com:CONTEXTin
+contextin.com:CONTEXTin
+nrelate.com:nrelate
+trackset.com:Trackset
+trovus.co.uk:Trovus
+www.trovus.co.uk:Trovus
+cardlytics.com:Cardlytics
+groovinads.com:GroovinAds
+sptag3.com:Hearst
+ic-live.com:Hearst
+icrossing.com:Hearst
+redaril.com:Hearst
+sptag.com:Hearst
+sptag2.com:Hearst
+hearst.com:Hearst
+iclive.com:Hearst
+raasnet.com:Hearst
+sptag1.com:Hearst
+enquisite.com:InboundWriter
+inboundwriter.com:InboundWriter
+rightinbox.com:RightInbox
+visme.co:Visme
+addvantagemedia.com:Addvantage Media
+aisleahead.com:AisleAhead
+buttondown.email:DuttonDown
+mediametrie-estat.com:Médiamétrie-eStat
+estat.com:Médiamétrie-eStat
+adbuyer.com:Mediaocean
+mediaocean.com:Mediaocean
+adultmoda.com:Adultmoda
+abebooks.com:Amazon.com
+audible.co.uk:Amazon.com
+comixology.com:Amazon.com
+sagemaker.aws:Amazon.com
+alexametrics.com:Amazon.com
+amazon.com:Amazon.com
+amazon.com.mx:Amazon.com
+amazoninspire.com:Amazon.com
+dpreview.com:Amazon.com
+yoyo.com:Amazon.com
+amazon.co.uk:Amazon.com
+audible.fr:Amazon.com
+look.com:Amazon.com
+audible.co.jp:Amazon.com
+abebooks.fr:Amazon.com
+alexa.com:Amazon.com
+amazon.de:Amazon.com
+amazon.se:Amazon.com
+eastdane.com:Amazon.com
+twitch.com:Amazon.com
+ssl-images-amazon.com:Amazon.com
+abebooks.co.uk:Amazon.com
+amazon.it:Amazon.com
+amazon.sg:Amazon.com
+goodreads.com:Amazon.com
+cloudfront.net:Amazon.com
+acx.com:Amazon.com
+amazon.co.jp:Amazon.com
+amazon.in:Amazon.com
+assoc-amazon.com:Amazon.com
+bookdepository.com:Amazon.com
+boxofficemojo.com:Amazon.com
+abebooks.de:Amazon.com
+amazonaws.com:Amazon.com
+amazon.pl:Amazon.com
+createspace.com:Amazon.com
+fabric.com:Amazon.com
+souq.com:Amazon.com
+zvab.com:Amazon.com
+amazon.nl:Amazon.com
+iberlibro.com:Amazon.com
+amazon-adsystem.com:Amazon.com
+amazon.fr:Amazon.com
+pillpack.com:Amazon.com
+shopbop.com:Amazon.com
+audible.it:Amazon.com
+audible.com:Amazon.com
+audible.de:Amazon.com
+dpreview.in:Amazon.com
+amazon.cn:Amazon.com
+amazon.com.tr:Amazon.com
+amazon.sa:Amazon.com
+imdb.com:Amazon.com
+woot.com:Amazon.com
+zappos.com:Amazon.com
+amazon.com.br:Amazon.com
+twitch.tv:Amazon.com
+awstrack.me:Amazon.com
+amazon.ca:Amazon.com
+abebooks.it:Amazon.com
+amazon.ae:Amazon.com
+amazon.com.sg:Amazon.com
+brilliancepublishing.com:Amazon.com
+imdb.de:Amazon.com
+withoutabox.com:Amazon.com
+6pm.com:Amazon.com
+amazon.es:Amazon.com
+audible.in:Amazon.com
+junglee.com:Amazon.com
+wholefoodsmarket.com:Amazon.com
+amazon.com.au:Amazon.com
+contentabc.com:ContentABC
+mailtag.io:MailTag
+scandinavianadnetworks.com:Scandinavian AdNetworks
+eztargetmedia.com:Terra
+terra.com.br:Terra
+www.terra.com.br:Terra
+twittercounter.com:Twitter Counter
+ubertags.com:UberTags
+adtelligent.com:AdTelligent
+vertamedia.com:AdTelligent
+metricsdirect.com:Zango
+zango.com:Zango
+ansira.com:Ansira
+aweber.com:AWeber
+azet.sk:Azet
+mediaimpact.sk:Azet
+azetklik.sk:Azet
+rsz.sk:Azet
+beencounter.com:beencounter
+businessol.com:BusinessOnline
+jumptap.com:Jumptap
+tiktok.com:TikTok
+adknife.com:Ad Knife
+vtex.com.br:Vtex
+trafmag.com:Trafmag
+admarvel.com:AdMarvel
+bubblestat.com:Bubblestat
+signifyd.com:Signifyd
+adbrn.com:Adbrain
+adbrain.com:Adbrain
+convertkit-mail.com:ConvertKit
+convertkit-mail2.com:ConvertKit
+convertkit-mail3.com:ConvertKit
+convertkit-mail4.com:ConvertKit
+convertkit-mail5.com:ConvertKit
+convertkit-mail6.com:ConvertKit
+convertkit.com:ConvertKit
+eqads.com:EQ Ads
+moengage.com:MoEngage
+samurai-factory.jp:Samurai Factory
+shinobi.jp:Samurai Factory
+traffichaus.com:TrafficHaus
+traffichouse.com:TrafficHaus
+buysafe.com:buySAFE
+betgenius.com:Betgenius
+connextra.com:Betgenius
+cpmstar.com:CPMStar
+liveintent.com:LiveIntent
+liadm.com:LiveIntent
+lfov.net:LoopFuse
+loopfuse.net:LoopFuse
+webmecanik.com:Webmecanik
+adnet.de:adNET
+mashlogic.com:MashLogic
+yhmg.com:YellowHammer
+attracto.com:YellowHammer
+clickhype.com:YellowHammer
+yellowhammermg.com:YellowHammer
+auditude.com:Adobe
+demdex.com:Adobe
+efrontier.com:Adobe
+fyre.co:Adobe
+livefyre.com:Adobe
+everesttech.net:Adobe
+hitbox.com:Adobe
+touchclarity.com:Adobe
+adobe.com:Adobe
+typekit.com:Adobe
+2o7.net:Adobe
+demdex.net:Adobe
+everestads.net:Adobe
+dmtracker.com:Adobe
+everestjs.net:Adobe
+omniture.com:Adobe
+omtrdc.net:Adobe
+foresee.com:Foresee
+answerscloud.com:Foresee
+usabilitysciences.com:Usability Sciences
+webiqonline.com:Usability Sciences
+vocento.com:Vocento
+vocstatic.com:Vocento
+zopim.com:Zopim
+adxvalue.de:Adxvalue
+adxvalue.com:Adxvalue
+answers.com:Answers.com
+dsply.com:Answers.com
+inner-active.com:inneractive
+kitewheel.com:Kitewheel
+sonobi.com:Sonobi
+adaramedia.com:Adara Media
+opinmind.com:Adara Media
+yieldoptimizer.com:Adara Media
+directresponsegroup.com:Direct Response Group
+ppctracking.net:Direct Response Group
+hotwords.com:HOTWords
+hotwords.es:HOTWords
+crwdcntrl.net:Lotame
+lotame.com:Lotame
+adbrite.com:adBrite
+cloudmedia.fr:CloudMedia
+cloud-media.fr:CloudMedia
+mixpanel.com:Mixpanel
+mxpnl.com:Mixpanel
+strikead.com:StrikeAd
+tattomedia.com:Tatto Media
+quicknoodles.com:Tatto Media
+ad2onegroup.com:AD2ONE
+buzzfeed.com:BuzzFeed
+buzzfed.com:BuzzFeed
+cya2.net:Cya2
+deltaprojects.com:Delta Projects
+adaction.se:Delta Projects
+de17a.com:Delta Projects
+deltaprojects.se:Delta Projects
+leadboxer.com:LeadBoxer
+affectv.co.uk:Affectv
+flytxt.com:Flytxt
+gamned.com:Gamned
+justpremium.com:JustPremium
+logdy.com:Logdy
+publicidees.com:Public-Idées
+4u.pl:stat4u
+visbrands.com:VisibleBrands
+bucksense.com:BuckSense
+consiliummedia.com:Consilium Media
+crispmedia.com:Crisp Media
+hotjar.com:Hotjar
+sublime.xyz:Sublime Skinz
+ayads.co:Sublime Skinz
+webclicktracker.com:Webclicktracker
+secure-adserver.com:Yahoo!
+aim.com:Yahoo!
+makers.com:Yahoo!
+adinterax.com:Yahoo!
+pixazza.com:Yahoo!
+autoblog.com:Yahoo!
+mybloglog.com:Yahoo!
+rmxads.com:Yahoo!
+vidible.tv:Yahoo!
+yldmgrimg.net:Yahoo!
+5min.com:Yahoo!
+userplane.com:Yahoo!
+adtechjp.com:Yahoo!
+rightmedia.com:Yahoo!
+adtech.com:Yahoo!
+advertising.com:Yahoo!
+flickr.com:Yahoo!
+mandatory.com:Yahoo!
+flurry.com:Yahoo!
+huffingtonpost.com:Yahoo!
+adrevolver.com:Yahoo!
+leadback.com:Yahoo!
+aoltechguru.com:Yahoo!
+patch.com:Yahoo!
+stylemepretty.com:Yahoo!
+winamp.com:Yahoo!
+surphace.com:Yahoo!
+yahoostudios.com:Yahoo!
+yahooapis.com:Yahoo!
+yieldmanager.com:Yahoo!
+staticflickr.com:Yahoo!
+yahooapis.jp:Yahoo!
+yieldmanager.net:Yahoo!
+adap.tv:Yahoo!
+yahoo.com:Yahoo!
+yuilibrary.com:Yahoo!
+rocketmail.com:Yahoo!
+theboot.com:Yahoo!
+yahoofs.com:Yahoo!
+yimg.jp:Yahoo!
+adtechus.com:Yahoo!
+atwola.com:Yahoo!
+dailyfinance.com:Yahoo!
+shoutcast.com:Yahoo!
+shortcuts.com:Yahoo!
+stylelist.com:Yahoo!
+theboombox.com:Yahoo!
+zenfs.com:Yahoo!
+bluelithium.com:Yahoo!
+engadget.com:Yahoo!
+games.com:Yahoo!
+spinner.com:Yahoo!
+adsonar.com:Yahoo!
+techcrunch.com:Yahoo!
+overture.com:Yahoo!
+tacoda.net:Yahoo!
+aol.com:Yahoo!
+cambio.com:Yahoo!
+moviefone.com:Yahoo!
+noisecreep.com:Yahoo!
+ymail.com:Yahoo!
+aolcdn.com:Yahoo!
+mapquest.com:Yahoo!
+interclick.com:Yahoo!
+yimg.com:Yahoo!
+homesessive.com:Yahoo!
+tumblr.com:Yahoo!
+aolcloud.net:Yahoo!
+pawnation.com:Yahoo!
+dapper.net:Yahoo!
+adtech.de:Yahoo!
+editions.com:Yahoo!
+yahoo.co.jp:Yahoo!
+yahoosmallbusiness.com:Yahoo!
+adventori.com:Adventori
+whiskyandwines.com:Arkwrights Homebrew
+arkwrightshomebrew.com:Arkwrights Homebrew
+ctasnet.com:Arkwrights Homebrew
+madvertise.com:madvertise
+sendiio.vip:Sendiio
+sendiio.app:Sendiio
+todacell.com:Todacell
+traversedata.com:Traverse
+traversedlp.com:Traverse
+addynamix.com:Ybrant Digital
+brightcom.com:Ybrant Digital
+luj.sdsjweb.com:Ybrant Digital
+adserverplus.com:Ybrant Digital
+oridian.com:Ybrant Digital
+ybrantdigital.com:Ybrant Digital
+addthiscdn.com:AddThis
+addthisedge.com:AddThis
+clearspring.com:AddThis
+connectedads.net:AddThis
+xgraph.com:AddThis
+xgraph.net:AddThis
+addthis.com:AddThis
+adspeed.com:AdSpeed
+adspeed.net:AdSpeed
+affilinet-inside.de:affilinet
+banner-rotation.com:affilinet
+successfultogether.co.uk:affilinet
+affili.net:affilinet
+akqa.com:AKQA
+srtk.net:AKQA
+entireweb.com:Entireweb
+ignitionone.com:IgnitionOne
+ignitionone.net:IgnitionOne
+searchignite.com:IgnitionOne
+listrak.com:Listrak
+listrakbi.com:Listrak
+strongmail.com:StrongMail
+popularmedia.com:StrongMail
+responsetap.com:AdInsight
+adinsight.com:AdInsight
+adinsight.eu:AdInsight
+leadersend.com:LeaderSend
+www.opt.ne.jp:OPT
+advg.jp:OPT
+opt.ne.jp:OPT
+p-advg.com:OPT
+istrack.com:Oracle
+maxymiser.com:Oracle
+oracle.com:Oracle
+atgsvcs.com:Oracle
+eloqua.com:Oracle
+estara.com:Oracle
+instantservice.com:Oracle
+primevisibility.com:Prime Visibility
+adonnetwork.net:Prime Visibility
+bannertgt.com:Prime Visibility
+cpvfeed.com:Prime Visibility
+sdfje.com:Prime Visibility
+adcde.com:Prime Visibility
+adonnetwork.com:Prime Visibility
+addlvr.com:Prime Visibility
+dashboardad.net:Prime Visibility
+urtbk.com:Prime Visibility
+adtrgt.com:Prime Visibility
+cptgt.com:Prime Visibility
+cpvtgt.com:Prime Visibility
+popcde.com:Prime Visibility
+reson8.com:Resonate
+resonateinsights.com:Resonate
+resonatenetworks.com:Resonate
+switchconcepts.co.uk:Switch
+switchadhub.com:Switch
+switchconcepts.com:Switch
+switchads.com:Switch
+tweetup.com:UberMedia
+ubermedia.com:UberMedia
+adtegrity.com:Adtegrity.com
+adtegrity.net:Adtegrity.com
+fulltango.com:VDX
+vdx.tv:VDX
+adotube.com:VDX
+tribalfusion.com:VDX
+exponential.com:VDX
+adzly.com:adzly
+agilecrm.com:AgileCRM
+c3tag.com:C3 Metrics
+attributionmodel.com:C3 Metrics
+c3metrics.com:C3 Metrics
+usemax.de:Emego
+google.mw:Google
+google.si:Google
+googleadservices.com:Google
+google.co.in:Google
+google.co.ug:Google
+google.com.pr:Google
+google.it:Google
+invitemedia.com:Google
+google.at:Google
+google.be:Google
+google.com:Google
+google.com.np:Google
+google.ac:Google
+google.com.jm:Google
+google.pt:Google
+google.bf:Google
+google.ru:Google
+google.sc:Google
+google.ws:Google
+google.co.ls:Google
+google.ie:Google
+google.rs:Google
+google.com.gi:Google
+google.gm:Google
+google.kg:Google
+google.sm:Google
+abc.xyz:Google
+chromestatus.com:Google
+google.com.bo:Google
+googleusercontent.com:Google
+google.com.hk:Google
+google.ki:Google
+google.nu:Google
+google.tk:Google
+google.bi:Google
+google.co.bw:Google
+google.co.mz:Google
+google.co.zw:Google
+googlesource.com:Google
+google.co.za:Google
+google.gp:Google
+google.mv:Google
+google.rw:Google
+google.ca:Google
+google.co.tz:Google
+google.com.na:Google
+google.mu:Google
+crashlytics.com:Google
+google.ci:Google
+google.cz:Google
+google.ms:Google
+google.so:Google
+google-analytics.com:Google
+google.co.ao:Google
+google.com.gt:Google
+google.dm:Google
+google.ge:Google
+google.kz:Google
+google.se:Google
+google.tt:Google
+google.com.co:Google
+google.com.ly:Google
+google.com.tr:Google
+google.gg:Google
+google.com.cy:Google
+google.com.lb:Google
+googlesyndication.com:Google
+recaptcha.net:Google
+google.fm:Google
+google.gl:Google
+pinpoint-dot-chromeperf.appspot.com:Google
+blogspot.com:Google
+google.co.ck:Google
+google.com.my:Google
+google.com.sa:Google
+destinationurl.com:Google
+google.io:Google
+google.com.om:Google
+google.tm:Google
+apture.com:Google
+doubleclick.net:Google
+google.com.bd:Google
+gmodules.com:Google
+google.lk:Google
+google.com.fj:Google
+google.com.pe:Google
+google.com.ph:Google
+google.com.tw:Google
+google.cg:Google
+google.com.bn:Google
+google.com.mm:Google
+google.az:Google
+google.com.eg:Google
+google.pn:Google
+googletagservices.com:Google
+googleapis.com:Google
+google.as:Google
+google.bs:Google
+google.co.jp:Google
+google.sh:Google
+google.com.lc:Google
+google.com.br:Google
+google.fi:Google
+google.fr:Google
+google.tl:Google
+nest.com:Google
+ggpht.com:Google
+google.ad:Google
+google.com.bz:Google
+google.dj:Google
+google.nl:Google
+google.co.vi:Google
+google.vg:Google
+googlemail.com:Google
+google.com.sg:Google
+google.dz:Google
+google-melange.com:Google
+google.com.ag:Google
+postrank.com:Google
+google.co.uk:Google
+google.com.ar:Google
+google.com.py:Google
+dartsearch.net:Google
+google.ps:Google
+google.tn:Google
+blogger.com:Google
+google.com.gh:Google
+google.com.mx:Google
+google.is:Google
+google.com.ai:Google
+panoramio.com:Google
+cc-dt.com:Google
+google.co.ke:Google
+google.de:Google
+google.gy:Google
+google.hn:Google
+google.cn:Google
+google.co.kr:Google
+google.com.pa:Google
+google.bt:Google
+google.li:Google
+google.cc:Google
+google.com.sv:Google
+smtad.net:Google
+google.bj:Google
+google.com.ni:Google
+google.no:Google
+google.hr:Google
+google.co.zm:Google
+google.com.ec:Google
+google.dk:Google
+google.es:Google
+google.com.et:Google
+google.mg:Google
+google.tg:Google
+google.vu:Google
+google.lv:Google
+google.td:Google
+2mdn.net:Google
+google.gf:Google
+google.ne:Google
+google.cf:Google
+google.cm:Google
+google.com.bh:Google
+google.mk:Google
+google.pl:Google
+google.com.kh:Google
+google.com.pk:Google
+google.cl:Google
+google.com.vc:Google
+google.st:Google
+gmail.com:Google
+google.am:Google
+google.bg:Google
+google.by:Google
+google.cat:Google
+google.al:Google
+google.hu:Google
+google.lt:Google
+google.mn:Google
+admob.com:Google
+google.ba:Google
+google.com.do:Google
+google.cv:Google
+google.ga:Google
+google.com.sl:Google
+google.iq:Google
+google.to:Google
+google.co.nz:Google
+google.com.af:Google
+google.me:Google
+google.sk:Google
+google.com.qa:Google
+google.com.ua:Google
+google.nr:Google
+google.ch:Google
+google.co.th:Google
+google.com.cu:Google
+google.com.kw:Google
+google.com.mt:Google
+google.ml:Google
+gstatic.com:Google
+google.com.pg:Google
+google.gr:Google
+google.jo:Google
+youtube.com:Google
+google.co.id:Google
+google.com.au:Google
+google.com.ng:Google
+google.ee:Google
+google.co.uz:Google
+google.co.ve:Google
+google.com.nf:Google
+google.ro:Google
+google.la:Google
+ingress.com:Google
+googlevideo.com:Google
+admeld.com:Google
+google.com.sb:Google
+google.com.tj:Google
+google.im:Google
+google.ht:Google
+google.je:Google
+google.sn:Google
+google.co.cr:Google
+google.com.uy:Google
+google.ae:Google
+google.co.il:Google
+google.co.ma:Google
+google.md:Google
+google.com.vn:Google
+google.lu:Google
+google.com.tn:Google
+google.cd:Google
+arenaweb.ro:GTop
+gtop.ro:GTop
+gtopstats.com:GTop
+adplan-ds.com:Xrost DS
+adform.com:Adform
+adform.net:Adform
+adformdsp.net:Adform
+seadform.net:Adform
+yesware.com:Yesware
+ydworld.com:YD
+yieldivision.com:YD
+pricegrabber.com:Connexity
+connexity.net:Connexity
+connexity.com:Connexity
+sexinyourcity.com:SexInYourCity
+springmetrics.com:Spring Metrics
+clovenetwork.com:Clove Network
+branchez-vous.com:BV! MEDIA
+bvmedia.ca:BV! MEDIA
+networldmedia.com:BV! MEDIA
+networldmedia.net:BV! MEDIA
+platform-one.co.jp:PLATFORM ONE
+www.platform-one.co.jp:PLATFORM ONE
+bkrtx.com:BlueKai
+bluekai.com:BlueKai
+tracksimple.com:BlueKai
+showmeinn.com:Mobile Meteor
+mobilemeteor.com:Mobile Meteor
+telaria.com:Taleria
+freeskreen.com:Taleria
+tlvmedia.com:TLVMedia
+validity.com:Validity
+returnpath.net:Validity
+layer-ad.org:Layer-Ad.org
+adyield.com:AdYield
+aim4media.com:Aim4Media
+infra-ad.com:Infra-Ad
+stripe.com:Stripe
+stripe.network:Stripe
+vizury.com:Vizury
+aprecision.net:adPrecision
+adprecision.net:adPrecision
+adprs.net:adPrecision
+adside.com:AdSide
+doclix.com:AdSide
+blacklabelads.com:Black Label Ads
+facilitatedigital.com:Facilitate Digital
+adsfac.info:Facilitate Digital
+adsfac.sg:Facilitate Digital
+adsfac.eu:Facilitate Digital
+adsfac.net:Facilitate Digital
+adsfac.us:Facilitate Digital
+jemmgroup.com:Jemm
+mythings.com:myThings
+mythingsmedia.com:myThings
+uservoice.com:UserVoice
+admagnet.com:Ad Magnet
+admagnet.net:Ad Magnet
+clearsearchmedia.com:Clearsearch Media
+csm-secure.com:Clearsearch Media
+pathinteractive.com:Clearsearch Media
+hunter.io:Hunter
+impact.com:Impact
+fqtag.com:Impact
+iovation.com:iovation
+iesnare.com:iovation
+openeducat.org:OpenEDUCat
+techsolutions.com.tw:TechSolutions
+adfrontiers.com:AdFrontiers
+clickbooth.com:Clickbooth
+adtoll.com:Clickbooth
+konduto.com:Konduto
+k-analytix.com:Konduto
+liverail.com:LiveRail
+affbuzzads.com:MovieLush.com
+movielush.com:MovieLush.com
+adality.de:Adality
+adrtx.net:Adality
+blueshift.com:BlueShift
+getblueshift.com:BlueShift
+blutrumpet.com:Blu Trumpet
+axf8.net:Compuware
+compuware.com:Compuware
+dynatrace.com:Compuware
+gomez.com:Compuware
+contactatonce.com:Contact At Once!
+datranmedia.com:Datran Media
+displaymarketplace.com:Datran Media
+quakemarketing.com:Quake Marketing
+radarurl.com:RadarURL
+accordantmedia.com:Accordant Media
+yoggrt.com:Yoggrt
+buysellads.com:BuySellAds
+beaconads.com:BuySellAds
+eyenewton.ru:EyeNewton
+adultadworld.com:Adult AdWorld
+hyfn.com:Federated Media
+lijit.com:Federated Media
+federatedmedia.net:Federated Media
+fmpub.net:Federated Media
+phonalytics.com:Phonalytics
+pinterest.com:Pinterest
+pinterest.com.mx:Pinterest
+pinterest.ie:Pinterest
+pinterest.se:Pinterest
+pinterest.ch:Pinterest
+pinterest.fr:Pinterest
+pinterest.nz:Pinterest
+pinterest.pt:Pinterest
+pinterest.cl:Pinterest
+pinterest.co.kr:Pinterest
+pinterest.de:Pinterest
+pinterest.es:Pinterest
+pinterest.jp:Pinterest
+pinimg.com:Pinterest
+pinterest.at:Pinterest
+pinterest.co.uk:Pinterest
+pinterest.com.au:Pinterest
+pinterest.dk:Pinterest
+pinterest.ca:Pinterest
+thetradedesk.com:The Trade Desk
+adsrvr.org:The Trade Desk
+adternal.com:Tisoomi
+tisoomi.com:Tisoomi
+tidaltv.com:Videology
+videologygroup.com:Videology
+ysance.com:YSance
+y-track.com:YSance
+eyereturnmarketing.com:eyeReturn Marketing
+eyereturn.com:eyeReturn Marketing
+adcentriconline.com:Skupe Net
+skupenet.com:Skupe Net
+undertone.com:Undertone
+undertonevideo.com:Undertone
+undertonenetworks.com:Undertone
+4mads.com:4mads
+emailtracker.website:EmailTrackerWebsite
+metrixlab.com:MetrixLab
+opinionbar.com:MetrixLab
+adoftheyear.com:MetrixLab
+crm-metrix.com:MetrixLab
+customerconversio.com:MetrixLab
+sunmedia.tv:Sunmedia
+technorati.com:Technorati
+technoratimedia.com:Technorati
+clixmetrix.com:ClixMetrix
+admatrix.jp:AdMatrix
+admized.com:Admized
+andbeyond.media:AndBeyond
+capitaldata.fr:CAPITALDATA
+bnmla.com:engage:BDR
+engagebdr.com:engage:BDR
+mailerlite.com:MailerLite
+merchenta.com:Merchenta
+admanmedia.com:AdmanMedia
+rlcdn.net:ReachLocal
+reachlocal.com:ReachLocal
+onead.com.tw:OneAd
+guoshipartners.com:OneAd
+onevision.com.tw:OneAd
+bloomreach.com:BloomReach
+brcdn.com:BloomReach
+brsrvr.com:BloomReach
+exponea.com:BloomReach
+pixanalytics.com:PixAnalytics
+movabletype.com:Six Apart
+sixapart.com:Six Apart
+barilliance.com:Barilliance
+atompark.com:AtomPark
+dynata.com:Dynata
+getsatisfaction.com:Get Satisfaction
+adnetwork.net:AdNetwork.net
+datalogix.com:Datalogix
+nexac.com:Datalogix
+nextaction.net:Datalogix
+moat.com:Moat
+moatads.com:Moat
+peerius.com:Peerius
+symplify.com:Symplify
+cdn-sitegainer.com:Symplify
+sitegainer.com:Symplify
+tonefuse.com:ToneFuse
+woowup.com:WoowUp
+bufferapp.com:Buffer
+greenarrowemail.com:GreenArrow
+gasv1.com:GreenArrow
+rhythmone.com:Rhythm
+1rx.io:Rhythm
+rhythmnewmedia.com:Rhythm
+rhythmxchange.com:Rhythm
+rnmd.net:Rhythm
+searchforce.com:SearchForce
+searchforce.net:SearchForce
+turntonetworks.com:TurnTo
+turnto.com:TurnTo
+xad.com:xAd
+clipsyndicate.com:ClipSyndicate
+admedo.com:Admedo
+adventive.com:Adventive
+appier.com:Appier
+appier.net:Appier
+atoomic.com:Atoomic.com
+directcorp.de:DirectCORP
+ipcounter.de:DirectCORP
+lucidmedia.com:LucidMedia
+sift.com:SiftScience
+siftscience.com:SiftScience
+adjug.com:AdJug
+viralhosts.com:ViralHosts
