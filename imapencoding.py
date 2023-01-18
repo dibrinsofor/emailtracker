@@ -3,10 +3,11 @@ from os.path import join, dirname, exists
 import re
 import sqlite3
 from dotenv import load_dotenv
-from imaplib import IMAP4_SSL, IMAP4
+from imaplib import IMAP4_SSL
 import html2text
 from datetime import datetime
 from csv import writer
+from tld import get_fld
 
 
 dotenv_path = join(dirname(__file__), '.env')
@@ -43,7 +44,7 @@ class Email():
         pass
 
 class EmailAdd():
-    def __init__(self, month, year, domain_name, secure_links, unsecure_links, tracking_service):
+    def __init__(self, month, year, domain_name, tracking_service, secure_links, unsecure_links):
         # we want to know the year of mail, number of secure links, number of unsecure links, company name or 
         self.month = month
         self.year = year
@@ -54,7 +55,7 @@ class EmailAdd():
 
     def append_file(self):
         with open("results_data.csv", "a", encoding="utf-8") as f:
-            row = [self.month, self.year, self.domain_name, self.secure_links, self.unsecure_links, self.tracking_service]
+            row = [self.month, self.year, self.domain_name, self.tracking_service, self.secure_links, self.unsecure_links]
             writer(f).writerow(row)
 
 def login_mail_client(email_address, password):
@@ -76,27 +77,38 @@ def login_mail_client(email_address, password):
     return mail
 
 # TODO: move to own file, init_db.py
-def create_sqlite_connection():
+def create_sqlite_connection(table_name):
 
     conn = None
     try:
         conn = sqlite3.connect("instance/emailtracker.db")
     except sqlite3.Error as e:
         print('Error occured - ', e)
-
-    # how do we close db connection
-
+    
     cursor = conn.cursor()
 
-    init_table = '''CREATE TABLE IF NOT EXISTS EMAIL_DUMP (
-    email_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-    domain VARCHAR(50),
-    secure_links INTEGER,
-    unsecure_links INTEGER,
-    email_date TIMESTAMP,
-    tracking_service VARCHAR(100));'''
+    if table_name == "EMAIL_DUMP": 
+        init_table = '''CREATE TABLE IF NOT EXISTS EMAIL_DUMP (
+        email_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+        domain VARCHAR(50),
+        secure_links INTEGER,
+        unsecure_links INTEGER,
+        email_date TIMESTAMP,
+        tracking_service VARCHAR(100)
+        );'''
 
-    cursor.execute(init_table)
+        cursor.execute(init_table)
+
+    elif table_name == "COMPANIES":
+        init_table = '''CREATE TABLE IF NOT EXISTS COMPANIES (
+        id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+        domain VARCHAR(50),
+        company VARCHAR(50)
+        );'''
+
+        # consider indexing domain
+
+        cursor.execute(init_table)
 
     return conn
 
@@ -109,6 +121,19 @@ def persist_email(conn, email_data):
     cursor.execute(insert_sql, email_data)
 
     conn.commit()
+    # conn.close()
+
+def get_company(domain):
+    conn = create_sqlite_connection("COMPANIES")
+    cursor = conn.cursor()
+    data = cursor.execute("SELECT company FROM COMPANIES WHERE domain=?", (domain,))
+    company = data.fetchone()
+    conn.close()
+    if company is None:
+        return domain
+        # TODO: let's collect domains that aren't found.
+
+    return company[0]
 
 def get_mail(mail):
     if exists("email_dump.txt"):
@@ -120,27 +145,25 @@ def get_mail(mail):
         pass
     else:
         with open("results_data.csv", "w", encoding='utf-8') as f:
-            header = ['Month', 'Year', 'Domain', 'Secure', 'Unsecure', 'Tracking Service']
+            header = ['Month', 'Year', 'Domain', 'Tracking Service', 'Secure', 'Unsecure']
             cursor = writer(f)
             cursor.writerow(header)
     
     count_table = "SELECT Count(email_id) from EMAIL_DUMP;"
-    conn = create_sqlite_connection()
+    conn = create_sqlite_connection("EMAIL_DUMP")
     cursor = conn.cursor()
     cursor.execute(count_table)
     last_email_checked = cursor.fetchone()[0]
+    print(last_email_checked)
 
-    try:
-        status, response = mail.select("INBOX", False)
-        if status == 'OK':
-            print("SUCCESS\n")
-            total = process_mail(mail, last_email_checked)
-            mail.close()
-            return total
-        else:
-            print("ERROR: Unable to open mailbox ", status)
-    except IMAP4.error:
-        print ("LOGIN FAILED")
+    status, response = mail.select("INBOX", False)
+    if status == 'OK':
+        print("SUCCESS\n")
+        total = process_mail(mail, last_email_checked)
+        mail.close()
+        return total
+    else:
+        print("ERROR: Unable to open mailbox ", status)
 
     mail.logout()
 
@@ -152,12 +175,12 @@ def header_decode(header):
         hdr += text
     return hdr
 
-# TODO: we are not curently scanning the first email. fix that 
+# TODO: we are not curently scanning the first email. fix that
 def process_mail(mail, start):
     no_links_found = 0
     emails_scanned = 0
 
-    conn = create_sqlite_connection()
+    conn = create_sqlite_connection("EMAIL_DUMP")
     #learn how cursors work does it matter when they get invoked is it memory intensive
 
     status, response = mail.search(None, "(ALL)")
@@ -198,6 +221,8 @@ def process_mail(mail, start):
 
                 tracking_service = re.search(tracking_pattern, str(received_spf))
                 tracking_service = tracking_service.group(1)
+                fld = get_fld(tracking_service, fix_protocol=True)
+                tracking_service = get_company("{}".format(fld))
             
                 mail_server = re.search(server_pattern, str(received_spf))
                 mail_server = mail_server.group(1)
@@ -215,7 +240,6 @@ def process_mail(mail, start):
 
             # print(message.keys())
             # keys => ['Delivered-To', 'Received', 'X-Received', 'ARC-Seal', 'ARC-Message-Signature', 'ARC-Authentication-Results', 'Return-Path', 'Received', 'Received-SPF', 'Authentication-Results', 'DKIM-Signature', 'X-Google-DKIM-Signature', 'X-Gm-Message-State', 'X-Google-Smtp-Source', 'MIME-Version', 'X-Received', 'Date', 'Reply-To', 'Precedence', 'List-Unsubscribe', 'Feedback-ID', 'List-Id', 'X-Notifications', 'X-Notifications-Bounce-Info', 'Message-ID', 'Subject', 'From', 'To', 'Content-Type']
-
 
             if message.is_multipart():
                 for part in message.walk():
@@ -310,7 +334,7 @@ def process_mail(mail, start):
             # if mail_server[0] == "[":
             #     mail_server = mail_server[1:-1]
 
-            table_data = EmailAdd(month, date.year, domain_name, secure_links, unsecure_links, tracking_service)
+            table_data = EmailAdd(month, date.year, domain_name, tracking_service, secure_links, unsecure_links)
             table_data.append_file()
             
             data = (None, domain_name, secure_links, unsecure_links, date, tracking_service)
