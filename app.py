@@ -6,8 +6,6 @@ import pandas
 from imapencoding import login_mail_client, get_mail
 import seaborn as sns
 import matplotlib.pyplot as plt
-from io import BytesIO
-import base64
 from numpy import count_nonzero, min, max, arange
 import json
 import plotly
@@ -31,6 +29,8 @@ class Users(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     results = db.Column(db.String) # contents of the generated .txt file.
     email = db.Column(db.String(40)) # maybe some domains recieve more unecrypted mails
+    emails_scanned = db.Column(db.Integer)
+    links_found = db.Column(db.Integer)
     createdAt = db.Column(db.DateTime, default=datetime)
 
     def __repr__(self):
@@ -52,8 +52,6 @@ def index():
         if request.headers.get('all-links-found'):
             links_found += request.headers.get('all-links-found')
             
-
-        # onclick of ticks maybe display emails from that month/year for graphs
         unsecureJSON = unsecure_plot()
         secureJSON = secure_plot()
         totalJSON = total_plot()
@@ -66,7 +64,7 @@ def index():
     else:
         return render_template("index.html") 
 
-# not exposed. check if jwt exists or redirect back to index. is this even necessary? just a redirect is fine
+# not exposed. check if jwt exists or redirect back to index
 @app.route("/results")
 def results():
     return render_template("results.html")
@@ -92,34 +90,32 @@ def pubs():
 def sanitize(security_level):
     # TODO take type as argument. Secure or Unsecure
     results = defaultdict(list)
-    # max_freq = 0
 
     csv = pandas.read_csv(r'results_data.csv')
 
-    companies = csv['Domain'].unique()
-    years = csv['Year'].unique() #is this sorted? do we search from most recent and back? if we do then sort this
+    companies = csv['Tracking Service'].unique()
+    years = csv['Year'].unique() 
 
-    if len(years) < 3:
-        # add month column to csv and if years too small combine cols
+    if len(years) < 5:
         csv['Date'] = csv['Month'].astype(str) +" "+ csv['Year'].astype(str)
         years = csv['Date'].unique()
-
-    results["Years"].extend(years)
+        results["Years"].extend(years)
+    else:
+        results["Years"].extend(years)
 
     for company in companies:
-        # check company against each year for freq 
-        # add freq to dict with company name as key
-        # if no email that year add 0 to freq
         count = 0
         while len(years) > count:
-            # results[years].append(years[0])
-            try:
-                company_df = csv.query("Domain == '{}' and Year == {}".format(company, years[count]))[security_level]
-            except:
-                company_df = csv.query("Domain == '{}' and Date == '{}'".format(company, years[count]))[security_level]
-            freq = count_nonzero(company_df)
+            print(years[count])
+            if type(years[count]) == str:
+                company_df = csv[(csv['Tracking Service'] == company) & (csv['Date'] == years[count])]
+            elif type(years[count]) == int:
+                company_df = csv[(csv['Tracking Service'] == company) & (csv['Year'] == years[count])]
+
+            freq = count_nonzero(company_df[security_level])
             results[company].append(freq)
             count += 1
+    
     return results, years
 
 def unsecure_plot():
@@ -135,8 +131,6 @@ def unsecure_plot():
     fig.update_layout(
         xaxis = dict(
             tickmode = 'array',
-            # tickvals = arange(min(years), max(years)+1),
-            # ticktext = arange(min(years), max(years)+1)
             tickvals = years,
             ticktext = years
         ),
@@ -164,16 +158,12 @@ def secure_plot():
     top_5 = df.drop(['Years'], axis=1).sum(axis = 0, skipna = True).nlargest(5).index.to_list()
     df = df[df.columns.intersection(top_5)]
     df["Years"] = years
-
-    print("Secure DataFrame\n{}\n===".format(df))
     
     fig = px.line(df, x="Years", y=top_5, markers=True)
 
     fig.update_layout(
         xaxis = dict(
             tickmode = 'array',
-            # tickvals = arange(min(years), max(years)+1),
-            # ticktext = arange(min(years), max(years)+1)
             tickvals = years,
             ticktext = years
         ),
@@ -200,16 +190,12 @@ def total_plot():
 
     secure_df = pandas.DataFrame.from_dict(secure_results)
     secure_df = secure_df.drop(['Years'], axis=1)
-    print("Secure DF weird\n{}\n===".format(secure_df))
 
     unsecure_df = pandas.DataFrame.from_dict(unsecure_results)
     unsecure_df = unsecure_df.drop(['Years'], axis=1)
 
     secure_rows = count_nonzero(secure_df, axis=1)
     unsecure_rows = count_nonzero(unsecure_df, axis=1)
-
-    print("Secure Rows\n{}\n===type: {}".format(secure_rows, type(secure_rows)))
-    print("Unsecure Rows\n{}\n===".format(unsecure_rows))
 
     if len(secure_rows) == len(unsecure_rows):
         new_list = [0] * (len(secure_rows))
@@ -221,8 +207,7 @@ def total_plot():
         for index, val in enumerate(unsecure_rows):
             if new_list[index] < unsecure_rows[index]:
                 new_list[index] = unsecure_rows[index]
-        print(new_list)
-    # else use max list tentative
+
     if len(secure_years) > len(unsecure_years):
         years = secure_years
     else:
@@ -233,8 +218,6 @@ def total_plot():
     fig.update_layout(
         xaxis = dict(
             tickmode = 'array',
-            # tickvals = arange(min(years), max(years)+1),
-            # ticktext = arange(min(years), max(years)+1)
             tickvals = years,
             ticktext = years
         ),
@@ -254,7 +237,7 @@ def total_plot():
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
 
     return graphJSON
-
     
 if __name__ == "__main__":
+    # todo: init company table on start if not exists
     app.run()
