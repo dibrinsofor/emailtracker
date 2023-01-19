@@ -1,4 +1,3 @@
-import sqlite3
 from imapencoding import create_sqlite_connection
 
 # def create_sqlite_connection():
@@ -37,7 +36,6 @@ def get_company_data(conn):
         for line in f:
             line = line.strip()
             column = line.split(":")
-            # print(column[1])
 
             data = (None, column[0], column[1])
             persist_email(conn, data)
