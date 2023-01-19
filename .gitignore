@@ -19,6 +19,6 @@ sample_email_dump.txt
 /instance
 email_dump.txt
 results_data.csv
-imapencoding.py
 instance/emailtracker.db
 instance/emailtracker.db-journal
+build.py

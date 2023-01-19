@@ -15,7 +15,9 @@ emailtracker allows users detect whether or not mail in their inbox is being tra
   - `python -m virtualenv venv`
   - `venv\scripts\activate` 
 - install the project dependencies in `requirements.txt`
-  - `pip install -r requirements.txt`
+  - `pip install -r requirements.txt
+- setup local registry of known adtracking companies:
+  - `python companies.py`
 <!-- - setup sqlite db
   - run `flask shell` in your terminal. *it imports the app context for `db.engine commands`*
   - run `db.create_all()` -->
