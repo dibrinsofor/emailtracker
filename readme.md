@@ -14,19 +14,21 @@ emailtracker allows users detect whether or not mail in their inbox is being tra
 - (recommended) activate a virtual env
   - `python -m virtualenv venv`
   - `venv\scripts\activate` 
-- install the project dependencies in `requirements.txt`
+- run build script `python build.py -s` to setup development environment
+<!-- - install the project dependencies in `requirements.txt`
   - `pip install -r requirements.txt
 - setup local registry of known adtracking companies:
-  - `python companies.py`
+  - `python companies.py` -->
 <!-- - setup sqlite db
   - run `flask shell` in your terminal. *it imports the app context for `db.engine commands`*
   - run `db.create_all()` -->
 
 ### using
-- to run on a self-signed https server:
+- to run:
+  - `python build.py -f (debug)` to setup environment and run the app, or
   - `flask --debug run` 
 
-After running successfully, open `email_dump.txt` to see generated email data.
+You can also setup the environment and spin up the server by running `python build.py` with no flags.
 
 #### Third-Party app passwords
 To generate third-party app passwords, use these links: [Gmail](https://www.lifewire.com/get-a-password-to-access-gmail-by-pop-imap-2-1171882) and [Yahoo](https://www.esofttools.com/blog/how-to-generate-third-party-app-passwords-in-yahoo-account/).
