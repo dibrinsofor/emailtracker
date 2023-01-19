@@ -21,4 +21,3 @@ email_dump.txt
 results_data.csv
 instance/emailtracker.db
 instance/emailtracker.db-journal
-build.py
