@@ -199,9 +199,9 @@ def get_count():
     emails_scanned = row[1]
     links_found = row[2]
 
-    print("emails_scanned: {}".format(emails_scanned))
-    print("links_found: {}".format(links_found))
-    print(row)
+    # print("emails_scanned: {}".format(emails_scanned))
+    # print("links_found: {}".format(links_found))
+    # print(row)
 
     return emails_scanned, links_found
 

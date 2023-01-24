@@ -55,7 +55,9 @@ def index():
         secureJSON = secure_plot()
         totalJSON = total_plot()
 
-        resp = Response(render_template("results.html", email_scanned=email_scanned, links_found=links_found, unsecureJSON=unsecureJSON, secureJSON=secureJSON, totalJSON=totalJSON))
+        company, company_year = additional_data()
+
+        resp = Response(render_template("results.html", email_scanned=email_scanned, links_found=links_found, unsecureJSON=unsecureJSON, secureJSON=secureJSON, totalJSON=totalJSON, company=company, company_year=company_year))
         
         return resp 
     else:
@@ -103,7 +105,6 @@ def sanitize(security_level):
     for company in companies:
         count = 0
         while len(years) > count:
-            print(years[count])
             if type(years[count]) == str:
                 company_df = csv[(csv['Tracking Service'] == company) & (csv['Date'] == years[count])]
             elif type(years[count]) == int:
@@ -155,6 +156,9 @@ def secure_plot():
     top_5 = df.drop(['Years'], axis=1).sum(axis = 0, skipna = True).nlargest(5).index.to_list()
     df = df[df.columns.intersection(top_5)]
     df["Years"] = years
+
+    top_1 = df.drop(['Years'], axis=1).sum(axis = 0, skipna = True).nlargest(1).index.to_list()
+    print(top_1[0])
     
     fig = px.line(df, x="Years", y=top_5, markers=True)
 
@@ -234,6 +238,18 @@ def total_plot():
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
 
     return graphJSON
+
+def additional_data():
+    csv_results, years = sanitize('Secure')
+    
+    df = pandas.DataFrame.from_dict(csv_results)
+    top_1_company = df.drop(['Years'], axis=1).sum(axis = 0, skipna = True).nlargest(1).index.to_list()
+    emails_sent = df[top_1_company[0]].max()
+    test = df[top_1_company[0]] == emails_sent
+    test = df.loc[test]
+    top_year = test['Years'].to_list()
+
+    return top_1_company[0], top_year[0]
     
 if __name__ == "__main__":
     # todo: init company table on start if not exists
