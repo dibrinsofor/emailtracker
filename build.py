@@ -1,6 +1,7 @@
 import os
 import sqlite3
 from datetime import datetime
+import time
 from dotenv import load_dotenv
 import sys
 
@@ -14,9 +15,11 @@ if len(sys.argv) < 1:
 def setup_environment():
     # install proj dependencies
     print("Installing project dependencies...")
-    os.system("pip install -r requirements.txt")
+    os.system("pip install -r requirements.txt >/dev/null 2>&1")
+    time.sleep(1)
     # check if companies.py exists and is up to date
     print("Checking if company registry is up to date...")
+    time.sleep(1)
     try:
         try:
             conn = sqlite3.connect("instance/emailtracker.db")
@@ -41,6 +44,7 @@ def setup_environment():
         conn = sqlite3.connect('./instance/emailtracker.db')
         cursor = conn.cursor()
         cursor.execute('''DROP TABLE IF EXISTS EMAIL_DUMP''')
+        cursor.execute('''DROP TABLE IF EXISTS SCAN_DATA''') #TODO: figure out the multi user bit and take this out.
         print("Dropping stale tables")
         conn.commit()
         conn.close()
@@ -81,6 +85,7 @@ def run_build(flag, name=None):
         # move old files around if exist
         setup_environment()
         print("All set! You can now run `python build.py -f` or `flask run` to run your developent server.")
+
     else:
         # run full build: setup environment and spin up a development server
         setup_environment()

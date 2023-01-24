@@ -43,22 +43,19 @@ def index():
         email_address = request.form.get('email')
         password = request.form.get('password')
 
-
         mail = login_mail_client(email_address, password)
-        links_found, email_scanned = get_mail(mail)
+        email_scanned, links_found = get_mail(mail)
 
-        if request.headers.get('total-emails-scanned'):
-            email_scanned += request.headers.get('total-emails-scanned')
-        if request.headers.get('all-links-found'):
-            links_found += request.headers.get('all-links-found')
+        # if request.headers.get('total-emails-scanned'):
+        #     email_scanned += request.headers.get('total-emails-scanned')
+        # if request.headers.get('all-links-found'):
+        #     links_found += request.headers.get('all-links-found')
             
         unsecureJSON = unsecure_plot()
         secureJSON = secure_plot()
         totalJSON = total_plot()
 
         resp = Response(render_template("results.html", email_scanned=email_scanned, links_found=links_found, unsecureJSON=unsecureJSON, secureJSON=secureJSON, totalJSON=totalJSON))
-        resp.headers['total-emails-scanned'] = email_scanned
-        resp.headers['all-links-found'] = links_found
         
         return resp 
     else:

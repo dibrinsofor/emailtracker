@@ -110,6 +110,17 @@ def create_sqlite_connection(table_name):
 
         cursor.execute(init_table)
 
+    elif table_name == "SCAN_DATA":
+        init_table = '''CREATE TABLE IF NOT EXISTS SCAN_DATA (
+        id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+        emails_scanned INTEGER,
+        links_found INTEGER
+        );'''
+
+
+        cursor.execute(init_table)
+        cursor.execute('''INSERT INTO "SCAN_DATA"(emails_scanned, links_found) SELECT 0, 0 WHERE NOT EXISTS (SELECT * FROM "SCAN_DATA")''')
+
     return conn
 
 def persist_email(conn, email_data):
@@ -159,13 +170,16 @@ def get_mail(mail):
     status, response = mail.select("INBOX", False)
     if status == 'OK':
         print("SUCCESS\n")
-        total = process_mail(mail, last_email_checked)
+        process_mail(mail, last_email_checked)
         mail.close()
-        return total
     else:
         print("ERROR: Unable to open mailbox ", status)
 
     mail.logout()
+
+    emails_scanned, links_found = get_count()
+
+    return emails_scanned, links_found
 
 def header_decode(header):
     hdr = ""
@@ -174,6 +188,35 @@ def header_decode(header):
             text = text.decode(encoding or "us-ascii")
         hdr += text
     return hdr
+
+def get_count():
+    conn = create_sqlite_connection("SCAN_DATA")
+    cursor = conn.cursor()
+    data = cursor.execute("SELECT * FROM SCAN_DATA")
+    row = data.fetchone()
+    conn.close()
+
+    emails_scanned = row[1]
+    links_found = row[2]
+
+    print("emails_scanned: {}".format(emails_scanned))
+    print("links_found: {}".format(links_found))
+    print(row)
+
+    return emails_scanned, links_found
+
+def update_count(emails_scanned, links_found):
+    conn = create_sqlite_connection("SCAN_DATA")
+    conn.isolation_level = None
+    cursor = conn.cursor()
+
+    cursor.execute("begin")
+    try:
+        cursor.execute(f"update SCAN_DATA set emails_scanned = (emails_scanned) + {emails_scanned} where id = 1")
+        cursor.execute(f"update SCAN_DATA set links_found = (links_found) + {links_found} where id = 1")
+        cursor.execute("commit")
+    except conn.Error:
+        cursor.execute("rollback")
 
 # TODO: we are not curently scanning the first email. fix that
 def process_mail(mail, start):
@@ -340,7 +383,12 @@ def process_mail(mail, start):
             data = (None, domain_name, secure_links, unsecure_links, date, tracking_service)
             persist_email(conn, data)
 
-    return no_links_found, emails_scanned
+            # is table empty? if no get val and add to no_links_found and emails_scanned
+            # what happens if something fails
+
+    update_count(emails_scanned, no_links_found)
+
+    # return no_links_found, emails_scanned
 
 def Find_tracking_pixels(html: str) -> str:
     tracking_links = ""
