@@ -1,12 +1,14 @@
 from flask import Flask, render_template, request, send_file, Response
-from flask_sqlalchemy import SQLAlchemy
-from datetime import datetime
+# from flask_sqlalchemy import SQLAlchemy
+# from datetime import datetime
+
+import hashlib
 
 import pandas
-from imapencoding import login_mail_client, get_mail
-import seaborn as sns
-import matplotlib.pyplot as plt
-from numpy import count_nonzero, min, max, arange
+from imapencoding import login_mail_client, get_mail, get_user, add_user
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+from numpy import count_nonzero
 import json
 import plotly
 import plotly.express as px
@@ -16,25 +18,14 @@ import matplotlib
 matplotlib.use('Agg')
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///emailtracker.db'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///emailtracker.db'
 app.debug = True
 
-db = SQLAlchemy(app)
+# db = SQLAlchemy(app)
 
 # limit scan to x number of emails for performance, 
 # give option increase number. is date a better quantifier?
 # ---
-# consider storing the number of emails scanned and maybe some of the other data we'd need for results.html upfront
-class Users(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    results = db.Column(db.String) # contents of the generated .txt file.
-    email = db.Column(db.String(40)) # maybe some domains recieve more unecrypted mails
-    emails_scanned = db.Column(db.Integer)
-    links_found = db.Column(db.Integer)
-    createdAt = db.Column(db.DateTime, default=datetime)
-
-    def __repr__(self):
-        return '<email %r>' % self.createdAt
 
 @app.route("/home")
 @app.route("/", methods=['POST', 'GET'])
@@ -43,26 +34,36 @@ def index():
         email_address = request.form.get('email')
         password = request.form.get('password')
 
-        mail = login_mail_client(email_address, password)
-        email_scanned, links_found = get_mail(mail)
+        # hash email
+        email_md5 = hashlib.md5(email_address.encode())
+        email_md5 = email_md5.hexdigest()
 
-        # if request.headers.get('total-emails-scanned'):
-        #     email_scanned += request.headers.get('total-emails-scanned')
-        # if request.headers.get('all-links-found'):
-        #     links_found += request.headers.get('all-links-found')
-            
-        unsecureJSON = unsecure_plot()
-        secureJSON = secure_plot()
-        totalJSON = total_plot()
+        # is hash in users table?
+        user = get_user(email_md5)
+        if user != "":
+            # user exists, perform incremental scan
+            mail = login_mail_client(email_address, password)
+            email_scanned, links_found = get_mail(mail, email_md5)
+        else:
+            # user does not exist, scan email
+            mail = login_mail_client(email_address, password)
+            email_scanned, links_found = get_mail(mail, email_md5)
 
-        company, company_year = additional_data()
+            user_data = (email_md5, email_scanned, links_found, None)
+            add_user(user_data, email_md5)
+
+        # TODO: setup graph render from user scan
+        unsecureJSON = unsecure_plot(email_md5)
+        secureJSON = secure_plot(email_md5)
+        totalJSON = total_plot(email_md5)
+
+        company, company_year = additional_data(email_md5)
 
         resp = Response(render_template("results.html", email_scanned=email_scanned, links_found=links_found, unsecureJSON=unsecureJSON, secureJSON=secureJSON, totalJSON=totalJSON, company=company, company_year=company_year))
         
         return resp 
     else:
         return render_template("index.html") 
-
 # not exposed. check if jwt exists or redirect back to index
 @app.route("/results")
 def results():
@@ -86,11 +87,10 @@ def team():
 def pubs():
     return render_template("pubs.html")
 
-def sanitize(security_level):
-    # TODO take type as argument. Secure or Unsecure
+def sanitize(security_level, email_md5):
     results = defaultdict(list)
 
-    csv = pandas.read_csv(r'results_data.csv')
+    csv = pandas.read_csv(r'{}_results_data.csv'.format(email_md5))
 
     companies = csv['Tracking Service'].unique()
     years = csv['Year'].unique() 
@@ -116,8 +116,8 @@ def sanitize(security_level):
     
     return results, years
 
-def unsecure_plot():
-    csv_results, years = sanitize('Unsecure')
+def unsecure_plot(email_md5):
+    csv_results, years = sanitize('Unsecure', email_md5)
     
     df = pandas.DataFrame.from_dict(csv_results)
     top_5 = df.drop(['Years'], axis=1).sum(axis = 0, skipna = True).nlargest(5).index.to_list()
@@ -149,8 +149,8 @@ def unsecure_plot():
 
     return graphJSON
 
-def secure_plot():
-    csv_results, years = sanitize('Secure')
+def secure_plot(email_md5):
+    csv_results, years = sanitize('Secure', email_md5)
     
     df = pandas.DataFrame.from_dict(csv_results)
     top_5 = df.drop(['Years'], axis=1).sum(axis = 0, skipna = True).nlargest(5).index.to_list()
@@ -185,9 +185,9 @@ def secure_plot():
 
     return graphJSON
 
-def total_plot():
-    secure_results, secure_years = sanitize('Secure')
-    unsecure_results, unsecure_years = sanitize('Unsecure')
+def total_plot(email_md5):
+    secure_results, secure_years = sanitize('Secure', email_md5)
+    unsecure_results, unsecure_years = sanitize('Unsecure', email_md5)
 
     secure_df = pandas.DataFrame.from_dict(secure_results)
     secure_df = secure_df.drop(['Years'], axis=1)
@@ -239,8 +239,8 @@ def total_plot():
 
     return graphJSON
 
-def additional_data():
-    csv_results, years = sanitize('Secure')
+def additional_data(email_md5):
+    csv_results, years = sanitize('Secure', email_md5)
     
     df = pandas.DataFrame.from_dict(csv_results)
     top_1_company = df.drop(['Years'], axis=1).sum(axis = 0, skipna = True).nlargest(1).index.to_list()
@@ -252,5 +252,4 @@ def additional_data():
     return top_1_company[0], top_year[0]
     
 if __name__ == "__main__":
-    # todo: init company table on start if not exists
     app.run()

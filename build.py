@@ -4,6 +4,11 @@ from datetime import datetime
 import time
 from dotenv import load_dotenv
 import sys
+import subprocess
+import glob
+
+
+# for windows use subprocess. for mac/linux use os.system
 
 load_dotenv()
 if len(sys.argv) > 3:
@@ -15,11 +20,11 @@ if len(sys.argv) < 1:
 def setup_environment():
     # install proj dependencies
     print("Installing project dependencies...")
-    os.system("pip install -r requirements.txt >/dev/null 2>&1")
-    time.sleep(1)
+    # os.system("pip install -r requirements.txt >/dev/null 2>&1")
+    subprocess.call(["pip",  "install", "-r", "requirements.txt", ">/dev/null 2>&1"], shell=True)
+    
     # check if companies.py exists and is up to date
     print("Checking if company registry is up to date...")
-    time.sleep(1)
     try:
         try:
             conn = sqlite3.connect("instance/emailtracker.db")
@@ -36,7 +41,8 @@ def setup_environment():
             print("Company registry is up to date")
     except sqlite3.OperationalError:
         # create and fill table
-        os.system("python3 companies.py")
+        # os.system("python3 companies.py")
+        subprocess.call(["python3", "companies.py"], shell=True)
         print("Company registry is up to date")
 
     if os.path.exists("./instance/emailtracker.db"):
@@ -51,12 +57,16 @@ def setup_environment():
         pass
     else:
         pass
+
     # move old files around if exist
-    if os.path.exists("email_dump.txt") or os.path.exists("results_data.csv"):
+    email_dump_path = glob.glob("*_email_dump.txt")
+    results_data_path = glob.glob("*_results_data.csv")
+
+    if os.path.exists(email_dump_path[0]) or os.path.exists(results_data_path[0]):
         path = "old_scans"
 
-        last_modified_dump = os.path.getmtime("email_dump.txt")
-        last_modified_csv = os.path.getmtime("results_data.csv")
+        last_modified_dump = os.path.getmtime(email_dump_path)
+        last_modified_csv = os.path.getmtime(results_data_path)
 
         last_modified_dump = datetime.fromtimestamp(last_modified_dump)
         last_modified_csv = datetime.fromtimestamp(last_modified_csv)
@@ -74,9 +84,11 @@ def run_build(flag, name=None):
     if flag == "-f":
         # run flask app
         if name == "debug":
-            os.system("flask --debug run")
+            # os.system("flask --debug run")
+            subprocess.call(["flask", "--debug", "run"], shell=True)
         else:
-            os.system("flask run")
+            # os.system("flask run")
+            subprocess.call(["flask", "run"], shell=True)
 
     elif flag == "-s":
         # setup environment
@@ -91,7 +103,8 @@ def run_build(flag, name=None):
         setup_environment()
         print("All set! Let's get the server up and running...")
         # run flask app 
-        os.system("flask run")
+        # os.system("flask run")
+        subprocess.call(["flask", "run"], shell=True)
 
 if __name__ == "__main__":
-    run_build(*sys.argv[1:])
+    run_build(*sys.argv[0:])
