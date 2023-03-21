@@ -25,3 +25,7 @@ nav  {
 #chart2 {
   align-self: center;
 }
+
+.table {
+  border: 1px solid black;
+}

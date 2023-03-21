@@ -76,6 +76,29 @@
     </div>
 </div>
 </center>
+<div class="tableTop">
+    <div class="chartTitle text-center mt-16">
+        <p class="text-lg ">Top 10 companies spying on you</p>
+        <p class="text-lg ">(Graph showing ranking of companies that track you)</p>
+    </div>
+    <center><div id="table-result" class="table-result mt-0"></div></center>
+    <script type='text/javascript'>
+        var graphs = {{ tableJSON | safe}};
+        Plotly.plot('table-result',graphs,{});
+    </script>
+</div>
+
+<div class="trackingChart">
+    <div class="chartTitle text-center mt-9">
+        <p class="text-lg ">Most popular ad/tracking services in your email</p>
+    </div>
+    <center><div id="table-result" class="table-result mt-0"></div></center>
+    <script type='text/javascript'>
+        var graphs = {{ tableJSON | safe}};
+        Plotly.plot('table-result',graphs,{});
+    </script>
+</div>
+
 <div class="text-lg text-center mt-16">
     <p>you can download all of your data here: <a href="{{ url_for('downloadFile', filename='email_dump.txt') }}" class="underline decoration-dotted text-blue-600">results.txt</a></p>
 </div>

@@ -1,31 +1,25 @@
 from flask import Flask, render_template, request, send_file, Response
-# from flask_sqlalchemy import SQLAlchemy
-# from datetime import datetime
 
 import hashlib
 
 import pandas
 from imapencoding import login_mail_client, get_mail, get_user, add_user
-# import seaborn as sns
-# import matplotlib.pyplot as plt
+
 from numpy import count_nonzero
 import json
 import plotly
 import plotly.express as px
+import plotly.graph_objects as go
 from collections import defaultdict
 
 import matplotlib
 matplotlib.use('Agg')
 
 app = Flask(__name__)
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///emailtracker.db'
 app.debug = True
 
-# db = SQLAlchemy(app)
+# todo: write companies that dont exist in disconnect me repo to own 'uncertain' file and take off further scans
 
-# limit scan to x number of emails for performance, 
-# give option increase number. is date a better quantifier?
-# ---
 
 @app.route("/home")
 @app.route("/", methods=['POST', 'GET'])
@@ -52,18 +46,20 @@ def index():
             user_data = (email_md5, email_scanned, links_found, None)
             add_user(user_data, email_md5)
 
-        # TODO: setup graph render from user scan
         unsecureJSON = unsecure_plot(email_md5)
         secureJSON = secure_plot(email_md5)
         totalJSON = total_plot(email_md5)
 
+        tableJSON = generate_table(email_md5)
+
         company, company_year = additional_data(email_md5)
 
-        resp = Response(render_template("results.html", email_scanned=email_scanned, links_found=links_found, unsecureJSON=unsecureJSON, secureJSON=secureJSON, totalJSON=totalJSON, company=company, company_year=company_year))
+        resp = Response(render_template("results.html", email_scanned=email_scanned, links_found=links_found, unsecureJSON=unsecureJSON, secureJSON=secureJSON, totalJSON=totalJSON, company=company, company_year=company_year, tableJSON=tableJSON))
         
         return resp 
     else:
         return render_template("index.html") 
+    
 # not exposed. check if jwt exists or redirect back to index
 @app.route("/results")
 def results():
@@ -250,6 +246,46 @@ def additional_data(email_md5):
     top_year = test['Years'].to_list()
 
     return top_1_company[0], top_year[0]
+
+
+def generate_table(email_md5):
+    results = defaultdict(list)
+
+    csv = pandas.read_csv(r'{}_results_data.csv'.format(email_md5))
+
+    companies = csv['Domain'].unique()
+    results['Rank'] = [x for x in range(len(companies))]
+    
+    for company in companies:
+        freq = csv['Domain'].value_counts()[company]
+        tracking_services = csv.query(f'Domain == "{company}"')['Tracking Service'].unique()
+
+        results["Company"].extend([company])
+        results["Emails Sent"].extend([freq])
+        results["Most Common Ad Tracking Services Found"].extend([list(tracking_services)])
+
+    df = pandas.DataFrame.from_dict(results)
+    df = df.sort_values('Emails Sent',ascending=False).head(10)
+    df['Rank'] = [x for x in range(1, 11)]
+
+        # values=list(df.columns),
+    fig = go.Figure(data=[go.Table(
+    columnorder = [1, 2, 3, 4],
+    columnwidth = [20, 30, 20, 30],
+    header=dict(values=["<b>Rank</b>", "<b>Company</b>", "<b>Emails Sent</b>", "<b>Tracking Services Used</b>"],
+                line_color='white', fill_color='white',
+                align='left', font=dict(color='black', size=16)),
+    cells=dict(values=[df.Rank, df.Company, df["Emails Sent"], df["Most Common Ad Tracking Services Found"]],
+               align='left', fill_color='white', font=dict(color='black', size=14)))
+])
+    
+    fig.update_layout(width=900, height=410,  paper_bgcolor='white', plot_bgcolor='black')
+
+    graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+
+    return graphJSON
+    
+
     
 if __name__ == "__main__":
     app.run()

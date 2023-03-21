@@ -275,7 +275,6 @@ def update_count(emails_scanned, links_found, email_md5):
         cursor.execute("update USERS set emails_scanned=? where id=?", ((cur_emails_scanned + emails_scanned), email_md5))
         cursor.execute("update USERS set links_found=? where id=?", ((cur_links_found + links_found), email_md5))
         cursor.execute("commit")
-        # print(cursor.fetchone())
     except conn.Error:
         cursor.execute("rollback")
 
@@ -285,6 +284,7 @@ def process_mail(mail, start, email_md5):
 
     status, response = mail.search(None, "(ALL)")
     if status == "OK" and response != "":
+        # todo: response[0].decode("utf-8").split()[start:] ---> peek count of emails to scan
         for mail_id in response[0].split()[start:]:
             entire_body = ""
             images_found = ""
