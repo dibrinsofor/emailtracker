@@ -155,7 +155,7 @@ def get_company(domain):
     company = data.fetchone()
     conn.close()
     if company is None:
-        return domain
+        return None
         # TODO: let's collect domains that aren't found.
 
     return company[0]
@@ -222,6 +222,10 @@ def get_mail(mail, email_md5):
     emails_scanned, links_found = get_count(email_md5)
 
     return emails_scanned, links_found
+
+def log_potential_tracking(email_md5, domain):
+    f = open("{}_domain_log.txt".format(email_md5), "a", encoding='utf-8')
+    f.write(domain + "\n")
 
 def header_decode(header):
     hdr = ""
@@ -323,6 +327,10 @@ def process_mail(mail, start, email_md5):
                 tracking_service = tracking_service.group(1)
                 fld = get_fld(tracking_service, fix_protocol=True)
                 tracking_service = get_company("{}".format(fld))
+
+                if tracking_service == None:
+                    log_potential_tracking(email_md5, fld)
+                    continue
             
                 mail_server = re.search(server_pattern, str(received_spf))
                 mail_server = mail_server.group(1)
@@ -332,6 +340,7 @@ def process_mail(mail, start, email_md5):
                 pattern = re.compile(r"d=(.*?);")
                 domain_name = re.search(pattern, str(domain_name))
                 domain_name = domain_name.group(1)
+                domain_name = get_fld(domain_name, fix_protocol=True)
 
             if domain_name is None:
                 domain_name = mail_server
