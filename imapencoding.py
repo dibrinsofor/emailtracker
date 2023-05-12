@@ -9,7 +9,6 @@ from datetime import datetime
 from csv import writer
 from tld import get_fld
 
-# is this necessary
 dotenv_path = join(dirname(__file__), ".env")
 load_dotenv(dotenv_path)
 
@@ -60,7 +59,6 @@ class EmailAdd:
     def __init__(
         self, month, year, domain_name, tracking_service, secure_links, unsecure_links
     ):
-        # we want to know the year of mail, number of secure links, number of unsecure links, company name or
         self.month = month
         self.year = year
         self.domain_name = domain_name
@@ -101,13 +99,13 @@ def login_mail_client(email_address, password):
     return mail
 
 
-# TODO: move to own file, init_db.py
+# todo: move to own file, init_db.py
 def create_sqlite_connection(table_name, email_md5):
     conn = None
     try:
         conn = sqlite3.connect("instance/emailtracker.db")
     except sqlite3.Error as e:
-        print("Error occured - ", e)
+        print("ErrorType : {}, Error : {}".format(type(e).__name__, e))
 
     cursor = conn.cursor()
 
@@ -124,14 +122,6 @@ def create_sqlite_connection(table_name, email_md5):
         )
 
         cursor.execute(init_table)
-        # cursor.execute('''CREATE TABLE IF NOT EXISTS {table} (
-        # email_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-        # domain VARCHAR(50),
-        # secure_links INTEGER,
-        # unsecure_links INTEGER,
-        # email_date TIMESTAMP,
-        # tracking_service VARCHAR(100)
-        # )'''.format(table=table_name))
 
     elif table_name == "COMPANIES":
         init_table = """CREATE TABLE IF NOT EXISTS COMPANIES (
@@ -140,12 +130,8 @@ def create_sqlite_connection(table_name, email_md5):
         company VARCHAR(50)
         );"""
 
-        # consider indexing domain
-
         cursor.execute(init_table)
 
-    # consider storing the number of emails scanned and maybe some of the other data we'd need for results.html upfront
-    # consider this too. [domain = db.Column(db.String(40))] maybe some domains recieve more unecrypted mails
     elif table_name == "USERS":
         init_table = """CREATE TABLE IF NOT EXISTS USERS (
         id VARCHAR(50) PRIMARY KEY NOT NULL,
@@ -165,16 +151,13 @@ def create_sqlite_connection(table_name, email_md5):
 
 
 def persist_email(email_data, email_md5):
-    # table_name = email_md5 + "_EMAIL_DUMP"
     table_name = "[{}_EMAIL_DUMP]".format(email_md5)
     conn = create_sqlite_connection(table_name, email_md5)
-    # insert_sql = '''INSERT INTO EMAIL_DUMP VALUES (?,?,?,?,?,?)'''
     insert_sql = "INSERT INTO " + str(table_name) + " VALUES (?,?,?,?,?,?)"
     cursor = conn.cursor()
     cursor.execute(insert_sql, email_data)
 
     conn.commit()
-    # conn.close()
 
 
 def get_company(domain):
@@ -185,7 +168,7 @@ def get_company(domain):
     conn.close()
     if company is None:
         return None
-        # TODO: let's collect domains that aren't found.
+        # todo: let's collect domains that aren't found.
 
     return company[0]
 
@@ -217,19 +200,19 @@ def add_user(user_data, email_md5):
 
 
 def get_mail(mail, email_md5):
-    email_dump = "{email_md5}_email_dump.txt"
-    results_data = "{email_md5}_results_data.csv"
+    email_dump = r"{}_email_dump.txt".format(email_md5)
+    results_data = r"{}_results_data.csv".format(email_md5)
 
-    if exists("{email_md5}_email_dump.txt"):
+    if exists(email_dump):
         pass
     else:
-        f = open("{email_md5}_email_dump.txt", "w", encoding="utf-8")
+        f = open(email_dump, "w", encoding="utf-8")
         f.close()
 
-    if exists("{email_md5}_results_data.csv"):
+    if exists(results_data):
         pass
     else:
-        with open("{email_md5}_results_data.csv", "w", encoding="utf-8") as f:
+        with open(results_data, "w", encoding="utf-8") as f:
             header = [
                 "Month",
                 "Year",
@@ -241,9 +224,7 @@ def get_mail(mail, email_md5):
             cursor = writer(f)
             cursor.writerow(header)
 
-    # table_name = email_md5 + "_EMAIL_DUMP"
     table_name = "[{}_EMAIL_DUMP]".format(email_md5)
-    # count_table = "SELECT Count(email_id) FROM ?;"
     count_table = "SELECT Count(email_id) FROM {}".format(table_name)
     conn = create_sqlite_connection(table_name, email_md5)
     cursor = conn.cursor()
@@ -260,7 +241,6 @@ def get_mail(mail, email_md5):
 
     mail.logout()
 
-    # pass email hash and get stored count of emails_scanned and links_found
     emails_scanned, links_found = get_count(email_md5)
 
     return emails_scanned, links_found
@@ -281,13 +261,10 @@ def header_decode(header):
 
 
 def get_count(email_md5):
-    # conn = create_sqlite_connection("SCAN_DATA")
     conn = create_sqlite_connection("USERS", email_md5)
     cursor = conn.cursor()
-    # data = cursor.execute("SELECT * FROM SCAN_DATA")
     data = cursor.execute("SELECT * FROM USERS WHERE id=?", (email_md5,))
     row = data.fetchone()
-    print(cursor.fetchone())
     conn.close()
 
     if row is not None:
@@ -297,15 +274,10 @@ def get_count(email_md5):
         emails_scanned = 0
         links_found = 0
 
-    # print("emails_scanned: {}".format(emails_scanned))
-    # print("links_found: {}".format(links_found))
-    # print(row)
-
     return emails_scanned, links_found
 
 
 def update_count(emails_scanned, links_found, email_md5):
-    # conn = create_sqlite_connection("SCAN_DATA")
     conn = create_sqlite_connection("USERS", email_md5)
     conn.isolation_level = None
     cursor = conn.cursor()
@@ -314,7 +286,6 @@ def update_count(emails_scanned, links_found, email_md5):
         "select emails_scanned, links_found from USERS where id=?", (email_md5,)
     )
     rows = data.fetchone()
-    # print(rows)
     if rows is not None:
         cur_emails_scanned = int(rows[0])
         cur_links_found = int(rows[1])
@@ -372,7 +343,7 @@ def process_mail(mail, start, email_md5):
                 address = re.search(pattern, sender)
                 if address:
                     sender = address.group()
-                    # TODO: write func to sanitize strings. remove unnecessary chars and spaces
+                    # todo: write func to sanitize strings. remove unnecessary chars and spaces
 
             received_spf = message["Received-SPF"]
             if received_spf:
@@ -410,31 +381,11 @@ def process_mail(mail, start, email_md5):
 
             if message.is_multipart():
                 for part in message.walk():
-                    # content_type = part.get_content_type()
-                    # content_charset = part.get_content_charset()
-                    # content_transfer_encoding = part.get("Content-Transfer-Encoding")
                     body_lines = part.as_string().split("\n")
 
                     tracking_links = Find_tracking_pixels(body_lines)
                     if tracking_links:
                         tracking_squares += tracking_links
-
-                    # sender_mail_server = domain_name[12:] + " " + mail_server[14:]
-
-                    # for line in body_lines:
-                    #     sender_mailserver = re.search("(Received: from)", line)
-                    #     if sender_mailserver:
-                    #         pattern = re.compile(r"\((.*?)\)")
-                    #         mailserver = re.search(pattern, sender_mailserver.string)
-                    #         if mailserver:
-                    #             sender_mail_server = mailserver.group(1)
-                    #             server_details = sender_mail_server.split(". ")
-                    #             domain_name = server_details[0]
-                    #             mail_server = server_details[1]
-                    #         else:
-                    #             sender_mail_server = "None"
-                    #             domain_name = "None"
-                    #             mail_server = "None"
 
                     if part.get_content_maintype() == "text":
                         body = part.get_content()
@@ -448,9 +399,6 @@ def process_mail(mail, start, email_md5):
                             print("html2text failed to work")
 
             else:
-                # content_type = message.get_content_type()
-                # content_charset = message.get_content_charset()
-                # content_transfer_encoding = message.get("Content-Transfer-Encoding")
                 body_lines = message.as_string().split("\n")
                 tracking_links = Find_tracking_pixels(body_lines)
                 if tracking_links:
@@ -508,9 +456,6 @@ def process_mail(mail, start, email_md5):
             )
             email_data.append_file(email_md5)
 
-            # if mail_server[0] == "[":
-            #     mail_server = mail_server[1:-1]
-
             table_data = EmailAdd(
                 month,
                 date.year,
@@ -531,12 +476,7 @@ def process_mail(mail, start, email_md5):
             )
             persist_email(data, email_md5)
 
-            # is table empty? if no get val and add to no_links_found and emails_scanned
-            # what happens if something fails
-
     update_count(emails_scanned, no_links_found, email_md5)
-
-    # return no_links_found, emails_scanned
 
 
 def Find_tracking_pixels(html: str) -> str:

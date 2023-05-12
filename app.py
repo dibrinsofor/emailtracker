@@ -151,7 +151,6 @@ def unsecure_plot(email_md5):
     df["Years"] = years
 
     fig = px.line(df, x="Years", y=top_5, markers=True)
-
     fig.update_layout(
         xaxis=dict(tickmode="array", tickvals=years, ticktext=years),
         xaxis_title="Years",
@@ -159,11 +158,9 @@ def unsecure_plot(email_md5):
         legend_title="Top 5 Companies",
         width=900,
     )
-
     fig.update_layout(legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01))
 
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-
     return graphJSON
 
 
@@ -180,7 +177,6 @@ def secure_plot(email_md5):
     # top_1 = df.drop(['Years'], axis=1).sum(axis = 0, skipna = True).nlargest(1).index.to_list()
 
     fig = px.line(df, x="Years", y=top_5, markers=True)
-
     fig.update_layout(
         xaxis=dict(tickmode="array", tickvals=years, ticktext=years),
         xaxis_title="Years",
@@ -188,11 +184,9 @@ def secure_plot(email_md5):
         legend_title="Top 5 Companies",
         width=900,
     )
-
     fig.update_layout(legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01))
 
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-
     return graphJSON
 
 
@@ -208,8 +202,6 @@ def total_plot(email_md5):
 
     secure_rows = count_nonzero(secure_df, axis=1)
     unsecure_rows = count_nonzero(unsecure_df, axis=1)
-    print(f"secure rows => {secure_rows}\n")
-    print(f"unsecure rows => {unsecure_rows}\n")
 
     if len(secure_rows) == len(unsecure_rows):
         new_list = [0] * (len(secure_rows))
@@ -227,10 +219,7 @@ def total_plot(email_md5):
     else:
         years = unsecure_years
 
-    print(f"years => {years}\n")
-
     fig = px.line(x=years, y=new_list, markers=True)
-
     fig.update_layout(
         xaxis=dict(tickmode="array", tickvals=years, ticktext=years),
         xaxis_title="Years",
@@ -238,11 +227,9 @@ def total_plot(email_md5):
         legend_title="Trend of Email Tracking",
         width=900,
     )
-
     fig.update_layout(legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01))
 
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-
     return graphJSON
 
 
@@ -317,13 +304,11 @@ def generate_table(email_md5):
             )
         ]
     )
-
     fig.update_layout(
         width=900, height=410, paper_bgcolor="white", plot_bgcolor="black"
     )
 
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-
     return graphJSON
 
 
