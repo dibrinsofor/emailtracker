@@ -111,22 +111,20 @@ def run_build(flag, name=None):
         print("Refreshing sqlite db instance")
         open("instance/emailtracker.db", "a").close()
 
-        # pyinstaller --clean --noconfirm app.py --add-data templates;templates --add-data instance;instance --add-data static;static --collect-data tld
         subprocess.call(
             [
                 "pyinstaller",
+                "--clean",
+                "--noconfirm",
+                "app.py",
+                "--add-data",
+                "instance;instance",
                 "--add-data",
                 "templates;templates",
                 "--add-data",
                 "static;static",
-                "--add-data",
-                "instance;instance",
                 "--collect-data",
                 "tld",
-                "--debug",
-                "--onedir",
-                "--windowed",
-                "app.py",
             ]
         )
 
