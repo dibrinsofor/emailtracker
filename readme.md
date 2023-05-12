@@ -10,6 +10,8 @@ emailtracker allows users detect whether or not mail in their inbox is being tra
 - Whether or not your data is sent over secure protocols. 
 - Infers what information they may be collecting.
 
+<!-- how can we compare our approach to other email tracking detectors? -->
+
 ### installation
 - (recommended) activate a virtual env
   - `python -m virtualenv venv`

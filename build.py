@@ -17,25 +17,28 @@ if len(sys.argv) > 3:
 if len(sys.argv) < 1:
     print("no arguments passed")
 
+
 def setup_environment():
     # install proj dependencies
     print("Installing project dependencies...")
     # os.system("pip install -r requirements.txt >/dev/null 2>&1")
-    subprocess.call(["pip",  "install", "-r", "requirements.txt", ">/dev/null 2>&1"], shell=True)
-    
+    subprocess.call(
+        ["pip", "install", "-r", "requirements.txt", ">/dev/null 2>&1"], shell=True
+    )
+
     # check if companies.py exists and is up to date
     print("Checking if company registry is up to date...")
     try:
         try:
             conn = sqlite3.connect("instance/emailtracker.db")
         except sqlite3.Error as e:
-                print('Error occured - ', e)
+            print("Error occured - ", e)
 
         cursor = conn.cursor()
-        cursor.execute('''SELECT Count(id) FROM COMPANIES''')
+        cursor.execute("""SELECT Count(id) FROM COMPANIES""")
         row_count = cursor.fetchone()[0]
 
-        lines_companies = sum(1 for _ in open('entities.txt'))
+        lines_companies = sum(1 for _ in open("entities.txt"))
 
         if row_count == (lines_companies - 1):
             print("Company registry is up to date")
@@ -47,10 +50,12 @@ def setup_environment():
 
     if os.path.exists("./instance/emailtracker.db"):
         # connect to db and drop table
-        conn = sqlite3.connect('./instance/emailtracker.db')
+        conn = sqlite3.connect("./instance/emailtracker.db")
         cursor = conn.cursor()
-        cursor.execute('''DROP TABLE IF EXISTS EMAIL_DUMP''')
-        cursor.execute('''DROP TABLE IF EXISTS SCAN_DATA''') #TODO: figure out the multi user bit and take this out.
+        cursor.execute("""DROP TABLE IF EXISTS EMAIL_DUMP""")
+        cursor.execute(
+            """DROP TABLE IF EXISTS SCAN_DATA"""
+        )  # TODO: figure out the multi user bit and take this out.
         print("Dropping stale tables")
         conn.commit()
         conn.close()
@@ -76,9 +81,10 @@ def setup_environment():
 
         if not os.path.exists(path):
             os.makedirs(path)
-        
+
         os.rename("email_dump.txt", f"old_scans/email_dump_{last_modified_dump}.txt")
         os.rename("results_data.csv", f"old_scans/results_data_{last_modified_csv}.csv")
+
 
 def run_build(flag, name=None):
     if flag == "-f":
@@ -96,15 +102,42 @@ def run_build(flag, name=None):
         # check if companies.py exists and is up to date
         # move old files around if exist
         setup_environment()
-        print("All set! You can now run `python build.py -f` or `flask run` to run your developent server.")
+        print(
+            "All set! You can now run `python build.py -f` or `flask run` to run your developent server."
+        )
+
+    elif flag == "-e":
+        os.remove("instance/emailtracker.db")
+        print("Refreshing sqlite db instance")
+        open("instance/emailtracker.db", "a").close()
+
+        # pyinstaller --clean --noconfirm app.py --add-data templates;templates --add-data instance;instance --add-data static;static --collect-data tld
+        subprocess.call(
+            [
+                "pyinstaller",
+                "--add-data",
+                "templates;templates",
+                "--add-data",
+                "static;static",
+                "--add-data",
+                "instance;instance",
+                "--collect-data",
+                "tld",
+                "--debug",
+                "--onedir",
+                "--windowed",
+                "app.py",
+            ]
+        )
 
     else:
         # run full build: setup environment and spin up a development server
         setup_environment()
         print("All set! Let's get the server up and running...")
-        # run flask app 
+        # run flask app
         # os.system("flask run")
         subprocess.call(["flask", "run"], shell=True)
 
+
 if __name__ == "__main__":
-    run_build(*sys.argv[0:])
+    run_build(*sys.argv[1:])
