@@ -27,6 +27,10 @@ emailtracker allows users detect whether or not mail in their inbox is being tra
 
 ### using
 - to run:
+  - `python3 build.py -e` to build a one file executable
+  
+  or 
+  
   - `python build.py -f (debug)` to setup environment and run the app, or
   - `flask --debug run` 
 
