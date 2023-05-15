@@ -107,7 +107,7 @@ def pubs():
 def sanitize(security_level, email_md5):
     results = defaultdict(list)
 
-    csv = pandas.read_csv(r"{}_results_data.csv".format(email_md5))
+    csv = pandas.read_csv("{}_results_data.csv".format(email_md5))
     if csv.empty:
         print("\nWARNING: unable to read email scans\n")
 
@@ -251,7 +251,7 @@ def additional_data(email_md5):
 def generate_table(email_md5):
     results = defaultdict(list)
 
-    csv = pandas.read_csv(r"{}_results_data.csv".format(email_md5))
+    csv = pandas.read_csv("{}_results_data.csv".format(email_md5))
 
     companies = csv["Domain"].unique()
     results["Rank"] = [x for x in range(len(companies))]
@@ -272,7 +272,6 @@ def generate_table(email_md5):
     df = df.sort_values("Emails Sent", ascending=False).head(10)
     df["Rank"] = [x for x in range(1, 11)]
 
-    # values=list(df.columns),
     fig = go.Figure(
         data=[
             go.Table(
@@ -313,4 +312,9 @@ def generate_table(email_md5):
 
 
 if __name__ == "__main__":
+    # dir_path = os.path.join(os.environ['APPDATA'], 'Instance')
+    # if not os.path.exists(dir_path):
+    #     os.makedirs(dir_path)
+    open("emailtracker.db", "w").close()
+
     app.run()

@@ -1,5 +1,6 @@
 import email, email.parser, email.policy
 from os.path import join, dirname, exists
+from os import environ
 import re
 import sqlite3
 from dotenv import load_dotenv
@@ -14,6 +15,9 @@ load_dotenv(dotenv_path)
 
 h = html2text.HTML2Text()
 h.ignore_links = False
+
+instance_dir = join(environ["APPDATA"], "Instance")
+# os.path.join(instance_dir, r"{}_results_data.csv".format(email_md5))
 
 
 class Email:
@@ -39,19 +43,20 @@ class Email:
         Email.emails_scanned += 1
 
     def append_file(self, email_md5):
-        with open("{}_email_dump.txt".format(email_md5), "a", encoding="utf-8") as g:
-            g.write(
-                "\n\n===========Mail[{}]===========\n".format(self.mail_id)
-            )  # id looks like this b'7'
-            g.write("Subject:     {}\n".format(self.subject))
-            g.write("Sender's Email Address: {}\n".format(self.sender))
-            g.write("Sender's Mail Server: {}\n".format(self.sender_mail_server))
-            g.write("Links Found:\n{}".format(self.links))
-            g.write("Images Found:\n{}".format(self.images))
-            if self.tracking_squares != "":
-                g.write("Tracking Squares Found: \n{}".format(self.tracking_squares))
-            else:
-                g.write("NO TRACKING SQUARES FOUND")
+        g = open("{}_email_dump.txt".format(email_md5), "a", encoding="utf-8")
+        g.write(
+            "\n\n===========Mail[{}]===========\n".format(self.mail_id)
+        )  # id looks like this b'7'
+        g.write("Subject:     {}\n".format(self.subject))
+        g.write("Sender's Email Address: {}\n".format(self.sender))
+        g.write("Sender's Mail Server: {}\n".format(self.sender_mail_server))
+        g.write("Links Found:\n{}".format(self.links))
+        g.write("Images Found:\n{}".format(self.images))
+        if self.tracking_squares != "":
+            g.write("Tracking Squares Found: \n{}".format(self.tracking_squares))
+        else:
+            g.write("NO TRACKING SQUARES FOUND")
+        g.flush()
         g.close()
 
 
@@ -67,16 +72,17 @@ class EmailAdd:
         self.tracking_service = tracking_service
 
     def append_file(self, email_md5):
-        with open("{}_results_data.csv".format(email_md5), "a", encoding="utf-8") as f:
-            row = [
-                self.month,
-                self.year,
-                self.domain_name,
-                self.tracking_service,
-                self.secure_links,
-                self.unsecure_links,
-            ]
-            writer(f).writerow(row)
+        f = open("{}_results_data.csv".format(email_md5), "a", encoding="utf-8")
+        row = [
+            self.month,
+            self.year,
+            self.domain_name,
+            self.tracking_service,
+            self.secure_links,
+            self.unsecure_links,
+        ]
+        writer(f).writerow(row)
+        f.flush()
         f.close()
 
 
@@ -99,11 +105,11 @@ def login_mail_client(email_address, password):
     return mail
 
 
-# todo: move to own file, init_db.py
 def create_sqlite_connection(table_name, email_md5):
     conn = None
     try:
-        conn = sqlite3.connect("instance/emailtracker.db")
+        dir_path = join(instance_dir, r"emailtracker.db")
+        conn = sqlite3.connect(dir_path)
     except sqlite3.Error as e:
         print("ErrorType : {}, Error : {}".format(type(e).__name__, e))
 
@@ -179,7 +185,7 @@ def get_user(email_md5):
 
     data = cursor.execute("SELECT * FROM USERS WHERE id=?", (email_md5,))
     user = data.fetchone()
-    print(user)
+
     conn.close()
 
     if user is None:
@@ -200,19 +206,17 @@ def add_user(user_data, email_md5):
 
 
 def get_mail(mail, email_md5):
-    email_dump = r"{}_email_dump.txt".format(email_md5)
-    results_data = r"{}_results_data.csv".format(email_md5)
-
-    if exists(email_dump):
+    if exists("{}_email_dump.txt".format(email_md5)):
         pass
     else:
-        f = open(email_dump, "w", encoding="utf-8")
+        f = open("{}_email_dump.txt".format(email_md5), "w", encoding="utf-8")
+        f.flush()
         f.close()
 
-    if exists(results_data):
+    if exists("{}_results_data.csv".format(email_md5)):
         pass
     else:
-        with open(results_data, "w", encoding="utf-8") as f:
+        with open("{}_results_data.csv".format(email_md5), "w", encoding="utf-8") as f:
             header = [
                 "Month",
                 "Year",
@@ -223,6 +227,8 @@ def get_mail(mail, email_md5):
             ]
             cursor = writer(f)
             cursor.writerow(header)
+            f.flush()
+            f.close()
 
     table_name = "[{}_EMAIL_DUMP]".format(email_md5)
     count_table = "SELECT Count(email_id) FROM {}".format(table_name)
@@ -233,7 +239,7 @@ def get_mail(mail, email_md5):
 
     status, response = mail.select("INBOX", False)
     if status == "OK":
-        print("SUCCESS\n")
+        print("LOGIN SUCCESSFUL\n")
         process_mail(mail, last_email_checked, email_md5)
         mail.close()
     else:

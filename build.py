@@ -8,7 +8,9 @@ import subprocess
 import glob
 
 
-# for windows use subprocess. for mac/linux use os.system
+# todo: for windows use subprocess. for mac/linux use os.system
+# dir_path = os.path.join(os.environ['APPDATA'], 'Instance/emailtracker.db')
+# dir_path_files = os.path.join(os.environ['APPDATA'], 'Instance')
 
 load_dotenv()
 if len(sys.argv) > 3:
@@ -20,19 +22,19 @@ if len(sys.argv) < 1:
 
 def setup_environment():
     # install proj dependencies
-    print("Installing project dependencies...")
-    # os.system("pip install -r requirements.txt >/dev/null 2>&1")
+    print("\nInstalling project dependencies...")
+
     subprocess.call(
         ["pip", "install", "-r", "requirements.txt", ">/dev/null 2>&1"], shell=True
     )
 
     # check if companies.py exists and is up to date
-    print("Checking if company registry is up to date...")
+    print("\nChecking if company registry is up to date...")
     try:
         try:
-            conn = sqlite3.connect("instance/emailtracker.db")
+            conn = sqlite3.connect("emailtracker.db")
         except sqlite3.Error as e:
-            print("Error occured - ", e)
+            print("\nError occured - ", e)
 
         cursor = conn.cursor()
         cursor.execute("""SELECT Count(id) FROM COMPANIES""")
@@ -41,21 +43,16 @@ def setup_environment():
         lines_companies = sum(1 for _ in open("entities.txt"))
 
         if row_count == (lines_companies - 1):
-            print("Company registry is up to date")
+            print("\nCompany registry is up to date")
     except sqlite3.OperationalError:
-        # create and fill table
-        # os.system("python3 companies.py")
         subprocess.call(["python3", "companies.py"], shell=True)
-        print("Company registry is up to date")
+        print("\nCompany registry is up to date")
 
-    if os.path.exists("./instance/emailtracker.db"):
-        # connect to db and drop table
-        conn = sqlite3.connect("./instance/emailtracker.db")
+    if os.path.exists("emailtracker.db"):
+        conn = sqlite3.connect("emailtracker.db")
         cursor = conn.cursor()
         cursor.execute("""DROP TABLE IF EXISTS EMAIL_DUMP""")
-        cursor.execute(
-            """DROP TABLE IF EXISTS SCAN_DATA"""
-        )  # TODO: figure out the multi user bit and take this out.
+        cursor.execute("""DROP TABLE IF EXISTS SCAN_DATA""")
         print("Dropping stale tables")
         conn.commit()
         conn.close()
@@ -82,8 +79,8 @@ def setup_environment():
         if not os.path.exists(path):
             os.makedirs(path)
 
-        os.rename("email_dump.txt", f"old_scans/email_dump_{last_modified_dump}.txt")
-        os.rename("results_data.csv", f"old_scans/results_data_{last_modified_csv}.csv")
+        os.rename(email_dump_path[0], f"{path}/email_dump_{last_modified_dump}.txt")
+        os.rename(results_data_path[0], f"{path}/results_data_{last_modified_csv}.csv")
 
 
 def run_build(flag, name=None):
@@ -107,18 +104,18 @@ def run_build(flag, name=None):
         )
 
     elif flag == "-e":
-        os.remove("instance/emailtracker.db")
-        print("Refreshing sqlite db instance")
-        open("instance/emailtracker.db", "a").close()
+        if os.path.exists("emailtracker.db"):
+            os.remove("emailtracker.db")
+        print("Refreshing sqlite db instance...")
+        # open("emailtracker.db", "w").close()
 
         subprocess.call(
             [
                 "pyinstaller",
                 "--clean",
                 "--noconfirm",
+                "--onefile",
                 "app.py",
-                "--add-data",
-                "instance;instance",
                 "--add-data",
                 "templates;templates",
                 "--add-data",
