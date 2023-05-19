@@ -26,11 +26,10 @@ emailtracker allows users detect whether or not mail in their inbox is being tra
   - run `db.create_all()` -->
 
 ### using
-- to run:
-  - `python3 build.py -e` to build a one file executable
+- to package an executable binary:
+  - `python build.py -e` to build a one file executable or `pyinstaller --onefile app.spec`
   
-  or 
-  
+- to run as a flask server:
   - `python build.py -f (debug)` to setup environment and run the app, or
   - `flask --debug run` 
 

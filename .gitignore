@@ -9,6 +9,6 @@
 *results_data.csv
 *domain_log.txt
 /old_scans
-*.spec
 /dist
 /build
+peek.txt
