@@ -2,17 +2,13 @@ import os
 import sqlite3
 from datetime import datetime
 import time
-from dotenv import load_dotenv
 import sys
 import subprocess
 import glob
 
 
 # todo: for windows use subprocess. for mac/linux use os.system
-# dir_path = os.path.join(os.environ['APPDATA'], 'Instance/emailtracker.db')
-# dir_path_files = os.path.join(os.environ['APPDATA'], 'Instance')
 
-load_dotenv()
 if len(sys.argv) > 3:
     print("too many arguments passed")
     sys.exit()
