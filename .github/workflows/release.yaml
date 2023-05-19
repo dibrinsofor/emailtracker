@@ -6,6 +6,8 @@ on:
       - "v0*"
 
 jobs:
+  build:
+    uses: ./.github/workflows/build.yml
   release:
     needs: [zip-windows-binary, zip-macos-binary]
     runs-on: ubuntu-latest
