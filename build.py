@@ -118,7 +118,8 @@ def run_build(flag, name=None):
                 "static;static",
                 "--collect-data",
                 "tld",
-            ]
+            ],
+            shell=True
         )
 
     else:
