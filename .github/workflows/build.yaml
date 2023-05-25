@@ -67,18 +67,18 @@ jobs:
     name: "Zip Windows Binary"
     runs-on: ubuntu-latest
     steps:
-    - uses: montudor/action-zip@v1
-      with:
-        args: zip -qq -r emailtracker_win.zip . -i dist
+      - uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r emailtracker_win.zip . -i dist
 
   zip-macos-binary:
     needs: macOS-build
     name: "Zip MacOS Binary"
     runs-on: ubuntu-latest
     steps:
-    - uses: montudor/action-zip@v1
-      with:
-        args: zip -qq -r emailtracker_mac.zip . -i dist
+      - uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r emailtracker_mac.zip . -i dist
 
 
 
