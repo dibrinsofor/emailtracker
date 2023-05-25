@@ -105,42 +105,23 @@ def run_build(flag, name=None):
         print("Refreshing sqlite db instance...")
         # open("emailtracker.db", "w").close()
 
-        if sys.platform == "darwin":
-            subprocess.call(
-                [
-                    "python",
-                    "-m",
-                    "PyInstaller",
-                    "--clean",
-                    "--noconfirm",
-                    "--onefile",
-                    "app.py",
-                    "--add-data",
-                    "templates;templates",
-                    "--add-data",
-                    "static;static",
-                    "--collect-data",
-                    "tld",
-                ],
-                shell=True
-            )
-        elif sys.platform == "win32":
-            subprocess.call(
-                [
-                    "pyinstaller",
-                    "--clean",
-                    "--noconfirm",
-                    "--onefile",
-                    "app.py",
-                    "--add-data",
-                    "templates;templates",
-                    "--add-data",
-                    "static;static",
-                    "--collect-data",
-                    "tld",
-                ],
-                shell=True
-            )
+
+        subprocess.call(
+            [
+                "pyinstaller",
+                "--clean",
+                "--noconfirm",
+                "--onefile",
+                "app.py",
+                "--add-data",
+                "templates;templates",
+                "--add-data",
+                "static;static",
+                "--collect-data",
+                "tld",
+            ],
+            shell=True
+        )
 
     else:
         # run full build: setup environment and spin up a development server
