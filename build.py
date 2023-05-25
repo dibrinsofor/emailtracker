@@ -107,7 +107,9 @@ def run_build(flag, name=None):
 
         subprocess.call(
             [
-                "pyinstaller",
+                "python",
+                "-m",
+                "PyInstaller",
                 "--clean",
                 "--noconfirm",
                 "--onefile",
