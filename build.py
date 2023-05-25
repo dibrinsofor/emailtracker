@@ -112,13 +112,13 @@ def run_build(flag, name=None):
                 "--clean",
                 "--noconfirm",
                 "--onefile",
-                "app.py",
                 "--add-data",
                 "templates;templates",
                 "--add-data",
                 "static;static",
                 "--collect-data",
                 "tld",
+                "app.py",
             ],
             shell=True
         )

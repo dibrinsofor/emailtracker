@@ -69,7 +69,7 @@ jobs:
     steps:
     - uses: montudor/action-zip@v1
       with:
-        args: zip -qq -r emailtracker_mac.zip dist
+        args: zip -qq -r emailtracker_win.zip . -i dist
 
   zip-macos-binary:
     needs: macOS-build
@@ -78,7 +78,7 @@ jobs:
     steps:
     - uses: montudor/action-zip@v1
       with:
-        args: zip -qq -r emailtracker_mac.zip dist
+        args: zip -qq -r emailtracker_mac.zip . -i dist
 
 
 
