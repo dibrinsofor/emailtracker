@@ -12,10 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: "Setup Python 3.11"
+      - name: "Setup Python 3.9"
         uses: actions/setup-python@v4
         with:
-          python-version: 3.11
+          python-version: 3.9
 
       - name: "Install Dependencies"
         run: |
@@ -27,7 +27,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: "Package Build"
-        run: python build.py -e
+        run: |
+          python -m pip install pyinstaller
+          python build.py -e
 
       - name: "Peek Directory"
         run: |
@@ -66,7 +68,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: vimtor/action-zip@v1
         with:
-          files: dist/
+          files: ./dist
           dest: emailtracker_Win.zip
 
   zip-macos-binary:
@@ -77,7 +79,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: vimtor/action-zip@v1
         with:
-          files: dist/
+          files: ./dist
           dest: emailtracker_Mac.zip
 
 
