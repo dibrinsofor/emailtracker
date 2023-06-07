@@ -72,8 +72,8 @@ jobs:
           args: zip -qq -r emailtracker_win.zip . -i dist
 
       - name: "Peek Directory"
+        working-directory: ./dist
         run: |
-          cd ./dist
           echo %cd%
           dir > peek.txt
           more peek.txt
