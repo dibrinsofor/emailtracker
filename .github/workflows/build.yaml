@@ -71,13 +71,6 @@ jobs:
         with:
           args: zip -qq -r emailtracker_win.zip . -i dist
 
-      - name: "Peek Directory"
-        working-directory: ./dist
-        run: |
-          echo %cd%
-          dir > peek.txt
-          more peek.txt
-
   zip-macos-binary:
     needs: macOS-build
     name: "Zip MacOS Binary"
