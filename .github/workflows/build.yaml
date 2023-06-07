@@ -73,7 +73,7 @@ jobs:
 
       - name: "Peek Directory"
         run: |
-          cd dist
+          cd ./dist
           echo %cd%
           dir > peek.txt
           more peek.txt
