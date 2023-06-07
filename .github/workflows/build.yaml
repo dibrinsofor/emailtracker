@@ -80,6 +80,24 @@ jobs:
         with:
           args: zip -qq -r emailtracker_mac.zip . -i dist
 
+  release:
+    needs: [zip-windows-binary, zip-macos-binary]
+    runs-on: ubuntu-latest
+    steps:
+      - name: "release"
+        run: |
+          echo "done!"
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Latest development build"
+          files: |
+            emailtracker_Win.zip
+            emailtracker_Mac.zip
+
 
 
 
